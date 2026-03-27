@@ -77,7 +77,6 @@
 %References
 %Appendices
 
-\frontmatters
 \input{sections/abstract}
 \clearpage
 
@@ -92,11 +91,6 @@
 \input{sections/acknowledgements}  % Uncomment to include this page.
 \clearpage
 
-% output glossary
-\setglossarystyle{long}
-\printglossaries
-\clearpage
-
 %--------------------------------
 % Tables of contents.
 %--------------------------------
@@ -107,10 +101,15 @@
 \listoftables    % Uncomment for a list of tables.
 \clearpage
 
+% output glossary
+\setglossarystyle{long}
+\section{Glossary}
+\printglossaries
+\clearpage
+
 %--------------------------------
 % The body of the document.
 %--------------------------------
-\mainmatters
 \pagenumbering{arabic} % Page numbering for rest of document.
 \setstretch{1.5} % 1.5 line spacing. 
 \input{sections/introduction} % Add one file per section.
