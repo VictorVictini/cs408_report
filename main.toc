@@ -18,41 +18,42 @@
 \contentsline {subsection}{\numberline {2.5}guidelines for accessibility}{4}{subsection.2.5}%
 \contentsline {subsection}{\numberline {2.6}Choosing a software development methodology}{5}{subsection.2.6}%
 \contentsline {subsection}{\numberline {2.7}Choosing a screen reader}{5}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}Designing a GUI}{5}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}from nov progress}{5}{subsection.2.9}%
-\contentsline {subsection}{\numberline {2.10}Programming Language Comparisons}{5}{subsection.2.10}%
-\contentsline {subsection}{\numberline {2.11}Library Comparison}{7}{subsection.2.11}%
-\contentsline {subsection}{\numberline {2.12}Design Focus}{7}{subsection.2.12}%
-\contentsline {section}{\numberline {3}Specification \& Design}{8}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Methodology}{8}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Analysis}{8}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Requirements}{8}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Functional Requirements}{9}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Non-Functional Requirements}{9}{subsubsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.4}Design}{9}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Interface Design}{9}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}System Design}{10}{subsubsection.3.4.2}%
-\contentsline {section}{\numberline {4}Implementation}{11}{section.4}%
-\contentsline {subsection}{\numberline {4.1}general overview of technologies used}{11}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}website with server-client relationship}{11}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}possibly include things about peg}{11}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}verification \& validation}{11}{subsection.4.4}%
-\contentsline {section}{\numberline {5}User study}{12}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Study design}{12}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Hypothesis}{12}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Results}{12}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Analysis}{12}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Hypothesis testing}{12}{subsection.5.5}%
-\contentsline {section}{\numberline {6}Discussion and reflection}{13}{section.6}%
-\contentsline {section}{\numberline {7}Conclusion}{14}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Project summary}{14}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Project limitations}{14}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Achievements -- potentially optional/swap with final thoughts or another area?}{14}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Future work}{14}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Reflection}{14}{subsection.7.5}%
-\contentsline {subsection}{\numberline {7.6}Final thoughts}{14}{subsection.7.6}%
-\contentsline {section}{\numberline {A}Appendix}{15}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Ethical Approval Form}{15}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Participant information sheet}{15}{subsection.A.2}%
-\contentsline {subsection}{\numberline {A.3}Consent form}{15}{subsection.A.3}%
-\contentsline {subsection}{\numberline {A.4}User study script}{15}{subsection.A.4}%
+\contentsline {subsection}{\numberline {2.8}User study design choices}{5}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Designing a GUI}{5}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}from nov progress}{5}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}Programming Language Comparisons}{5}{subsection.2.11}%
+\contentsline {subsection}{\numberline {2.12}Library Comparison}{7}{subsection.2.12}%
+\contentsline {subsection}{\numberline {2.13}Design Focus}{8}{subsection.2.13}%
+\contentsline {section}{\numberline {3}Specification \& Design}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Methodology}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Analysis}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Requirements}{9}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Functional Requirements}{10}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Non-Functional Requirements}{10}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}Design}{10}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Interface Design}{10}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}System Design}{11}{subsubsection.3.4.2}%
+\contentsline {section}{\numberline {4}Implementation}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}general overview of technologies used}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}website with server-client relationship}{12}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}possibly include things about peg}{12}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}verification \& validation}{12}{subsection.4.4}%
+\contentsline {section}{\numberline {5}User study}{13}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Study design}{13}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Hypothesis}{13}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Results}{13}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Analysis}{13}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Hypothesis testing}{13}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Discussion and reflection}{14}{section.6}%
+\contentsline {section}{\numberline {7}Conclusion}{15}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Project summary}{15}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Project limitations}{15}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Achievements -- potentially optional/swap with final thoughts or another area?}{15}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Future work}{15}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Reflection}{15}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Final thoughts}{15}{subsection.7.6}%
+\contentsline {section}{\numberline {A}Appendix}{17}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Ethical Approval Form}{17}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Participant information sheet}{17}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Consent form}{17}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}User study script}{17}{subsection.A.4}%

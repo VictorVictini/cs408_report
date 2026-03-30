@@ -13,6 +13,12 @@
 \usepackage{adjustbox}
 \usepackage[automake]{glossaries-extra}
 \usepackage{glossaries}
+\usepackage{cleveref}
+
+% bibliography setup
+\usepackage[autostyle]{csquotes}
+\usepackage[backend=biber, style=authoryear]{biblatex}
+\addbibresource{bibliography.bib}
 
 % import glossary into preamble
 \makeglossaries
@@ -28,7 +34,13 @@
 % shorthands
 \newcommand{\latex}{\LaTeX }
 \newcommand{\tex}{\TeX }
-\newcommand{\lintex}{Lin\tex}
+\newcommand{\lintex}{Lin\TeX}
+\newcommand{\lintexspaced}{\lintex\ }
+\newcommand{\lualatex}{Lua\latex}
+\newcommand{\luatex}{Lua\tex}
+\newcommand{\pdflatex}{PDF\latex}
+\newcommand{\pdftex}{PDF\tex}
+\newcommand{\xetex}{Xe\tex}
 
 \begin{document}
 
@@ -143,8 +155,7 @@
 %--------------------------------
 \clearpage
 \setstretch{1.0}  % 1.0 line spacing. 
-\bibliographystyle{abbrv}
-\bibliography{bibliography}
+\printbibliography
 % add references to the file called bibliography.bib
 \clearpage
 
