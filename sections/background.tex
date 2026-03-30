@@ -1,0 +1,143 @@
+\section{Background Literature}\label{backg}
+
+This section should provide the grounding for your project. You will be able to refer back to this in Section \ref{process}, where you report on design decisions and methodology.
+
+There should be a strong link to your research questions (for project types 2 and 3). There will be a strong link to the software design decisions for project type 1.
+
+Don't just include a paragraph for each paper you read. Synthesize it and create a story line. 
+
+Review between 5 and 10 authoritative sources. For research based projects, some of these should be from peer-reviewed journals or conferences. 
+
+This section will reference literature like this \cite{turing1950computing}. Sloppy referencing will (1) take time and effort, and (2) lose you marks if you don't do it.
+
+\subsection{(brief intro into background, such as accessibility or latex-related background)}
+\subsection{Choosing a programming language}
+\subsection{Choosing a PEG library under Go programming language}
+\subsection{Choice of libraries}
+- net/http
+- path/filepath (effectively the only option tbf)
+- html/template (effectively the only option tbf, outside of raw print?)
+- os \& os/exec
+\subsection{guidelines for accessibility}
+- guidelines should be understood by me
+- languages guidelines are written in
+- check if authority publishiing guidelines is a good source i.e. is an international standard instead of a random person
+\subsection{Choosing a software development methodology}
+\subsection{Choosing a screen reader}
+\subsection{Designing a GUI}
+- Tailwind choice?
+- Flowbite choice?
+- Potential HTMX usage if time allowed for it?
+
+\subsection{from nov progress}
+% Summary of Related Work:
+% This can be covered by the competitive evaluation of shopping lists of
+% criteria for the candidates, plus identifying "things" that have
+% influenced your decisions / design. For example if you are making a
+% game, then you would review other games that are influencing you but
+% limited to those aspects (so not writing a magazine / website review of
+% a game).
+
+% You may summarise one or more former project student's work if it's
+% relevant (from the Edinburgh lists I posted).
+
+% All of you will want to cite guidelines for designing the user
+% interface; with additional cites for accessibility-related matters; and
+% further cites for designing your user study.
+
+% approximately 5 pages
+
+\subsection{Programming Language Comparisons}
+There were many considerations when deciding what programming language to write LinTeX in. Languages chosen were based on those that I had prior experience in, to ensure minimal hinderance from the language itself to the development of the project. An important factor is ensuring LinTeX's maintainability in the future. Therefore, only the languages which have actively maintained Parsing Expression Grammar (PEG) libraries will be considered, as can be seen in Table 1.1. The most recent update times provided in Table 1.1 are in reference to 24\textsuperscript{th} November 2025.
+\begin{center}
+Table 1.1: Languages and Related PEG Frameworks
+\begin{adjustbox}{width=\textwidth}
+\begin{tabular}{ccc}
+Language & PEG Library Link & PEG Library is in Development \\
+\hline
+Python & https://pythonhosted.org/pyPEG2/ & No, last updated in October 2015 \\
+Python & https://github.com/erikrose/parsimonious & Yes, last updated in November 2025 \\
+JavaScript & https://github.com/pegjs/pegjs & No, last updated in November 2019 \\
+JavaScript & htps://peggyjs.org/ & Yes, last updated in September 2025 \\
+Go & https://github.com/pointlander/peg & Yes, last updated in November 2025 \\
+Go & https://github.com/mna/pigeon & Yes, last updated in November 2025 \\
+C & N/A & N/A \\
+Java & https://github.com/sirthias/parboiled & Yes, last updated in November 2025 \\
+C\# & https://code.google.com/archive/p/peg-sharp/ & No, last updated in May 2011 \\
+C\# & https://github.com/otac0n/Pegasus & No, last updated in December 2023 \\ 
+C++ & https://github.com/yhirose/cpp-peglib & Yes, last updated in July 2025 \\
+PHP & https://github.com/hafriedlander/php-peg & No, last updated in May 2014 \\
+TypeScript & https://github.com/metadevpro/ts-pegjs & No, last updated in November 2024 \\
+TypeScript & https://github.com/EoinDavey/tsPEG & Yes, last updated in November 2025 \\
+Dart & https://github.com/darmie/dart-peg & No, last updated in July 2015 \\
+\end{tabular}
+\end{adjustbox}
+\end{center}
+Based on the current criteria, we can rule out C, C\#, PHP, and Dart.
+
+As many languages remain, there is a need for a stricter criteria: suitability to be utilised as a web application as well as compatibility with the University of Strathclyde's development web server (devweb) system.
+\begin{center}
+Table 1.2: Languages and Web Development Support
+\begin{adjustbox}{width=\textwidth}
+\begin{tabular}{ccc}
+Language & Web Development Support & DevWeb Support \\
+\hline
+Python & Yes & Yes \\
+JavaScript & Yes & Yes \\
+Go & Yes & No \\
+C & No, except for rare exceptions & No \\
+Java & Yes, but not generally used & Yes \\
+C\# & Yes, but not generally used & No \\ 
+C++ & Yes, but not generally used & No \\
+PHP & Yes & Yes \\
+TypeScript & Yes & Yes \\
+Dart & Yes & Yes \\
+\end{tabular}
+\end{adjustbox}
+\end{center}
+It should be noted that while Go, C, C\#, and C++ are not directly compatible with devweb, as referenced in Table 1.2, they can be supported through use of Common Gateway Interface (CGI) scripts, and consequently should not be fully disregarded for this alone. However, based on their support for web development, C, Java, C\#, and C++ will have a lower priority for being a chosen language.
+
+This leaves us with a focus placed on JavaScript, Go, and TypeScript. However, JavaScript will be removed from consideration as a strictly typed language is preferred for our context. Therefore, leaving Go and TypeScript as the main considerations for this project. Finally, as I have more experience and a stronger preference towards Go as opposed to TypeScript, it was the chosen programming language for the project.
+
+\subsection{Library Comparison}
+Go has two libraries that are used in relation to PEG systems: Pigeon by Martin Angers (mna), and peg by Andrew Snodgrass (pointlander). Direct comparisons with core components of both have been made in Table 1.3.
+\begin{center}
+Table 1.3: Comparison Between PEG and Pigeon
+\begin{adjustbox}{width=\textwidth}
+\begin{tabular}{cp{100mm}p{100mm}}
+& Pigeon & Peg \\
+\hline
+Installation & Requires running a \lstinline[language=Go]!go install! command and setting up environment variables & Requires supporting bash scripting (through Window's Subsystem for Linux (WSL) for Windows users), as well as running a \lstinline[language=Go]!go install! command, cloning the repository, and running \lstinline[language=Go]!go generate \&\& go build! \\
+Documentation & Contains a Godoc page, wiki page, an examples subdirectory, and a detailed README.md providing what PEG features are supported, command line interface usage, installation, and examples & Contains a detailed README.md and a PEG file syntax file containing what PEG features are supported, installation steps, and example projects links \\
+Generated Code & Generated Go code can be used to configure settings on the parser, view statistics or error information, debug, enable or disable memoization, and parse readers, files, and strings. Additionally, the generated code is well documented, with several comments surrounding usage of public functions & Generated Go code can be used to run the PEG script on a provided string, debug and output the Abstract Syntax Tree (AST), output errors in parsing, and enable or disable memoization \\
+Examples & Provides three direct examples: detecting indentation in files, parsing JSON files, and a calculator example. Examples were kept short (in regards to PEG scripts) with the calculator and indentation examples showcasing usage via a main function & Provides two project links for examples on PEG usage: a natural date/time parser and a scientific names parser. Both projects have large PEG scripts, with most lines being simple to read. The natural date/time project was intuitive to use and understand program flow \\
+\end{tabular}
+\end{adjustbox}
+\end{center}
+While examples are relatively similar, the simplicity of installation for Pigeon as opposed to Peg, combined with the depths of documentation both in generated code and outwith it, makes Pigeon a more ideal option. Additionally, its greater number of features gives LinTeX more to make use of. Therefore, Pigeon was the chosen library for the project.
+
+\subsection{Design Focus}
+LinTeX will take strong inspiration from Integrated Development Environments (IDEs) with regards to its User Interface/User Experience (UI/UX) design. This is because LaTeX in structure, is similar to a programming language, even being Turing complete \cite{latexturingcomplete}. Hence, an environment suitable to programming is suitable to LaTeX, with some special considerations put aside for its quirks. For example, depending on the user's screen size and preferences, they may wish to have the output of the LaTeX documents taking up half of the screen, a separate browser window or monitor, or out of the way until compilation. 
+
+% if you're reading this, you owe me maryland cookies
+% \subsection{TABLE FOR REFERENCE}
+% \begin{center}
+% Table 1.1: Choosing a Programming Language
+% \begin{adjustbox}{width=\textwidth}
+% \begin{tabular}{ c | c | c | c | c | c | c}
+% Language & Experience Level & Web Development Support & PEG Framework Exists & PEG Framework in Development & Personal Preference Prioritization & DevWeb Support \\
+% \hline
+% Python & Medium & Yes & https://pythonhosted.org/pyPEG2/ \newline https://github.com/erikrose/parsimonious & No, PyPEG2 was last updated in October 2015 \newline Yes, parsimonious was last updated in November 2025 & 5 & Yes \\
+% JavaScript & High & Yes & htps://peggyjs.org/ & Yes, last updated in September 2025 & 4 & Yes \\
+% Go & Medium in Go, High in \href{https://pkg.go.dev/text/template}{Text/Template Scripting Language} & https://github.com/pointlander/peg & Yes, last updated in November 2025 & 1 & Yes, as CGI scripts \\
+% C & Low & No, except for rare exceptions & N/A & N/A & 8 & No \\
+% Java & Medium & Yes, but not generally used & https://github.com/sirthias/parboiled & Yes, last updated in November 2025 & 7 & Yes \\
+% C\# & High & Yes, but doesn’t seem great & https://github.com/otac0n/Pegasus & No, last updated in December 2023 & 2 & No \\ 
+% C++ & Low & Yes, but doesn’t seem great & https://github.com/yhirose/cpp-peglib & Yes, last updated in July 2025  & 9 & No \\
+% PHP & Medium & Yes & https://github.com/hafriedlander/php-peg & No, last updated May 2014 & 10 & Yes \\
+% TypeScript & Medium & Yes & https://github.com/EoinDavey/tsPEG  & Yes, last updated in November 2025 & 3 & Yes \\
+% Dart & Low & Yes & https://github.com/darmie/dart-peg  & No, last updated July 2015 & 6 & Yes \\
+% \end{tabular}
+% \end{adjustbox}
+% \end{center}
+\clearpage

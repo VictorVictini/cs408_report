@@ -1,6 +1,15 @@
 \section{Introduction}
 \subsection{Identifying \LaTeX's key accessibility problems for screen reader users}
-\LaTeX is blah blah
+Similar to a tool like Microsoft Word, \latex is a tool used to process documents. However, \latex does this in a programmatical manner, likening it to a programming language, whereas Microsoft Word has a that
+
+
+- xetex
+    - came after pdflatex but before lualatex created for better font handling
+    - specify not under consideration
+        - since latex devs focused on lualatex
+    - was useful, but not used much
+    - 'could be considered evolutionary deadend'/might become one/find authorative source to say it is
+
 
         - introduce latex here? - rough definition ig, and purpose
             - (intended to be math textbook)
@@ -48,12 +57,12 @@ If you're doing a project of type 1, include a list of objectives. For example:
 Provide a `map' of your dissertation. For example: Section \ref{backg} reviews the background literature that was reviewed to inform this project. Then Section \ref{process}.....
 
 \subsection{from nov progress}
-There is a lack of accessibility with \LaTeX, largely due to usage of outdated PDFLaTeX as opposed to LuaLaTeX. Usage of this outdated TEX engine necessitates workarounds for desired features and accessibility in resulting PDF documents.
+There is a lack of accessibility with \latex, largely due to usage of outdated PDFLaTeX as opposed to LuaLaTeX. Usage of this outdated TEX engine necessitates workarounds for desired features and accessibility in resulting PDF documents.
 
 \begin{quote}
-What can be done to make \LaTeX documents more accessible?
+What can be done to make \latex documents more accessible?
 \end{quote}
-LinTeX is a developing tool dedicated to combat this problem by focusing on assisting screen readers' abilities to read the PDF documents produced from \LaTeX documents. It aims to cover this area through suggesting structured tagging throughout a document, suggesting components where it may be lacking. Additionally, it will request users to input appropriate alternative text ('alt text') for non-text components of the document, including figures, images, and tables. Further focus may be placed on features such as ensuring appropriate contrast in any colours in the document, appropriate Sans Serif fonts, and flexible document design, largely depending on what development time allows for. 
+LinTeX is a developing tool dedicated to combat this problem by focusing on assisting screen readers' abilities to read the PDF documents produced from \latex documents. It aims to cover this area through suggesting structured tagging throughout a document, suggesting components where it may be lacking. Additionally, it will request users to input appropriate alternative text ('alt text') for non-text components of the document, including figures, images, and tables. Further focus may be placed on features such as ensuring appropriate contrast in any colours in the document, appropriate Sans Serif fonts, and flexible document design, largely depending on what development time allows for. 
 
 Additionally, as a tool focused on promoting accessibility, it too should be accessible. Therefore, the tool will ensure strict adherence to the Web Content Accessibility Guidelines 2 (WCAG 2) \cite{wcag} requirements with a focus placed on keeping it a simple and intuitive tool for users to make use of.
 
@@ -61,11 +70,3 @@ Additionally, as a tool focused on promoting accessibility, it too should be acc
 Why should I use LinTeX?
 \end{quote}
 While the tool is not limited strictly to the field, it is aimed to assist the many academics that find difficulties in accessing reports and academic literatures. By utilising this tool, you can ensure a wider demographic of users can view your documents, without necessitating an especially large amount of research in accessibility; it has been done for you.
-
-The \Gls{latex} typesetting markup language is specially suitable 
-for documents that include \gls{maths}. \Glspl{formula} are 
-rendered properly an easily once one gets used to the commands.
-
-Given a set of numbers, there are elementary methods to compute 
-its \acrlong{gcd}, which is abbreviated \acrshort{gcd}. This 
-process is similar to that used for the \acrfull{lcm}.

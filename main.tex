@@ -9,8 +9,10 @@
 % packages specific to this document
 \usepackage{pdfpages}
 \usepackage{pdflscape}
-\usepackage{glossaries}
+\usepackage{listings}
+\usepackage{adjustbox}
 \usepackage[automake]{glossaries-extra}
+\usepackage{glossaries}
 
 % import glossary into preamble
 \makeglossaries
@@ -23,6 +25,11 @@
 \newcommand{\coursename}{CS408: Individual Project}
 \newcommand{\deptname}{Computer and Information Sciences}
 
+% shorthands
+\newcommand{\latex}{\LaTeX }
+\newcommand{\tex}{\TeX }
+\newcommand{\lintex}{Lin\tex}
+
 \begin{document}
 
 %--------------------------------
@@ -30,9 +37,9 @@
 %--------------------------------
 \begin{titlepage}
 \vspace*{5mm}
-\titletext{Insert dissertation title here, using\\ manual line breaks if necessary}
+\titletext{LinTeX:\\Enhancing LaTeX document accessibility for screen reader users}
 \vspace{10mm}
-\authortext{A Student}
+\authortext{Mohammad Danyal}
 \vspace{15mm}
 \degreetext{\degreename}{\coursename}
 \vspace{40mm}
@@ -40,7 +47,7 @@
 \vspace{5mm}
 \depttext{\deptname}
 \vspace{5mm}
-\datetext{August, 2021}
+\datetext{April, 2026}
 \end{titlepage}
 
 %--------------------------------
@@ -62,6 +69,7 @@
 
 %Abstract
 %Acknowledgements
+%Overview Diagram
 %Glossary
 
 %    Introduction
@@ -81,13 +89,17 @@
 \clearpage
 
 % display overview diagram as full page
-\begin{landscape}
-	\includepdf[noautoscale=true, width=\paperheight, angle=90]{images/ComicStructure.pdf}
-	\clearpage
-\end{landscape}
-
-%\input{sections/declaration}
+\phantomsection
+\addcontentsline{toc}{section}{Overview Diagram}
+\includepdf[pages=-, pagecommand=\thispagestyle{plain}, noautoscale=true, landscape, width=\paperheight, alt={An overview diagram indicating how using the tool LinTeX improves the screen reader-related accessibility of a LaTeX document}]{images/ComicStructure.pdf}
 \clearpage
+
+%\addcontentsline{toc}{section}{Declaration}
+%\input{sections/declaration}
+%\clearpage
+
+\clearpage
+\addcontentsline{toc}{section}{Acknowledgments}
 \input{sections/acknowledgements}  % Uncomment to include this page.
 \clearpage
 
@@ -103,7 +115,6 @@
 
 % output glossary
 \setglossarystyle{long}
-\section{Glossary}
 \printglossaries
 \clearpage
 
@@ -114,16 +125,15 @@
 \setstretch{1.5} % 1.5 line spacing. 
 \input{sections/introduction} % Add one file per section.
 \clearpage
-\input{sections/background-literature} % Add one file per section.
+\input{sections/background} % Add one file per section.
 \clearpage
-\input{sections/process} % Add one file per section.
+\input{sections/specification_design} % Add one file per section.
 \clearpage
-\input{sections/product} % Add one file per section.
+\input{sections/implementation} % Add one file per section.
 \clearpage
-
-\input{sections/results} 
+\input{sections/user_study} 
 \clearpage
-\input{sections/reflection} 
+\input{sections/discussion_reflection} 
 \clearpage
 \input{sections/conclusion}
 
