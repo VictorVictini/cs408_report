@@ -49,72 +49,27 @@ This section will reference literature like this %\cite{turing1950computing}. Sl
 % approximately 5 pages
 
 \subsection{Programming Language Comparisons}
-There were many considerations when deciding what programming language to write LinTeX in. Languages chosen were based on those that I had prior experience in, to ensure minimal hinderance from the language itself to the development of the project. An important factor is ensuring LinTeX's maintainability in the future. Therefore, only the languages which have actively maintained Parsing Expression Grammar (PEG) libraries will be considered, as can be seen in Table 1.1. The most recent update times provided in Table 1.1 are in reference to 24\textsuperscript{th} November 2025.
-\begin{center}
-Table 1.1: Languages and Related PEG Frameworks
-\begin{adjustbox}{width=\textwidth}
-\begin{tabular}{ccc}
-Language & PEG Library Link & PEG Library is in Development \\
-\hline
-Python & https://pythonhosted.org/pyPEG2/ & No, last updated in October 2015 \\
-Python & https://github.com/erikrose/parsimonious & Yes, last updated in November 2025 \\
-JavaScript & https://github.com/pegjs/pegjs & No, last updated in November 2019 \\
-JavaScript & htps://peggyjs.org/ & Yes, last updated in September 2025 \\
-Go & https://github.com/pointlander/peg & Yes, last updated in November 2025 \\
-Go & https://github.com/mna/pigeon & Yes, last updated in November 2025 \\
-C & N/A & N/A \\
-Java & https://github.com/sirthias/parboiled & Yes, last updated in November 2025 \\
-C\# & https://code.google.com/archive/p/peg-sharp/ & No, last updated in May 2011 \\
-C\# & https://github.com/otac0n/Pegasus & No, last updated in December 2023 \\ 
-C++ & https://github.com/yhirose/cpp-peglib & Yes, last updated in July 2025 \\
-PHP & https://github.com/hafriedlander/php-peg & No, last updated in May 2014 \\
-TypeScript & https://github.com/metadevpro/ts-pegjs & No, last updated in November 2024 \\
-TypeScript & https://github.com/EoinDavey/tsPEG & Yes, last updated in November 2025 \\
-Dart & https://github.com/darmie/dart-peg & No, last updated in July 2015 \\
-\end{tabular}
-\end{adjustbox}
-\end{center}
+There were many considerations when deciding what programming language to write LinTeX in. Languages chosen were based on those that I had prior experience in, to ensure minimal hinderance from the language itself to the development of the project. An important factor is ensuring LinTeX's maintainability in the future. Therefore, only the languages which have actively maintained Parsing Expression Grammar (PEG) libraries will be considered, as can be seen in \tableref{table:language_peg_frameworks}. The most recent update times provided in \tableref{table:language_peg_frameworks} are in reference to 24\textsuperscript{th} November 2025.
+
+\input{tables/languages_peg_frameworks}
+
 Based on the current criteria, we can rule out C, C\#, PHP, and Dart.
 
 As many languages remain, there is a need for a stricter criteria: suitability to be utilised as a web application as well as compatibility with the University of Strathclyde's development web server (devweb) system.
-\begin{center}
-Table 1.2: Languages and Web Development Support
-\begin{adjustbox}{width=\textwidth}
-\begin{tabular}{ccc}
-Language & Web Development Support & DevWeb Support \\
-\hline
-Python & Yes & Yes \\
-JavaScript & Yes & Yes \\
-Go & Yes & No \\
-C & No, except for rare exceptions & No \\
-Java & Yes, but not generally used & Yes \\
-C\# & Yes, but not generally used & No \\ 
-C++ & Yes, but not generally used & No \\
-PHP & Yes & Yes \\
-TypeScript & Yes & Yes \\
-Dart & Yes & Yes \\
-\end{tabular}
-\end{adjustbox}
-\end{center}
-It should be noted that while Go, C, C\#, and C++ are not directly compatible with devweb, as referenced in Table 1.2, they can be supported through use of Common Gateway Interface (CGI) scripts, and consequently should not be fully disregarded for this alone. However, based on their support for web development, C, Java, C\#, and C++ will have a lower priority for being a chosen language.
+
+\input{tables/languages_web_dev_support}
+
+It should be noted that while Go, C, C\#, and C++ are not directly compatible with devweb, as referenced in \tableref{table:language_web_dev}, they can be supported through use of Common Gateway Interface (CGI) scripts, and consequently should not be fully disregarded for this alone. However, based on their support for web development, C, Java, C\#, and C++ will have a lower priority for being a chosen language.
 
 This leaves us with a focus placed on JavaScript, Go, and TypeScript. However, JavaScript will be removed from consideration as a strictly typed language is preferred for our context. Therefore, leaving Go and TypeScript as the main considerations for this project. Finally, as I have more experience and a stronger preference towards Go as opposed to TypeScript, it was the chosen programming language for the project.
 
 \subsection{Library Comparison}
-Go has two libraries that are used in relation to PEG systems: Pigeon by Martin Angers (mna), and peg by Andrew Snodgrass (pointlander). Direct comparisons with core components of both have been made in Table 1.3.
-\begin{center}
-Table 1.3: Comparison Between PEG and Pigeon
-\begin{adjustbox}{width=\textwidth}
-\begin{tabular}{cp{100mm}p{100mm}}
-& Pigeon & Peg \\
-\hline
-Installation & Requires running a \lstinline[language=Go]!go install! command and setting up environment variables & Requires supporting bash scripting (through Window's Subsystem for Linux (WSL) for Windows users), as well as running a \lstinline[language=Go]!go install! command, cloning the repository, and running \lstinline[language=Go]!go generate \&\& go build! \\
-Documentation & Contains a Godoc page, wiki page, an examples subdirectory, and a detailed README.md providing what PEG features are supported, command line interface usage, installation, and examples & Contains a detailed README.md and a PEG file syntax file containing what PEG features are supported, installation steps, and example projects links \\
-Generated Code & Generated Go code can be used to configure settings on the parser, view statistics or error information, debug, enable or disable memoization, and parse readers, files, and strings. Additionally, the generated code is well documented, with several comments surrounding usage of public functions & Generated Go code can be used to run the PEG script on a provided string, debug and output the Abstract Syntax Tree (AST), output errors in parsing, and enable or disable memoization \\
-Examples & Provides three direct examples: detecting indentation in files, parsing JSON files, and a calculator example. Examples were kept short (in regards to PEG scripts) with the calculator and indentation examples showcasing usage via a main function & Provides two project links for examples on PEG usage: a natural date/time parser and a scientific names parser. Both projects have large PEG scripts, with most lines being simple to read. The natural date/time project was intuitive to use and understand program flow \\
-\end{tabular}
-\end{adjustbox}
-\end{center}
+Go has two libraries that are used in relation to PEG systems: Pigeon by Martin Angers (mna), and peg by Andrew Snodgrass (pointlander). Direct comparisons with core components of both have been made in \tableref{table:peg_pigeon_comparison}.
+
+\input{tables/peg_pigeon_comparison}
+
+
+
 While examples are relatively similar, the simplicity of installation for Pigeon as opposed to Peg, combined with the depths of documentation both in generated code and outwith it, makes Pigeon a more ideal option. Additionally, its greater number of features gives LinTeX more to make use of. Therefore, Pigeon was the chosen library for the project.
 
 \subsection{Design Focus}
