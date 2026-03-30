@@ -8,11 +8,11 @@ Don't just include a paragraph for each paper you read. Synthesize it and create
 
 Review between 5 and 10 authoritative sources. For research based projects, some of these should be from peer-reviewed journals or conferences. 
 
-This section will reference literature like this %\cite{turing1950computing}. Sloppy referencing will (1) take time and effort, and (2) lose you marks if you don't do it.
+This section will reference literature like this \cite{turing1950computing}. Sloppy referencing will (1) take time and effort, and (2) lose you marks if you don't do it.
 
 \subsection{(brief intro into background, such as accessibility or latex-related background)}
 \subsection{Choosing a programming language}
-\subsection{Choosing a PEG library under Go programming language}
+\subsection{Choosing a \acrshort{peg} library under Go programming language}
 \subsection{Choice of libraries}
 - net/http
 - path/filepath (effectively the only option tbf)
@@ -49,7 +49,7 @@ This section will reference literature like this %\cite{turing1950computing}. Sl
 % approximately 5 pages
 
 \subsection{Programming Language Comparisons}
-There were many considerations when deciding what programming language to write LinTeX in. Languages chosen were based on those that I had prior experience in, to ensure minimal hinderance from the language itself to the development of the project. An important factor is ensuring LinTeX's maintainability in the future. Therefore, only the languages which have actively maintained Parsing Expression Grammar (PEG) libraries will be considered, as can be seen in \tableref{table:language_peg_frameworks}. The most recent update times provided in \tableref{table:language_peg_frameworks} are in reference to 24\textsuperscript{th} November 2025.
+There were many considerations when deciding what programming language to write \lintexspaced in. Languages chosen were based on those that I had prior experience in, to ensure minimal hinderance from the language itself to the development of the project. An important factor is ensuring \lintex's maintainability in the future. Therefore, only the languages which have actively maintained \acrfull{peg} libraries will be considered, as can be seen in \tableref{table:language_peg_frameworks}. The most recent update times provided in \tableref{table:language_peg_frameworks} are in reference to 24\textsuperscript{th} November 2025.
 
 \input{tables/languages_peg_frameworks}
 
@@ -59,21 +59,19 @@ As many languages remain, there is a need for a stricter criteria: suitability t
 
 \input{tables/languages_web_dev_support}
 
-It should be noted that while Go, C, C\#, and C++ are not directly compatible with devweb, as referenced in \tableref{table:language_web_dev}, they can be supported through use of Common Gateway Interface (CGI) scripts, and consequently should not be fully disregarded for this alone. However, based on their support for web development, C, Java, C\#, and C++ will have a lower priority for being a chosen language.
+It should be noted that while Go, C, C\#, and C++ are not directly compatible with devweb, as referenced in \tableref{table:language_web_dev}, they can be supported through use of \acrfull{cgi} scripts, and consequently should not be fully disregarded for this alone. However, based on their support for web development, C, Java, C\#, and C++ will have a lower priority for being a chosen language.
 
 This leaves us with a focus placed on JavaScript, Go, and TypeScript. However, JavaScript will be removed from consideration as a strictly typed language is preferred for our context. Therefore, leaving Go and TypeScript as the main considerations for this project. Finally, as I have more experience and a stronger preference towards Go as opposed to TypeScript, it was the chosen programming language for the project.
 
 \subsection{Library Comparison}
-Go has two libraries that are used in relation to PEG systems: Pigeon by Martin Angers (mna), and peg by Andrew Snodgrass (pointlander). Direct comparisons with core components of both have been made in \tableref{table:peg_pigeon_comparison}.
+Go has two libraries that are used in relation to \acrshort{peg} systems: Pigeon by Martin Angers (mna), and \acrshort{peg} by Andrew Snodgrass (pointlander). Direct comparisons with core components of both have been made in \tableref{table:peg_pigeon_comparison}.
 
 \input{tables/peg_pigeon_comparison}
 
-
-
-While examples are relatively similar, the simplicity of installation for Pigeon as opposed to Peg, combined with the depths of documentation both in generated code and outwith it, makes Pigeon a more ideal option. Additionally, its greater number of features gives LinTeX more to make use of. Therefore, Pigeon was the chosen library for the project.
+While examples are relatively similar, the simplicity of installation for Pigeon as opposed to \acrshort{peg}, combined with the depths of documentation both in generated code and outwith it, makes Pigeon a more ideal option. Additionally, its greater number of features gives LinTeX more to make use of. Therefore, Pigeon was the chosen library for the project.
 
 \subsection{Design Focus}
-LinTeX will take strong inspiration from Integrated Development Environments (IDEs) with regards to its User Interface/User Experience (UI/UX) design. This is because LaTeX in structure, is similar to a programming language, even being Turing complete %\cite{latexturingcomplete}. Hence, an environment suitable to programming is suitable to LaTeX, with some special considerations put aside for its quirks. For example, depending on the user's screen size and preferences, they may wish to have the output of the LaTeX documents taking up half of the screen, a separate browser window or monitor, or out of the way until compilation. 
+LinTeX will take strong inspiration from Integrated Development Environments (IDEs) with regards to its User Interface/User Experience (UI/UX) design. This is because LaTeX in structure, is similar to a programming language, even being Turing complete \cite{latexturingcomplete}. Hence, an environment suitable to programming is suitable to LaTeX, with some special considerations put aside for its quirks. For example, depending on the user's screen size and preferences, they may wish to have the output of the LaTeX documents taking up half of the screen, a separate browser window or monitor, or out of the way until compilation. 
 
 % if you're reading this, you owe me maryland cookies
 % \subsection{TABLE FOR REFERENCE}

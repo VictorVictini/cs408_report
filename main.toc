@@ -1,6 +1,7 @@
 \babel@toc {nil}{}\relax 
 \contentsline {section}{Overview Diagram}{i}{section*.1}%
 \contentsline {section}{Acknowledgments}{ii}{section*.1}%
+\contentsline {section}{Glossary}{v}{section*.6}%
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Identifying \LaTeX 's key accessibility problems for screen reader users}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Why accessibility is important}{1}{subsection.1.2}%
@@ -13,7 +14,7 @@
 \contentsline {section}{\numberline {2}Background Literature}{4}{section.2}%
 \contentsline {subsection}{\numberline {2.1}(brief intro into background, such as accessibility or latex-related background)}{4}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Choosing a programming language}{4}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Choosing a PEG library under Go programming language}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.3}Choosing a \acrshort {peg} library under Go programming language}{4}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Choice of libraries}{4}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}guidelines for accessibility}{4}{subsection.2.5}%
 \contentsline {subsection}{\numberline {2.6}Choosing a software development methodology}{5}{subsection.2.6}%
@@ -40,7 +41,7 @@
 \contentsline {subsection}{\numberline {4.4}verification \& validation}{11}{subsection.4.4}%
 \contentsline {section}{\numberline {5}User study}{12}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Study design}{12}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Hypothesis}{13}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.2}Hypothesis}{12}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Results}{13}{subsection.5.3}%
 \contentsline {subsection}{\numberline {5.4}Analysis}{13}{subsection.5.4}%
 \contentsline {subsection}{\numberline {5.5}Hypothesis testing}{13}{subsection.5.5}%
