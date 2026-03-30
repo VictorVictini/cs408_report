@@ -42,14 +42,35 @@
 \newcommand{\pdftex}{PDF\tex}
 \newcommand{\xetex}{Xe\tex}
 
+% custom commands
+\newcommand{\pcref}[1]{(\cref{#1})}
+\newcommand{\pnameref}[1]{(\lnameref{#1})}
+\newcommand{\fullref}[1]{\lnameref{#1} \pcref{#1}}
+\newcommand{\lnameref}[1]{%
+\bgroup
+\let\nmu\MakeLowercase
+\nameref{#1}\egroup}
+\newcommand{\fnameref}[1]{%
+\bgroup
+\def\nmu{\let\nmu\MakeLowercase}%
+\nameref{#1}\egroup}
+\newcommand{\nmu}{}
+
 \begin{document}
+
+%\section{\nmu This \nmu Is a \nmu Section}
+%\label{sec}
+%\lnameref{sec} is a section.
+%\nameref{sec} is a section.
+%\fnameref{sec} is a section.
+%\nameref{sec} is a section.
 
 %--------------------------------
 % Title page.
 %--------------------------------
 \begin{titlepage}
 \vspace*{5mm}
-\titletext{LinTeX:\\Enhancing LaTeX document accessibility for screen reader users}
+\titletext{\lintex:\\Enhancing \latex document accessibility for screen reader users}
 \vspace{10mm}
 \authortext{Mohammad Danyal}
 \vspace{15mm}
