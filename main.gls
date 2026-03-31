@@ -2,7 +2,8 @@
 \begin{theglossary}\glossaryheader
 \glsgroupheading{A}\relax \glsresetentrylist %
 \glossentry{accessible_doc}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{12\delimN 13}}}%
+		\setentrycounter[]{page}\glsnumberformat{12\delimN 13}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{17\delimN 18}}}%
 \glossentry{ast}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{7}}}\glsgroupskip
 \glsgroupheading{C}\relax \glsresetentrylist %
@@ -10,7 +11,12 @@
 		\setentrycounter[]{page}\glsnumberformat{6}}}\glsgroupskip
 \glsgroupheading{I}\relax \glsresetentrylist %
 \glossentry{inaccessible_doc}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{12\delimN 13}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{12\delimN 13}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{17\delimN 18}}}\glsgroupskip
+\glsgroupheading{M}\relax \glsresetentrylist %
+\glossentry{metadata}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{14}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{17}}}\glsgroupskip
 \glsgroupheading{P}\relax \glsresetentrylist %
 \glossentry{peg}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{iii\delimN iv}\delimN 
