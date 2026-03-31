@@ -1,0 +1,235 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{user_study_definition}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=69ad3ae014cdf76b67a2c70a2de05e3b}{%
+           family={Center},
+           familyi={C\bibinitperiod},
+           given={Delaware\bibnamedelimb Government\bibnamedelima Information},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Delaware Government Information Center}%
+      }
+      \strng{namehash}{69ad3ae014cdf76b67a2c70a2de05e3b}
+      \strng{fullhash}{69ad3ae014cdf76b67a2c70a2de05e3b}
+      \strng{fullhashraw}{69ad3ae014cdf76b67a2c70a2de05e3b}
+      \strng{bibnamehash}{69ad3ae014cdf76b67a2c70a2de05e3b}
+      \strng{authorbibnamehash}{69ad3ae014cdf76b67a2c70a2de05e3b}
+      \strng{authornamehash}{69ad3ae014cdf76b67a2c70a2de05e3b}
+      \strng{authorfullhash}{69ad3ae014cdf76b67a2c70a2de05e3b}
+      \strng{authorfullhashraw}{69ad3ae014cdf76b67a2c70a2de05e3b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://gic.delaware.gov/what-is-user-research-and-why-should-it-be-a-part-of-your-process/}}
+      \field{title}{What is User Research and Why Should it be a Part of Your Process?}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://gic.delaware.gov/what-is-user-research-and-why-should-it-be-a-part-of-your-process/
+      \endverb
+      \verb{url}
+      \verb https://gic.delaware.gov/what-is-user-research-and-why-should-it-be-a-part-of-your-process/
+      \endverb
+    \endentry
+    \entry{right-tailed_test}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7793b130bbd2e2f644271117e72e7d95}{%
+           family={Exeter},
+           familyi={E\bibinitperiod},
+           given={University},
+           giveni={U\bibinitperiod},
+           givenun=0,
+           prefix={of},
+           prefixi={o\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {University of Exeter}%
+      }
+      \strng{namehash}{7793b130bbd2e2f644271117e72e7d95}
+      \strng{fullhash}{7793b130bbd2e2f644271117e72e7d95}
+      \strng{fullhashraw}{7793b130bbd2e2f644271117e72e7d95}
+      \strng{bibnamehash}{7793b130bbd2e2f644271117e72e7d95}
+      \strng{authorbibnamehash}{7793b130bbd2e2f644271117e72e7d95}
+      \strng{authornamehash}{7793b130bbd2e2f644271117e72e7d95}
+      \strng{authorfullhash}{7793b130bbd2e2f644271117e72e7d95}
+      \strng{authorfullhashraw}{7793b130bbd2e2f644271117e72e7d95}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://libguides.exeter.ac.uk/c.php?g=729256&p=5313318}}
+      \field{title}{Test Statistics}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://libguides.exeter.ac.uk/c.php?g=729256&p=5313318
+      \endverb
+      \verb{url}
+      \verb https://libguides.exeter.ac.uk/c.php?g=729256&p=5313318
+      \endverb
+    \endentry
+    \entry{latexturingcomplete}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fca8b3ce3b39a33bbf0e7cc15436d2aa}{%
+           family={Murrish},
+           familyi={M\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Overleaf}%
+      }
+      \strng{namehash}{fca8b3ce3b39a33bbf0e7cc15436d2aa}
+      \strng{fullhash}{fca8b3ce3b39a33bbf0e7cc15436d2aa}
+      \strng{fullhashraw}{fca8b3ce3b39a33bbf0e7cc15436d2aa}
+      \strng{bibnamehash}{fca8b3ce3b39a33bbf0e7cc15436d2aa}
+      \strng{authorbibnamehash}{fca8b3ce3b39a33bbf0e7cc15436d2aa}
+      \strng{authornamehash}{fca8b3ce3b39a33bbf0e7cc15436d2aa}
+      \strng{authorfullhash}{fca8b3ce3b39a33bbf0e7cc15436d2aa}
+      \strng{authorfullhashraw}{fca8b3ce3b39a33bbf0e7cc15436d2aa}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.overleaf.com/learn/latex/Articles/LaTeX_is_More_Powerful_than_you_Think_-_Computing_the_Fibonacci_Numbers_and_Turing_Completeness}}
+      \field{title}{LaTeX is More Powerful than you Think - Computing the Fibonacci Numbers and Turing Completeness}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://www.overleaf.com/learn/latex/Articles/LaTeX_is_More_Powerful_than_you_Think_-_Computing_the_Fibonacci_Numbers_and_Turing_Completeness
+      \endverb
+      \verb{url}
+      \verb https://www.overleaf.com/learn/latex/Articles/LaTeX_is_More_Powerful_than_you_Think_-_Computing_the_Fibonacci_Numbers_and_Turing_Completeness
+      \endverb
+    \endentry
+    \entry{turing1950computing}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fdc523429c3c89c34880f733033f2099}{%
+           family={Turing},
+           familyi={T\bibinitperiod},
+           given={A.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press on behalf of the Mind Association}%
+      }
+      \strng{namehash}{fdc523429c3c89c34880f733033f2099}
+      \strng{fullhash}{fdc523429c3c89c34880f733033f2099}
+      \strng{fullhashraw}{fdc523429c3c89c34880f733033f2099}
+      \strng{bibnamehash}{fdc523429c3c89c34880f733033f2099}
+      \strng{authorbibnamehash}{fdc523429c3c89c34880f733033f2099}
+      \strng{authornamehash}{fdc523429c3c89c34880f733033f2099}
+      \strng{authorfullhash}{fdc523429c3c89c34880f733033f2099}
+      \strng{authorfullhashraw}{fdc523429c3c89c34880f733033f2099}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00264423}
+      \field{journaltitle}{Mind}
+      \field{number}{236}
+      \field{series}{New Series}
+      \field{title}{Computing Machinery and Intelligence}
+      \field{volume}{59}
+      \field{year}{1950}
+      \field{pages}{433\bibrangedash 460}
+      \range{pages}{28}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/2251299
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/2251299
+      \endverb
+    \endentry
+    \entry{t-test}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d7b76db803861c1eca886b4a4474e8af}{%
+           family={Wadhwa},
+           familyi={W\bibinitperiod},
+           given={Raoul\bibnamedelima R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20f48a4179aef2d6fe0d6ffec90f749a}{%
+           family={Marappa-Ganeshan},
+           familyi={M\bibinithyphendelim G\bibinitperiod},
+           given={Raghavendra},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {National Institute of Health}%
+      }
+      \strng{namehash}{b351034ec8b1213d33cf85ced4d6c1cf}
+      \strng{fullhash}{b351034ec8b1213d33cf85ced4d6c1cf}
+      \strng{fullhashraw}{b351034ec8b1213d33cf85ced4d6c1cf}
+      \strng{bibnamehash}{b351034ec8b1213d33cf85ced4d6c1cf}
+      \strng{authorbibnamehash}{b351034ec8b1213d33cf85ced4d6c1cf}
+      \strng{authornamehash}{b351034ec8b1213d33cf85ced4d6c1cf}
+      \strng{authorfullhash}{b351034ec8b1213d33cf85ced4d6c1cf}
+      \strng{authorfullhashraw}{b351034ec8b1213d33cf85ced4d6c1cf}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.ncbi.nlm.nih.gov/books/NBK553048/}}
+      \field{title}{T Test}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/books/NBK553048/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/books/NBK553048/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

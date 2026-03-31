@@ -33,7 +33,7 @@ The following table, namely \tableref{table:document_summary_results}, showcases
 
 It should be noted that participants that had requested to pause or repeat a segment of the initial listening showcased a better recollection of the document extracts, with the average participant able to recall 4 extracts on average.
 
-\subsubsection{\Gls{accessible_doc} and \gls{inaccessible_doc} comparisons}
+\subsubsection{\Gls{accessible_doc} and \gls{inaccessible_doc} comparisons}\label{user_study:accessibility_comparisons}
 The following figure, namely \figureref{figure:audio_output_comparison}, showcases the comparison of Likert scale data obtained from the user study that queries the participants about the quality of the screen reader's audio output in regards to its contents. This data was used to create a frequency polygon graph, of which the blue line showcases the data from the initial questioning (stage~\ref{user_study:initial_questions}), and the red line showcases the data from the final questioning (stage~\ref{user_study:final_questions}).
 
 \input{figures/likert_scale_comparison}
@@ -47,6 +47,15 @@ The key simple components of both the initial listening (stage~\ref{user_study:i
 \input{tables/simple_aspects}
 
 It should be noted that all participants required less pausing or repetition of an extract in the final listening (stage~\ref{user_study:final_listening}) compared to the initial listening (stage~\ref{user_study:initial_listening}). Additionally, another point of note is that tables were a frequent aspect that required pausing or repetition.
+
+\subsubsection{\nmu Applying \nmu student's paired t-test}\label{user_study:apply_paired_t-test}
+The student's paired t-test was developed by William Sealy Gosset in 1908 \parencite{t-test}. Its purpose, in our context, is to determine if the difference between our audio output quality Likert scale data in \figureref{figure:audio_output_comparison} is significant.
+
+\input{figures/t-test_math}
+
+\figureref{figure:t-test_math} has a standard deviation ($s_d$) of 0, as the difference between all results was 1. As a result of this, it leads to a division by zero. Depending on interpretation, this could be seen as $t$ approaching infinity ($\infty$) or simply an undefined result.
+
+Under the basis of $t$ approaching infinity, we can consequently view it as a large $t$ value, which suggests there is a statistical significance in the results.
 
 \subsubsection{Likelihood to support screen reader users}
 The following figure, namely \figureref{figure:screen_reader_support}, showcases the results from the Likert scale data obtained in the final questioning (stage~\ref{user_study:final_questions}) that queries participants on their likelihood to support screen reader users in the future.
@@ -79,7 +88,7 @@ Regarding name positioning and grade comparisons, a reasonable assumption as to 
 
 \tableref{table:simple_aspects} showcases the fact that there were many more simple to understand components in the \gls{accessible_doc} compared to the \gls{inaccessible_doc}, with many of the previously helpful components remaining the same or having mild improvements. Consequently, we can deduce that simple components were retained with the same, or arguably better, quality. 
 
-\subsubsection{Areas of improvement for \lintexspaced usability}
+\subsubsection{\nmu Areas \nmu of improvement for \lintexspaced usability}\label{user_study:lintex_accessible}
 \tableref{table:lintex_usability} highlights many areas where \lintexspaced suffers in its usability. Hence, some proposed solutions for these concerns have been indicated below:
 \begin{itemize}
 	\item The file upload process could be simplified by combining both the file selector and upload file button. This would reduce the number of steps required on the user's part to upload the file and begin using \lintex.
@@ -91,11 +100,11 @@ Regarding name positioning and grade comparisons, a reasonable assumption as to 
 	\item The colour scheme was indicated to have not been distinct enough for dyslexia users, which can be alleviated by choosing and applying a more accessible colour scheme for this user group.
 \end{itemize}
 
-\subsection{Hypothesis testing}
-\ref{user_study:hypothesis:improved_doc_accessibility}
+\subsection{Hypothesis testing and discussion}
+It can be claimed that, as there is statistical significance in \fullref{user_study:apply_paired_t-test}, a \gls{right_tailed_alternative_hypothesis} can be used to ascertain there is a definitive improvement in the screen reader accessibility of the documents after applying \lintex. Additionally, based on \cref{user_study:accessibility_comparisons}, it can be deduced that there was a significant improvement in the document's screen reader accessibility after applying \lintex, as they showcased previously difficult aspects becoming simpler to understand, with minimal difficult aspects in the \gls{accessible_doc}. Consequently, we choose to not reject the hypothesis~\ref{user_study:hypothesis:improved_doc_accessibility}.
 
+The hypothesis~\ref{user_study:hypothesis:lintex_accessible} has been rejected in our case, due to the magnitude of accessibility-related difficulties found in the \tableref{table:lintex_usability}. However, proposed solutions have been provided in \fullref{user_study:lintex_accessible} which indicate processes that may be undertaken to solve many of the identified issues.
 
-% \item[\textbf{H1}] The \gls{accessible_doc} created by \lintexspaced showed an improvement from the \gls{inaccessible_doc} initially used in terms of the documents' accessibility for screen reader users.\label{user_study:hypothesis:improved_doc_accessibility}
-% \item[\textbf{H2}] \lintexspaced is reasonably accessible.\label{user_study:hypothesis:lintex_accessible}
-% \item[\textbf{H3}] \lintexspaced provided useful error messages.\label{user_study:hypothesis:errors}
-% \item[\textbf{H4}] The \gls{inaccessible_doc} used in the initial listening is not memorable.\label{user_study:hypothesis:memorable}
+It can be reasonably chosen to not reject the hypothesis~\ref{user_study:hypothesis:errors} as the majority of error messages were greatly useful based on \tableref{user_study:lintex_accessible}, with only a few points made to provide more information upfront to avoid the user being at a standstill for what action to perform at a given point and providing more information regarding the location the error had occurred.
+
+The hypothesis~\ref{user_study:hypothesis:memorable} is arguable, as the main key points were often recalled by the participants. However, as many finer details were significantly wrong, the overall memorability of the \gls{inaccessible_doc}'s content could be considered low. Consequently, this would permit not rejecting the hypothesis~\ref{user_study:hypothesis:memorable}.

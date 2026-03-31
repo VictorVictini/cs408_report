@@ -45,23 +45,24 @@
 \contentsline {subsection}{\numberline {5.3}Results}{13}{subsection.5.3}%
 \contentsline {subsubsection}{\numberline {5.3.1}Memorable document extracts}{13}{subsubsection.5.3.1}%
 \contentsline {subsubsection}{\numberline {5.3.2}\Gls {accessible_doc} and \gls {inaccessible_doc} comparisons}{13}{subsubsection.5.3.2}%
-\contentsline {subsubsection}{\numberline {5.3.3}Likelihood to support screen reader users}{15}{subsubsection.5.3.3}%
-\contentsline {subsubsection}{\numberline {5.3.4}Lin\TeX \ usability focuses}{15}{subsubsection.5.3.4}%
+\contentsline {subsubsection}{\numberline {5.3.3}Applying student's paired t-test}{15}{subsubsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.4}Likelihood to support screen reader users}{16}{subsubsection.5.3.4}%
+\contentsline {subsubsection}{\numberline {5.3.5}Lin\TeX \ usability focuses}{16}{subsubsection.5.3.5}%
 \contentsline {subsection}{\numberline {5.4}Analysis}{16}{subsection.5.4}%
 \contentsline {subsubsection}{\numberline {5.4.1}Reasoning behind document extracts being memorable}{16}{subsubsection.5.4.1}%
-\contentsline {subsubsection}{\numberline {5.4.2}Lin\TeX 's impact on document screen reader accessibility}{17}{subsubsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.2}Lin\TeX 's impact on document screen reader accessibility}{18}{subsubsection.5.4.2}%
 \contentsline {subsubsection}{\numberline {5.4.3}Areas of improvement for Lin\TeX \ usability}{18}{subsubsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.5}Hypothesis testing}{19}{subsection.5.5}%
-\contentsline {section}{\numberline {6}Discussion and reflection}{20}{section.6}%
-\contentsline {section}{\numberline {7}Conclusion}{21}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Project summary}{21}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Project limitations}{21}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Achievements -- potentially optional/swap with final thoughts or another area?}{21}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Future work}{21}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Reflection}{21}{subsection.7.5}%
-\contentsline {subsection}{\numberline {7.6}Final thoughts}{21}{subsection.7.6}%
-\contentsline {section}{\numberline {A}Appendix}{22}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Ethical approval form}{22}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Participant information sheet}{22}{subsection.A.2}%
-\contentsline {subsection}{\numberline {A.3}Consent form}{22}{subsection.A.3}%
-\contentsline {subsection}{\numberline {A.4}User study script}{22}{subsection.A.4}%
+\contentsline {subsection}{\numberline {5.5}Hypothesis testing and discussion}{19}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Discussion and reflection}{21}{section.6}%
+\contentsline {section}{\numberline {7}Conclusion}{22}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Project summary}{22}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Project limitations}{22}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Achievements -- potentially optional/swap with final thoughts or another area?}{22}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Future work}{22}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Reflection}{22}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Final thoughts}{22}{subsection.7.6}%
+\contentsline {section}{\numberline {A}Appendix}{24}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Ethical approval form}{24}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Participant information sheet}{24}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Consent form}{24}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}User study script}{24}{subsection.A.4}%
