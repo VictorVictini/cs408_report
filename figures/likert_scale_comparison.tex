@@ -1,0 +1,45 @@
+\begin{figure}[h]
+    \caption{Comparing screen reader output quality ratings before and after applying \lintex}
+    \label{figure:audio_output_comparison}
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            title={},
+            xlabel={Audio quality rating},
+            ylabel={Frequency},
+            xmin=0, xmax=5,
+            ymin=0, ymax=4,
+            xtick={1,2,3,4,5},
+            grid=both,
+            % Makes lines straight (not curved)
+            sharp plot, 
+        ]
+        \addplot[
+            color=blue,
+            mark=*,
+            thick,
+        ]
+        coordinates {
+            (0,0)
+            (1,0)
+            (2,1)
+            (3,4)
+            (4,0)
+            (5,0)
+        };
+        \addplot[
+            color=red,
+            mark=*,
+            thick,
+        ]
+        coordinates {
+            (0,0)
+            (1,0)
+            (2,0)
+            (3,1)
+            (4,4)
+            (5,0)
+        };
+        \end{axis}
+    \end{tikzpicture}
+\end{figure}

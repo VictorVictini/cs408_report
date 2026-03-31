@@ -15,6 +15,10 @@
 \usepackage{glossaries}
 \usepackage{cleveref}
 
+% graphing setup
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
 % bibliography setup
 \usepackage[autostyle]{csquotes}
 \usepackage[backend=biber, style=authoryear]{biblatex}
@@ -47,6 +51,7 @@
 \newcommand{\pnameref}[1]{(\lnameref{#1})}
 \newcommand{\fullref}[1]{\lnameref{#1} \pcref{#1}}
 \newcommand{\tableref}[1]{Table \ref{#1}}
+\newcommand{\figureref}[1]{Figure \ref{#1}}
 % source for lnameref: https://www.latex4technics.com/?note=17MC
 \newcommand{\lnameref}[1]{%
 \bgroup
