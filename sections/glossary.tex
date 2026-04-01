@@ -7,7 +7,7 @@
 \newglossaryentry{inaccessible_doc}
 {
 	name={inaccessible document},
-	description={a document that has intentionally been made inaccessible}
+	description={a \latexspaced document that has intentionally been made inaccessible for screen reader users.}
 }
 
 \newglossaryentry{right_tailed_alternative_hypothesis}
@@ -19,19 +19,19 @@
 \newglossaryentry{accessible_doc}
 {
 	name={accessible document},
-	description={an accessible document created after using \lintex.}
-}
-
-\newglossaryentry{alt_text}
-{
-	name={alternative text},
-	description={text that is used in place of an image by a screen reader, or if the image has not loaded.}
+	description={an accessible document created applying \lintexspaced to the \gls{inaccessible_doc}.}
 }
 
 \newglossaryentry{metadata}
 {
 	name={metadata},
 	description={data about data, such as a file's structure.}
+}
+
+\newglossaryentry{alt_text}
+{
+	name={alternative text},
+	description={text used in place of non-text components for accessibility purposes.}
 }
 
 \newacronym{gui}{GUI}{graphical user interface}
@@ -61,3 +61,9 @@
 \newacronym{http}{HTTP}{HyperText Transfer Protocol}
 
 \newacronym{css}{CSS}{Cascading Style Sheet}
+
+\newacronym[\glslongpluralkey={operating systems}, \glsshortpluralkey={OSes}]{os}{OS}{operating system}
+
+\newacronym{tdd}{TDD}{test-driven development}
+
+\newacronym{bdd}{BDD}{behaviour-driven development}

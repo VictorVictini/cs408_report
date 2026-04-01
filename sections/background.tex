@@ -1,16 +1,5 @@
 \section{Background Literature}\label{backg}
-
-This section should provide the grounding for your project. You will be able to refer back to this in Section \ref{process}, where you report on design decisions and methodology.
-
-There should be a strong link to your research questions (for project types 2 and 3). There will be a strong link to the software design decisions for project type 1.
-
-Don't just include a paragraph for each paper you read. Synthesize it and create a story line. 
-
-Review between 5 and 10 authoritative sources. For research based projects, some of these should be from peer-reviewed journals or conferences. 
-
-This section will reference literature like this \cite{turing1950computing}. Sloppy referencing will (1) take time and effort, and (2) lose you marks if you don't do it.
-
-\subsection{(brief intro into background, such as accessibility or latex-related background)}
+% talk about latex3 stuff if there's time and space
 \subsection{Choice of programming language}
 There were many considerations when deciding what programming language to write \lintexspaced in. Languages chosen were based on those that I had prior experience in, to ensure minimal hinderance from the language itself to the development of the project. An important factor is ensuring \lintex's maintainability in the future. Therefore, only the languages which have actively maintained \acrfull{peg} libraries will be considered, as can be seen in \tableref{table:language_peg_frameworks}. The most recent update times provided in \tableref{table:language_peg_frameworks} are in reference to 24\textsuperscript{th} November 2025.
 
@@ -26,7 +15,7 @@ It should be noted that while Go, C, C\#, and C++ are not directly compatible wi
 
 This leaves us with a focus placed on JavaScript, Go, and TypeScript. However, JavaScript will be removed from consideration as a strictly typed language is preferred for our context. Therefore, leaving Go and TypeScript as the main considerations for this project. Finally, as I have more experience and a stronger preference towards Go as opposed to TypeScript, it was the chosen programming language for the project.
 
-\subsection{Choosing a \acrshort{peg} library under the Go programming language}
+\subsection{\nmu Choosing \nmu a \acrshort{peg} library under the Go programming language}\label{backg:peg_library_choice}
 Go has two libraries that are used in relation to \acrshort{peg} systems: Pigeon by Martin Angers (mna), and \acrshort{peg} by Andrew Snodgrass (pointlander). Direct comparisons with core components of both have been made in \tableref{table:peg_pigeon_comparison}.
 
 \input{tables/peg_pigeon_comparison}
@@ -50,14 +39,46 @@ To implement Tailwind CSS, it was necessary to install its \acrfull{cli} through
 
 To ensure appropriate responsiveness of \lintex, it was necessary to be able to introduce updates in real time. For this, HTMX \parencite{htmx} was utilised, as it is a tool that permits \acrshort{html} tags other than the `a' and `form' tags to send \acrfull{http} requests to the server. For example, it is possible to use HTMX to create a \acrshort{http} request when a given key is pressed through its event management.
 
-\subsection{guidelines for accessibility}
-- guidelines should be understood by me
-- languages guidelines are written in
-- check if authority publishing guidelines is a good source i.e. is an international standard instead of a random person
+\subsection{Guidelines for accessibility}
+The following key points have been used in the design of \lintexspaced to ensure its accessibility, following WCAG 2.2 \parencite{wcag} standards.
+\begin{itemize}
+\item The website should have all non-text content contain an \gls{alt_text} (WCAG 2.2: Guideline 1.1).
+\item The website may be operable through the keyboard alone (WCAG 2.2: Guideline 2.1).
+\item LinTeX should provide simple error messages.
+\item The website should allow for content to be distinguishable including supporting resizing content and minimal colour usage (WCAG 2.2: Guideline 1.4).
+\item The website should be presentable in a simpler format if required (WCAG 2.2: Guideline 1.3).
+\item The website should include navigation features (WCAG 2.2: Guideline 2.4).
+\item The website should be predictable (WCAG 2.2: Guideline 3.2).
+\item The produced document by \lintexspaced should contain appropriate tagging.
+\item The produced \gls{accessible_doc} by \lintexspaced should contain appropriate \gls{alt_text}, actual text, or artifact.
+\end{itemize}
+
 \subsection{Choosing a software development methodology}
-\subsection{Choosing a screen reader}
+The available options under consideration for the project are the waterfall methodology, agile development methodology, \acrfull{tdd}, and \acrfull{bdd}.
+
+The waterfall methodology requires significant research early in the project to have success. However, as I lack experience in \acrshort{peg} script usage and many related topics for this project, it was likely changes would be needed dynamically.
+
+\Acrshort{tdd} was the next consideration, with a personal strong bias towards it due to its usefulness in being self-documenting and saving the hassle of writing the unit tests after creating the software, which can be a more draining process. However, as Pigeon, the PEG library chosen in \fullref{backg:peg_library_choice}, generates Go files without a way to test individual components, it was not possible to create unit tests without it using complete \latexspaced code for the feature that should be tested. Additionally, creating unit tests can be time-consuming, which may be unsuitable with the short timeframe of the project.
+
+\Acrshort{bdd} was removed from consideration for similar reasons as \acrshort{tdd}, with the addition of it being more suitable for larger contexts such as games development, where it is a lot less suitable to test every feature individual.
+
+The final methodology, agile development methodology, allowed for code to be created quickly through its sprints. Additionally, as there was no prerequisite to create unit tests before creating the features, it saved a lot of time in development for the project. Consequently, agile development methodology was chosen for this project.
+
+\subsection{Screen reader choice}
+Through a small number of critera, as showcased in \tableref{table:screen_reader_choices}, it was possible to reduce the choices for what screen reader to use in our context.
+
+\input{tables/screen_reader_choices}
+
+As a student, I do not have the leeway to purchase subscriptions for several screen readers, making those that require payments ruled out, even if it would just be in the form of a free trial. Additionally, there is an ethical dilemma in requiring payments for a necessary accessibility tool, which pushed me away from choosing them. Another criteria was that the Windows \acrfull{os} should be supported, with emphasis placed on Windows 10 and Windows 11. These were chosen as they are the most common PC \acrshort{os} used, consequently targetting a larger base of users who may require screen readers.
+
+Considering these critera, NVDA and Microsoft Narrator were the final choices. When testing both on a placeholder document, emulating the experience of a screen reader user working with \latex , I had found that there was more difficulty with Windows Narrator in terms of having it read the correct extract on the document, often requiring using a mouse to get to the correct location. Inversely, NVDA read the correct extract in full detail. Hence, by process of elimination to a degree, NVDA was the chosen screen reader for \lintex.
+
+Adobe Acrobat Reader was used to work alongside NVDA to make the documents easier to navigate in more complex contexts, such as where the document may not be read as simply as top-to-bottom, left-to-right.
+
 \subsection{\nmu User \nmu study design choices}\label{backg:user_study_design}
 \subsection{Designing a \acrshort{gui}}
+
+
 LinTeX will take strong inspiration from Integrated Development Environments (IDEs) with regards to its User Interface/User Experience (UI/UX) design. This is because LaTeX in structure, is similar to a programming language, even being Turing complete \cite{latexturingcomplete}. Hence, an environment suitable to programming is suitable to LaTeX, with some special considerations put aside for its quirks. For example, depending on the user's screen size and preferences, they may wish to have the output of the LaTeX documents taking up half of the screen, a separate browser window or monitor, or out of the way until compilation.
 
 - Tailwind choice?

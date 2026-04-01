@@ -12,56 +12,55 @@
 \contentsline {subsection}{\numberline {1.7}research questions/hypothesis}{1}{subsection.1.7}%
 \contentsline {subsection}{\numberline {1.8}from nov progress}{2}{subsection.1.8}%
 \contentsline {section}{\numberline {2}Background Literature}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}(brief intro into background, such as accessibility or latex-related background)}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Choice of programming language}{4}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Choosing a \acrshort {peg} library under the Go programming language}{6}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Choice of frameworks and libraries}{6}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Backend frameworks and libraries}{6}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}Frontend frameworks and libraries}{7}{subsubsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.5}guidelines for accessibility}{8}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Choosing a software development methodology}{8}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}Choosing a screen reader}{8}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}User study design choices}{8}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}Designing a \acrshort {gui}}{8}{subsection.2.9}%
-\contentsline {section}{\numberline {3}Specification \& Design}{9}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Methodology}{9}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Analysis}{9}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Requirements}{9}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Functional Requirements}{10}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Non-Functional Requirements}{10}{subsubsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.4}Design}{10}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Interface Design}{10}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}System Design}{11}{subsubsection.3.4.2}%
-\contentsline {section}{\numberline {4}Implementation}{12}{section.4}%
-\contentsline {subsection}{\numberline {4.1}general overview of technologies used}{12}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}website with server-client relationship}{12}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}possibly include things about peg}{12}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}verification \& validation}{12}{subsection.4.4}%
-\contentsline {section}{\numberline {5}User study}{13}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Study design}{13}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Hypothesis}{13}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Results}{14}{subsection.5.3}%
-\contentsline {subsubsection}{\numberline {5.3.1}Memorable document extracts}{14}{subsubsection.5.3.1}%
-\contentsline {subsubsection}{\numberline {5.3.2}\Gls {accessible_doc} and \gls {inaccessible_doc} comparisons}{14}{subsubsection.5.3.2}%
-\contentsline {subsubsection}{\numberline {5.3.3}Applying student's paired t-test}{16}{subsubsection.5.3.3}%
-\contentsline {subsubsection}{\numberline {5.3.4}Likelihood to support screen reader users}{17}{subsubsection.5.3.4}%
-\contentsline {subsubsection}{\numberline {5.3.5}Lin\TeX \ usability focuses}{17}{subsubsection.5.3.5}%
-\contentsline {subsection}{\numberline {5.4}Analysis}{17}{subsection.5.4}%
-\contentsline {subsubsection}{\numberline {5.4.1}Reasoning behind document extracts being memorable}{17}{subsubsection.5.4.1}%
-\contentsline {subsubsection}{\numberline {5.4.2}Lin\TeX 's impact on document screen reader accessibility}{19}{subsubsection.5.4.2}%
-\contentsline {subsubsection}{\numberline {5.4.3}Areas of improvement for Lin\TeX \ usability}{19}{subsubsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.5}Hypothesis testing and discussion}{20}{subsection.5.5}%
-\contentsline {section}{\numberline {6}Discussion and reflection}{22}{section.6}%
-\contentsline {subsection}{\numberline {6.1}something}{22}{subsection.6.1}%
-\contentsline {section}{\numberline {7}Conclusion}{23}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Project summary}{23}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Project limitations}{23}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Achievements -- potentially optional/swap with final thoughts or another area?}{23}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Future work}{23}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Reflection}{23}{subsection.7.5}%
-\contentsline {subsection}{\numberline {7.6}Final thoughts}{23}{subsection.7.6}%
-\contentsline {section}{\numberline {A}Appendix}{25}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Ethical approval form}{25}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Participant information sheet}{25}{subsection.A.2}%
-\contentsline {subsection}{\numberline {A.3}Consent form}{25}{subsection.A.3}%
-\contentsline {subsection}{\numberline {A.4}User study script}{25}{subsection.A.4}%
+\contentsline {subsection}{\numberline {2.1}Choice of programming language}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Choosing a \acrshort {peg} library under the Go programming language}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Choice of frameworks and libraries}{5}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Backend frameworks and libraries}{5}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Frontend frameworks and libraries}{7}{subsubsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.4}Guidelines for accessibility}{7}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Choosing a software development methodology}{8}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Screen reader choice}{9}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}User study design choices}{10}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Designing a \acrshort {gui}}{10}{subsection.2.8}%
+\contentsline {section}{\numberline {3}Specification \& Design}{11}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Methodology}{11}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Analysis}{11}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Requirements}{11}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Functional Requirements}{12}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Non-Functional Requirements}{12}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}Design}{12}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Interface Design}{12}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}System Design}{13}{subsubsection.3.4.2}%
+\contentsline {section}{\numberline {4}Implementation}{14}{section.4}%
+\contentsline {subsection}{\numberline {4.1}general overview of technologies used}{14}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}website with server-client relationship}{14}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}possibly include things about peg}{14}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}verification \& validation}{14}{subsection.4.4}%
+\contentsline {section}{\numberline {5}User study}{15}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Study design}{15}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Hypothesis}{15}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Results}{16}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Memorable document extracts}{16}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.2}\Gls {accessible_doc} and \gls {inaccessible_doc} comparisons}{16}{subsubsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.3}Applying student's paired t-test}{18}{subsubsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.4}Likelihood to support screen reader users}{19}{subsubsection.5.3.4}%
+\contentsline {subsubsection}{\numberline {5.3.5}Lin\TeX \ usability focuses}{19}{subsubsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.4}Analysis}{19}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Reasoning behind document extracts being memorable}{19}{subsubsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.2}Lin\TeX 's impact on document screen reader accessibility}{21}{subsubsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.3}Areas of improvement for Lin\TeX \ usability}{21}{subsubsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.5}Hypothesis testing and discussion}{22}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Discussion and reflection}{24}{section.6}%
+\contentsline {subsection}{\numberline {6.1}something}{24}{subsection.6.1}%
+\contentsline {section}{\numberline {7}Conclusion}{25}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Project summary}{25}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Project limitations}{25}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Achievements -- potentially optional/swap with final thoughts or another area?}{25}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Future work}{25}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Reflection}{25}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Final thoughts}{25}{subsection.7.6}%
+\contentsline {section}{\numberline {A}Appendix}{27}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Ethical approval form}{27}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Participant information sheet}{27}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Consent form}{27}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}User study script}{27}{subsection.A.4}%

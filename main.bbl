@@ -574,49 +574,38 @@
       \verb https://tailwindcss.com/
       \endverb
     \endentry
-    \entry{turing1950computing}{article}{}{}
+    \entry{wcag}{misc}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=fdc523429c3c89c34880f733033f2099}{%
-           family={Turing},
-           familyi={T\bibinitperiod},
-           given={A.\bibnamedelimi M.},
-           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {English}%
+        {{un=0,uniquepart=base,hash=446a1ae6601a5c59360c7d591c3992da}{%
+           family={W3C},
+           familyi={W\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Oxford University Press on behalf of the Mind Association}%
+        {W3C}%
       }
-      \strng{namehash}{fdc523429c3c89c34880f733033f2099}
-      \strng{fullhash}{fdc523429c3c89c34880f733033f2099}
-      \strng{fullhashraw}{fdc523429c3c89c34880f733033f2099}
-      \strng{bibnamehash}{fdc523429c3c89c34880f733033f2099}
-      \strng{authorbibnamehash}{fdc523429c3c89c34880f733033f2099}
-      \strng{authornamehash}{fdc523429c3c89c34880f733033f2099}
-      \strng{authorfullhash}{fdc523429c3c89c34880f733033f2099}
-      \strng{authorfullhashraw}{fdc523429c3c89c34880f733033f2099}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \strng{namehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{fullhash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{fullhashraw}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{bibnamehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authorbibnamehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authornamehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authorfullhash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authorfullhashraw}{446a1ae6601a5c59360c7d591c3992da}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{00264423}
-      \field{journaltitle}{Mind}
-      \field{number}{236}
-      \field{series}{New Series}
-      \field{title}{Computing Machinery and Intelligence}
-      \field{volume}{59}
-      \field{year}{1950}
-      \field{pages}{433\bibrangedash 460}
-      \range{pages}{28}
+      \field{howpublished}{\url{https://www.w3.org/TR/WCAG22/}}
+      \field{note}{A {W3C} Recommendation}
+      \field{title}{{Web Content Accessibility Guidelines (WCAG) 2.2}}
+      \field{year}{2018}
       \verb{urlraw}
-      \verb http://www.jstor.org/stable/2251299
+      \verb https://www.w3.org/TR/WCAG22/
       \endverb
       \verb{url}
-      \verb http://www.jstor.org/stable/2251299
+      \verb https://www.w3.org/TR/WCAG22/
       \endverb
     \endentry
     \entry{t-test}{article}{}{}
