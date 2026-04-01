@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.19)  1 APR 2026 00:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.19)  1 APR 2026 01:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1781,11 +1781,7 @@ Underfull \hbox (badness 1062) in paragraph at lines 12--12
 []|\OT1/cmss/m/n/10.95 Images being plain file names made it difficult to
  []
 
-) (./tables/simple_aspects.tex
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [14]
+) (./tables/simple_aspects.tex [14])
 
 Package biblatex Warning: Bibliography string 'and' untranslated
 (biblatex)                at entry 't-test' on input line 52.
@@ -1950,7 +1946,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmtt10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/c
 m-super/sfss1095.pfb>
-Output written on main.pdf (31 pages, 1564648 bytes).
+Output written on main.pdf (31 pages, 1564634 bytes).
 PDF statistics:
  744 PDF objects out of 1000 (max. 8388607)
  667 compressed objects within 7 object streams
