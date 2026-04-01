@@ -19,7 +19,250 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
-    \entry{user_study_definition}{article}{}{}
+    \entry{go-latex}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=4deca51279e2c843f94964a553499fcb}{%
+           family={Authors},
+           familyi={A\bibinitperiod},
+           given={The},
+           giveni={T\bibinitperiod},
+           givenun=1,
+           prefix={go-latex},
+           prefixi={l\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {The go-latex Authors}%
+      }
+      \strng{namehash}{4deca51279e2c843f94964a553499fcb}
+      \strng{fullhash}{4deca51279e2c843f94964a553499fcb}
+      \strng{fullhashraw}{4deca51279e2c843f94964a553499fcb}
+      \strng{bibnamehash}{4deca51279e2c843f94964a553499fcb}
+      \strng{authorbibnamehash}{4deca51279e2c843f94964a553499fcb}
+      \strng{authornamehash}{4deca51279e2c843f94964a553499fcb}
+      \strng{authorfullhash}{4deca51279e2c843f94964a553499fcb}
+      \strng{authorfullhashraw}{4deca51279e2c843f94964a553499fcb}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{hhttps://pkg.go.dev/codeberg.org/go-latex/latex}}
+      \field{title}{latex}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://pkg.go.dev/codeberg.org/go-latex/latex
+      \endverb
+      \verb{url}
+      \verb https://pkg.go.dev/codeberg.org/go-latex/latex
+      \endverb
+    \endentry
+    \entry{bootstrap}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=5fc33b74e418f40aad5d15f54b9e1727}{%
+           family={Authors},
+           familyi={A\bibinitperiod},
+           given={The\bibnamedelima Bootstrap},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {The Bootstrap Authors}%
+      }
+      \strng{namehash}{5fc33b74e418f40aad5d15f54b9e1727}
+      \strng{fullhash}{5fc33b74e418f40aad5d15f54b9e1727}
+      \strng{fullhashraw}{5fc33b74e418f40aad5d15f54b9e1727}
+      \strng{bibnamehash}{5fc33b74e418f40aad5d15f54b9e1727}
+      \strng{authorbibnamehash}{5fc33b74e418f40aad5d15f54b9e1727}
+      \strng{authornamehash}{5fc33b74e418f40aad5d15f54b9e1727}
+      \strng{authorfullhash}{5fc33b74e418f40aad5d15f54b9e1727}
+      \strng{authorfullhashraw}{5fc33b74e418f40aad5d15f54b9e1727}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://getbootstrap.com/}}
+      \field{title}{Bootstrap}
+      \field{year}{2011}
+      \verb{urlraw}
+      \verb https://getbootstrap.com/
+      \endverb
+      \verb{url}
+      \verb https://getbootstrap.com/
+      \endverb
+    \endentry
+    \entry{os-exec}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=2,uniquepart=given,hash=59d69262db6547ef1814ef18759d6939}{%
+           family={Authors},
+           familyi={A\bibinitperiod},
+           given={The\bibnamedelima Go},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {The Go Authors}%
+      }
+      \strng{namehash}{59d69262db6547ef1814ef18759d6939}
+      \strng{fullhash}{59d69262db6547ef1814ef18759d6939}
+      \strng{fullhashraw}{59d69262db6547ef1814ef18759d6939}
+      \strng{bibnamehash}{59d69262db6547ef1814ef18759d6939}
+      \strng{authorbibnamehash}{59d69262db6547ef1814ef18759d6939}
+      \strng{authornamehash}{59d69262db6547ef1814ef18759d6939}
+      \strng{authorfullhash}{59d69262db6547ef1814ef18759d6939}
+      \strng{authorfullhashraw}{59d69262db6547ef1814ef18759d6939}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://pkg.go.dev/os/exec}}
+      \field{title}{Exec}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://pkg.go.dev/os/exec
+      \endverb
+      \verb{url}
+      \verb https://pkg.go.dev/os/exec
+      \endverb
+    \endentry
+    \entry{html-template}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=2,uniquepart=given,hash=59d69262db6547ef1814ef18759d6939}{%
+           family={Authors},
+           familyi={A\bibinitperiod},
+           given={The\bibnamedelima Go},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {The Go Authors}%
+      }
+      \strng{namehash}{59d69262db6547ef1814ef18759d6939}
+      \strng{fullhash}{59d69262db6547ef1814ef18759d6939}
+      \strng{fullhashraw}{59d69262db6547ef1814ef18759d6939}
+      \strng{bibnamehash}{59d69262db6547ef1814ef18759d6939}
+      \strng{authorbibnamehash}{59d69262db6547ef1814ef18759d6939}
+      \strng{authornamehash}{59d69262db6547ef1814ef18759d6939}
+      \strng{authorfullhash}{59d69262db6547ef1814ef18759d6939}
+      \strng{authorfullhashraw}{59d69262db6547ef1814ef18759d6939}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://pkg.go.dev/html/template}}
+      \field{title}{html/template}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://pkg.go.dev/html/template
+      \endverb
+      \verb{url}
+      \verb https://pkg.go.dev/html/template
+      \endverb
+    \endentry
+    \entry{net-http}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=2,uniquepart=given,hash=59d69262db6547ef1814ef18759d6939}{%
+           family={Authors},
+           familyi={A\bibinitperiod},
+           given={The\bibnamedelima Go},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {The Go Authors}%
+      }
+      \strng{namehash}{59d69262db6547ef1814ef18759d6939}
+      \strng{fullhash}{59d69262db6547ef1814ef18759d6939}
+      \strng{fullhashraw}{59d69262db6547ef1814ef18759d6939}
+      \strng{bibnamehash}{59d69262db6547ef1814ef18759d6939}
+      \strng{authorbibnamehash}{59d69262db6547ef1814ef18759d6939}
+      \strng{authornamehash}{59d69262db6547ef1814ef18759d6939}
+      \strng{authorfullhash}{59d69262db6547ef1814ef18759d6939}
+      \strng{authorfullhashraw}{59d69262db6547ef1814ef18759d6939}
+      \field{extraname}{3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://pkg.go.dev/net/http}}
+      \field{title}{net/http}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://pkg.go.dev/net/http
+      \endverb
+      \verb{url}
+      \verb https://pkg.go.dev/net/http
+      \endverb
+    \endentry
+    \entry{gorilla-mux}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=2,uniquepart=given,hash=1d2ecb4eae4e6fed33b97635858e98a3}{%
+           family={Authors},
+           familyi={A\bibinitperiod},
+           given={The\bibnamedelima Gorilla},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {The Gorilla Authors}%
+      }
+      \strng{namehash}{1d2ecb4eae4e6fed33b97635858e98a3}
+      \strng{fullhash}{1d2ecb4eae4e6fed33b97635858e98a3}
+      \strng{fullhashraw}{1d2ecb4eae4e6fed33b97635858e98a3}
+      \strng{bibnamehash}{1d2ecb4eae4e6fed33b97635858e98a3}
+      \strng{authorbibnamehash}{1d2ecb4eae4e6fed33b97635858e98a3}
+      \strng{authornamehash}{1d2ecb4eae4e6fed33b97635858e98a3}
+      \strng{authorfullhash}{1d2ecb4eae4e6fed33b97635858e98a3}
+      \strng{authorfullhashraw}{1d2ecb4eae4e6fed33b97635858e98a3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://pkg.go.dev/github.com/gorilla/mux}}
+      \field{title}{gorilla/mux}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://pkg.go.dev/github.com/gorilla/mux
+      \endverb
+      \verb{url}
+      \verb https://pkg.go.dev/github.com/gorilla/mux
+      \endverb
+    \endentry
+    \entry{user_study_definition}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=69ad3ae014cdf76b67a2c70a2de05e3b}{%
            family={Center},
@@ -58,7 +301,7 @@
       \verb https://gic.delaware.gov/what-is-user-research-and-why-should-it-be-a-part-of-your-process/
       \endverb
     \endentry
-    \entry{right-tailed_test}{article}{}{}
+    \entry{right-tailed_test}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7793b130bbd2e2f644271117e72e7d95}{%
            family={Exeter},
@@ -100,6 +343,120 @@
       \verb https://libguides.exeter.ac.uk/c.php?g=729256&p=5313318
       \endverb
     \endentry
+    \entry{flowbite}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fc7eab67dde5cf7113a5ff346f55e9e5}{%
+           family={Inc.},
+           familyi={I\bibinitperiod},
+           given={Bergside},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Bergside Inc.}%
+      }
+      \strng{namehash}{fc7eab67dde5cf7113a5ff346f55e9e5}
+      \strng{fullhash}{fc7eab67dde5cf7113a5ff346f55e9e5}
+      \strng{fullhashraw}{fc7eab67dde5cf7113a5ff346f55e9e5}
+      \strng{bibnamehash}{fc7eab67dde5cf7113a5ff346f55e9e5}
+      \strng{authorbibnamehash}{fc7eab67dde5cf7113a5ff346f55e9e5}
+      \strng{authornamehash}{fc7eab67dde5cf7113a5ff346f55e9e5}
+      \strng{authorfullhash}{fc7eab67dde5cf7113a5ff346f55e9e5}
+      \strng{authorfullhashraw}{fc7eab67dde5cf7113a5ff346f55e9e5}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://flowbite.com/}}
+      \field{title}{Flowbite}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://flowbite.com/
+      \endverb
+      \verb{url}
+      \verb https://flowbite.com/
+      \endverb
+    \endentry
+    \entry{latex-fast-compile}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=386050d9339291b8105a8a69126e5aa0}{%
+           family={Kpym},
+           familyi={K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Kpym}%
+      }
+      \strng{namehash}{386050d9339291b8105a8a69126e5aa0}
+      \strng{fullhash}{386050d9339291b8105a8a69126e5aa0}
+      \strng{fullhashraw}{386050d9339291b8105a8a69126e5aa0}
+      \strng{bibnamehash}{386050d9339291b8105a8a69126e5aa0}
+      \strng{authorbibnamehash}{386050d9339291b8105a8a69126e5aa0}
+      \strng{authornamehash}{386050d9339291b8105a8a69126e5aa0}
+      \strng{authorfullhash}{386050d9339291b8105a8a69126e5aa0}
+      \strng{authorfullhashraw}{386050d9339291b8105a8a69126e5aa0}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://pkg.go.dev/github.com/kpym/latex-fast-compile}}
+      \field{title}{latex-fast-compile}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://pkg.go.dev/github.com/kpym/latex-fast-compile
+      \endverb
+      \verb{url}
+      \verb https://pkg.go.dev/github.com/kpym/latex-fast-compile
+      \endverb
+    \endentry
+    \entry{go-gin}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dc2dbffac89fe756303c01271c9acdcf}{%
+           family={Martínez-Almeida},
+           familyi={M\bibinithyphendelim A\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {gin-gonic}%
+      }
+      \strng{namehash}{dc2dbffac89fe756303c01271c9acdcf}
+      \strng{fullhash}{dc2dbffac89fe756303c01271c9acdcf}
+      \strng{fullhashraw}{dc2dbffac89fe756303c01271c9acdcf}
+      \strng{bibnamehash}{dc2dbffac89fe756303c01271c9acdcf}
+      \strng{authorbibnamehash}{dc2dbffac89fe756303c01271c9acdcf}
+      \strng{authornamehash}{dc2dbffac89fe756303c01271c9acdcf}
+      \strng{authorfullhash}{dc2dbffac89fe756303c01271c9acdcf}
+      \strng{authorfullhashraw}{dc2dbffac89fe756303c01271c9acdcf}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://pkg.go.dev/github.com/gin-gonic/gin}}
+      \field{title}{Gin Web Framework}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://pkg.go.dev/github.com/gin-gonic/gin
+      \endverb
+      \verb{url}
+      \verb https://pkg.go.dev/github.com/gin-gonic/gin
+      \endverb
+    \endentry
     \entry{latexturingcomplete}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=fca8b3ce3b39a33bbf0e7cc15436d2aa}{%
@@ -137,6 +494,84 @@
       \endverb
       \verb{url}
       \verb https://www.overleaf.com/learn/latex/Articles/LaTeX_is_More_Powerful_than_you_Think_-_Computing_the_Fibonacci_Numbers_and_Turing_Completeness
+      \endverb
+    \endentry
+    \entry{htmx}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=112f7a20de2087d35b1c1792dfeebe2f}{%
+           family={Software},
+           familyi={S\bibinitperiod},
+           given={Big\bibnamedelima Sky},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Big Sky Software}%
+      }
+      \strng{namehash}{112f7a20de2087d35b1c1792dfeebe2f}
+      \strng{fullhash}{112f7a20de2087d35b1c1792dfeebe2f}
+      \strng{fullhashraw}{112f7a20de2087d35b1c1792dfeebe2f}
+      \strng{bibnamehash}{112f7a20de2087d35b1c1792dfeebe2f}
+      \strng{authorbibnamehash}{112f7a20de2087d35b1c1792dfeebe2f}
+      \strng{authornamehash}{112f7a20de2087d35b1c1792dfeebe2f}
+      \strng{authorfullhash}{112f7a20de2087d35b1c1792dfeebe2f}
+      \strng{authorfullhashraw}{112f7a20de2087d35b1c1792dfeebe2f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://htmx.org/}}
+      \field{title}{HTMX}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://htmx.org/
+      \endverb
+      \verb{url}
+      \verb https://htmx.org/
+      \endverb
+    \endentry
+    \entry{tailwind}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=766d42c0267fcbdbbd0d67b32f6642ff}{%
+           family={Tailwind\bibnamedelima Labs},
+           familyi={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Inc.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Tailwind Labs, Inc.}%
+      }
+      \strng{namehash}{766d42c0267fcbdbbd0d67b32f6642ff}
+      \strng{fullhash}{766d42c0267fcbdbbd0d67b32f6642ff}
+      \strng{fullhashraw}{766d42c0267fcbdbbd0d67b32f6642ff}
+      \strng{bibnamehash}{766d42c0267fcbdbbd0d67b32f6642ff}
+      \strng{authorbibnamehash}{766d42c0267fcbdbbd0d67b32f6642ff}
+      \strng{authornamehash}{766d42c0267fcbdbbd0d67b32f6642ff}
+      \strng{authorfullhash}{766d42c0267fcbdbbd0d67b32f6642ff}
+      \strng{authorfullhashraw}{766d42c0267fcbdbbd0d67b32f6642ff}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://tailwindcss.com/}}
+      \field{title}{Tailwind CSS}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://tailwindcss.com/
+      \endverb
+      \verb{url}
+      \verb https://tailwindcss.com/
       \endverb
     \endentry
     \entry{turing1950computing}{article}{}{}

@@ -11,44 +11,7 @@ Review between 5 and 10 authoritative sources. For research based projects, some
 This section will reference literature like this \cite{turing1950computing}. Sloppy referencing will (1) take time and effort, and (2) lose you marks if you don't do it.
 
 \subsection{(brief intro into background, such as accessibility or latex-related background)}
-\subsection{Choosing a programming language}
-\subsection{Choosing a \acrshort{peg} library under Go programming language}
-\subsection{Choice of libraries}
-- net/http
-- path/filepath (effectively the only option tbf)
-- html/template (effectively the only option tbf, outside of raw print?)
-- os \& os/exec
-\subsection{guidelines for accessibility}
-- guidelines should be understood by me
-- languages guidelines are written in
-- check if authority publishiing guidelines is a good source i.e. is an international standard instead of a random person
-\subsection{Choosing a software development methodology}
-\subsection{Choosing a screen reader}
-\subsection{\nmu User \nmu study design choices}\label{backg:user_study_design}
-\subsection{Designing a GUI}
-- Tailwind choice?
-- Flowbite choice?
-- Potential HTMX usage if time allowed for it?
-
-\subsection{from nov progress}
-% Summary of Related Work:
-% This can be covered by the competitive evaluation of shopping lists of
-% criteria for the candidates, plus identifying "things" that have
-% influenced your decisions / design. For example if you are making a
-% game, then you would review other games that are influencing you but
-% limited to those aspects (so not writing a magazine / website review of
-% a game).
-
-% You may summarise one or more former project student's work if it's
-% relevant (from the Edinburgh lists I posted).
-
-% All of you will want to cite guidelines for designing the user
-% interface; with additional cites for accessibility-related matters; and
-% further cites for designing your user study.
-
-% approximately 5 pages
-
-\subsection{Programming Language Comparisons}
+\subsection{Choice of programming language}
 There were many considerations when deciding what programming language to write \lintexspaced in. Languages chosen were based on those that I had prior experience in, to ensure minimal hinderance from the language itself to the development of the project. An important factor is ensuring \lintex's maintainability in the future. Therefore, only the languages which have actively maintained \acrfull{peg} libraries will be considered, as can be seen in \tableref{table:language_peg_frameworks}. The most recent update times provided in \tableref{table:language_peg_frameworks} are in reference to 24\textsuperscript{th} November 2025.
 
 \input{tables/languages_peg_frameworks}
@@ -63,35 +26,40 @@ It should be noted that while Go, C, C\#, and C++ are not directly compatible wi
 
 This leaves us with a focus placed on JavaScript, Go, and TypeScript. However, JavaScript will be removed from consideration as a strictly typed language is preferred for our context. Therefore, leaving Go and TypeScript as the main considerations for this project. Finally, as I have more experience and a stronger preference towards Go as opposed to TypeScript, it was the chosen programming language for the project.
 
-\subsection{Library Comparison}
+\subsection{Choosing a \acrshort{peg} library under the Go programming language}
 Go has two libraries that are used in relation to \acrshort{peg} systems: Pigeon by Martin Angers (mna), and \acrshort{peg} by Andrew Snodgrass (pointlander). Direct comparisons with core components of both have been made in \tableref{table:peg_pigeon_comparison}.
 
 \input{tables/peg_pigeon_comparison}
 
 While examples are relatively similar, the simplicity of installation for Pigeon as opposed to \acrshort{peg}, combined with the depths of documentation both in generated code and outwith it, makes Pigeon a more ideal option. Additionally, its greater number of features gives LinTeX more to make use of. Therefore, Pigeon was the chosen library for the project.
 
-\subsection{Design Focus}
-LinTeX will take strong inspiration from Integrated Development Environments (IDEs) with regards to its User Interface/User Experience (UI/UX) design. This is because LaTeX in structure, is similar to a programming language, even being Turing complete \cite{latexturingcomplete}. Hence, an environment suitable to programming is suitable to LaTeX, with some special considerations put aside for its quirks. For example, depending on the user's screen size and preferences, they may wish to have the output of the LaTeX documents taking up half of the screen, a separate browser window or monitor, or out of the way until compilation. 
+\subsection{Choice of frameworks and libraries}
+\subsubsection{Backend frameworks and libraries}
+There were three options for web frameworks and packages, namely Gin \parencite{go-gin}, Gorilla \parencite{gorilla-mux}, and net/http \parencite{net-http}. For \lintex , net/http was chosen for the key reason that it had the least barriers to entry, as there was a provided guide on the Go development website that was utilised in the project setup. However, in hindsight more consideration towards what web framework to use would have had a great impact on the project as a whole, as net/http is a lower level web framework than Gin or Gorilla, consequently requiring more management on \lintex's end. Some examples of difficulties that occurred is a lack of POST requests being easily supported and necessitating server files are explicitly stated as opposed to implicitly defined within a given context.
 
-% if you're reading this, you owe me maryland cookies
-% \subsection{TABLE FOR REFERENCE}
-% \begin{center}
-% Table 1.1: Choosing a Programming Language
-% \begin{adjustbox}{width=\textwidth}
-% \begin{tabular}{ c | c | c | c | c | c | c}
-% Language & Experience Level & Web Development Support & PEG Framework Exists & PEG Framework in Development & Personal Preference Prioritization & DevWeb Support \\
-% \hline
-% Python & Medium & Yes & https://pythonhosted.org/pyPEG2/ \newline https://github.com/erikrose/parsimonious & No, PyPEG2 was last updated in October 2015 \newline Yes, parsimonious was last updated in November 2025 & 5 & Yes \\
-% JavaScript & High & Yes & htps://peggyjs.org/ & Yes, last updated in September 2025 & 4 & Yes \\
-% Go & Medium in Go, High in \href{https://pkg.go.dev/text/template}{Text/Template Scripting Language} & https://github.com/pointlander/peg & Yes, last updated in November 2025 & 1 & Yes, as CGI scripts \\
-% C & Low & No, except for rare exceptions & N/A & N/A & 8 & No \\
-% Java & Medium & Yes, but not generally used & https://github.com/sirthias/parboiled & Yes, last updated in November 2025 & 7 & Yes \\
-% C\# & High & Yes, but doesn’t seem great & https://github.com/otac0n/Pegasus & No, last updated in December 2023 & 2 & No \\ 
-% C++ & Low & Yes, but doesn’t seem great & https://github.com/yhirose/cpp-peglib & Yes, last updated in July 2025  & 9 & No \\
-% PHP & Medium & Yes & https://github.com/hafriedlander/php-peg & No, last updated May 2014 & 10 & Yes \\
-% TypeScript & Medium & Yes & https://github.com/EoinDavey/tsPEG  & Yes, last updated in November 2025 & 3 & Yes \\
-% Dart & Low & Yes & https://github.com/darmie/dart-peg  & No, last updated July 2015 & 6 & Yes \\
-% \end{tabular}
-% \end{adjustbox}
-% \end{center}
-\clearpage
+The html/template \parencite{html-template} package was included in the project. This package provided the ability to load \acrfull{html} files through Go, while allowing information to be provided to them. The alternative choice was to provide a raw print output to the client, which made the package a far more clear winner.
+
+For the project to be able to compile \latexspaced documents to convert them into \acrshortpl{pdf}, it was necessary to either use a pre-built package or to compile \latexspaced documents locally. Pre-built packages that were found include go-latex \parencite{go-latex} and latex-fast-compile \parencite{latex-fast-compile}. It was necessary to rule out go-latex as it emulated a \latexspaced compiler, rather than directly linking to one. Additionally, it lacked documentation and necessary features making it unsuitable. Latex-fast-compile was also unsuitable due to using \pdflatexspaced rather than \lualatexspaced which was desired.
+
+Consequently, it became necessary to compile \latexspaced documents directly. This was done through the use of \acrfull{cmd} which allowed the `lualatex' command to be ran, consequently compiling the requested file. It did, however, prerequisite that the hosting server had a \latexspaced compiler in their backend, for the relevant \lualatexspaced engine. The os/exec \parencite{os-exec} package allowed for a \acrshort{cmd} shell to be created within Go code, consequently allowing the `lualatex' command to be ran. Hence, compiling the \latexspaced document that the user provides.
+
+\subsubsection{Frontend frameworks and libraries}
+As plain \acrfull{css} is difficult to work with and maintain, it was necessary to decide on a \acrshort{css} framework for the project. My prior experience in Bootstrap \parencite{bootstrap} made it a close choice, but the opportunity to learn to utilise Tailwind CSS \parencite{tailwind} was more enticing and eventually won the decision.
+
+To implement Tailwind CSS, it was necessary to install its \acrfull{cli} through \acrfull{npm}. This permitted usage of Tailwind CSS without necessitating \acrfull{js} within the codebase, and avoided workarounds such as a \acrfull{cdn}. Additionally, due to difficulties in using Tailwind CSS, it was necessary to utilise a component library built on top of it, for which Flowbite \parencite{flowbite} was chosen as it could be used as almost plug-and-play.
+
+To ensure appropriate responsiveness of \lintex, it was necessary to be able to introduce updates in real time. For this, HTMX \parencite{htmx} was utilised, as it is a tool that permits \acrshort{html} tags other than the `a' and `form' tags to send \acrfull{http} requests to the server. For example, it is possible to use HTMX to create a \acrshort{http} request when a given key is pressed through its event management.
+
+\subsection{guidelines for accessibility}
+- guidelines should be understood by me
+- languages guidelines are written in
+- check if authority publishing guidelines is a good source i.e. is an international standard instead of a random person
+\subsection{Choosing a software development methodology}
+\subsection{Choosing a screen reader}
+\subsection{\nmu User \nmu study design choices}\label{backg:user_study_design}
+\subsection{Designing a \acrshort{gui}}
+LinTeX will take strong inspiration from Integrated Development Environments (IDEs) with regards to its User Interface/User Experience (UI/UX) design. This is because LaTeX in structure, is similar to a programming language, even being Turing complete \cite{latexturingcomplete}. Hence, an environment suitable to programming is suitable to LaTeX, with some special considerations put aside for its quirks. For example, depending on the user's screen size and preferences, they may wish to have the output of the LaTeX documents taking up half of the screen, a separate browser window or monitor, or out of the way until compilation.
+
+- Tailwind choice?
+- Flowbite choice?
+- Potential HTMX usage if time allowed for it?
