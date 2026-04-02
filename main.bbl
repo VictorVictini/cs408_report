@@ -19,6 +19,42 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
+    \entry{pigeon}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8be94306f3ac1ae17d5c9ccaa921296b}{%
+           family={Angers},
+           familyi={A\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{8be94306f3ac1ae17d5c9ccaa921296b}
+      \strng{fullhash}{8be94306f3ac1ae17d5c9ccaa921296b}
+      \strng{fullhashraw}{8be94306f3ac1ae17d5c9ccaa921296b}
+      \strng{bibnamehash}{8be94306f3ac1ae17d5c9ccaa921296b}
+      \strng{authorbibnamehash}{8be94306f3ac1ae17d5c9ccaa921296b}
+      \strng{authornamehash}{8be94306f3ac1ae17d5c9ccaa921296b}
+      \strng{authorfullhash}{8be94306f3ac1ae17d5c9ccaa921296b}
+      \strng{authorfullhashraw}{8be94306f3ac1ae17d5c9ccaa921296b}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://pkg.go.dev/github.com/mna/pigeon}}
+      \field{title}{pigeon - a PEG parser generator for Go}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://pkg.go.dev/github.com/mna/pigeon
+      \endverb
+      \verb{url}
+      \verb https://pkg.go.dev/github.com/mna/pigeon
+      \endverb
+    \endentry
     \entry{go-latex}{misc}{}{}
       \name{author}{1}{}{%
         {{un=1,uniquepart=given,hash=4deca51279e2c843f94964a553499fcb}{%
@@ -713,6 +749,88 @@
       \endverb
       \verb{url}
       \verb https://www.hackerrank.com/
+      \endverb
+    \endentry
+    \entry{adapter_design_pattern}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=96dfef298f5fd8385c9bda34f6502377}{%
+           family={Shvets},
+           familyi={S\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Refactoring.Guru}%
+      }
+      \strng{namehash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{fullhash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{fullhashraw}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{bibnamehash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{authorbibnamehash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{authornamehash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{authorfullhash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{authorfullhashraw}{96dfef298f5fd8385c9bda34f6502377}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://refactoring.guru/design-patterns/adapter}}
+      \field{title}{Adapter, also known as: Wrapper}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://refactoring.guru/design-patterns/adapter
+      \endverb
+      \verb{url}
+      \verb https://refactoring.guru/design-patterns/adapter
+      \endverb
+    \endentry
+    \entry{composite_design_pattern}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=96dfef298f5fd8385c9bda34f6502377}{%
+           family={Shvets},
+           familyi={S\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Refactoring.Guru}%
+      }
+      \strng{namehash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{fullhash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{fullhashraw}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{bibnamehash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{authorbibnamehash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{authornamehash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{authorfullhash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{authorfullhashraw}{96dfef298f5fd8385c9bda34f6502377}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://refactoring.guru/design-patterns/composite}}
+      \field{title}{Composite, also known as: Object Tree}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://refactoring.guru/design-patterns/composite
+      \endverb
+      \verb{url}
+      \verb https://refactoring.guru/design-patterns/composite
       \endverb
     \endentry
     \entry{htmx}{misc}{}{}
