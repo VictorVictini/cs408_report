@@ -3,97 +3,100 @@
 \glsgroupheading{A}\relax \glsresetentrylist %
 \glossentry{accessible_doc}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{iv}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{9}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{17\delimN 18}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{23}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{25}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{8}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{16\delimN 17}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{22}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{24}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{42}}}%
 \glossentry{ai}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{1}}}%
 \glossentry{alt_text}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{9}}}%
+		\setentrycounter[]{page}\glsnumberformat{8}}}%
 \glossentry{ast}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{7}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{6}}}\glsgroupskip
 \glsgroupheading{B}\relax \glsresetentrylist %
 \glossentry{bdd}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{9\delimN 10}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{8\delimN 9}}}\glsgroupskip
 \glsgroupheading{C}\relax \glsresetentrylist %
 \glossentry{cdn}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{8}}}%
+		\setentrycounter[]{page}\glsnumberformat{7}}}%
 \glossentry{cgi}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{5}}}%
+		\setentrycounter[]{page}\glsnumberformat{4}}}%
 \glossentry{cli}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{8}}}%
+		\setentrycounter[]{page}\glsnumberformat{7}}}%
 \glossentry{cmd}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{8}}}%
+		\setentrycounter[]{page}\glsnumberformat{7}}}%
 \glossentry{css}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{8}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{7}}}\glsgroupskip
 \glsgroupheading{G}\relax \glsresetentrylist %
 \glossentry{gui}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{iii}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{12}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{11}}}\glsgroupskip
 \glsgroupheading{H}\relax \glsresetentrylist %
 \glossentry{html}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{7\delimN 8}}}%
+		\setentrycounter[]{page}\glsnumberformat{6\delimN 7}}}%
 \glossentry{http}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{8}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{7}}}\glsgroupskip
 \glsgroupheading{I}\relax \glsresetentrylist %
 \glossentry{ide}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{3}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{12}}}%
+		\setentrycounter[]{page}\glsnumberformat{11}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{26}}}%
 \glossentry{inaccessible_doc}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{iv\delimN v}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{17\delimN 18}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{23}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{25}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{11}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{16\delimN 17}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{22}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{24}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{40}}}\glsgroupskip
 \glsgroupheading{J}\relax \glsresetentrylist %
 \glossentry{js}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{8}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{7}}}\glsgroupskip
 \glsgroupheading{L}\relax \glsresetentrylist %
 \glossentry{likert}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{11\delimN 12}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{10\delimN 11}}}\glsgroupskip
 \glsgroupheading{M}\relax \glsresetentrylist %
 \glossentry{metadata}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{19}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{23}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{18}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{22}}}\glsgroupskip
 \glsgroupheading{N}\relax \glsresetentrylist %
 \glossentry{npm}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{8}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{7}}}\glsgroupskip
 \glsgroupheading{O}\relax \glsresetentrylist %
 \glossentry{os}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{iv}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{10}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{9}}}\glsgroupskip
 \glsgroupheading{P}\relax \glsresetentrylist %
 \glossentry{pdf}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{7}}}%
+		\setentrycounter[]{page}\glsnumberformat{6}}}%
 \glossentry{peg}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{iii\delimN iv}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{5\delimR 7}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{9}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{4\delimR 6}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{8}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{15}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{44}}}\glsgroupskip
 \glsgroupheading{Q}\relax \glsresetentrylist %
 \glossentry{qual_data}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{11}}}%
+		\setentrycounter[]{page}\glsnumberformat{10}}}%
 \glossentry{quan_data}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{11}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{10}}}\glsgroupskip
 \glsgroupheading{R}\relax \glsresetentrylist %
 \glossentry{right_tailed_alternative_hypothesis}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{25}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{24}}}\glsgroupskip
 \glsgroupheading{T}\relax \glsresetentrylist %
 \glossentry{tagging}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{1\delimR 3}}}%
+		\setentrycounter[]{page}\glsnumberformat{1\delimN 2}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{26}}}%
 \glossentry{tdd}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{9\delimN 10}}}%
+		\setentrycounter[]{page}\glsnumberformat{8\delimN 9}}}%
 \glossentry{think_aloud}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{11\delimN 12}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{10\delimN 11}}}\glsgroupskip
 \glsgroupheading{U}\relax \glsresetentrylist %
 \glossentry{uiux}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{12}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{11}}}\glsgroupskip
 \glsgroupheading{W}\relax \glsresetentrylist %
 \glossentry{wsl}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{7}}}%
+		\setentrycounter[]{page}\glsnumberformat{6}}}%
 \end{theglossary}\glossarypostamble

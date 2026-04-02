@@ -29,18 +29,6 @@ The following objectives were created for this context:
     \item \lintexspaced should be reasonably accessible, following the accessibility guidelines defined in \cref{backg:accessibility_guidelines}.
 \end{enumerate}
 
-\subsection{Limitations of the project}
-The following contain limitations are applied for this project:
-\begin{itemize}
-    \item \lintexspaced is not designed to handle the majority of parsing. Instead, it focuses on a few key elements that are related to the accessibility concerns targetted in our context. Otherwise, it handles a small amount of verification regarding the structure of individual lines and the overall document structure.
-    \item This project does not aim to provide automated fixes for errors encountered.
-    \item \lintexspaced does not contain an in-built screen reader. While some considerations were put aside for how this could be accomplished, it is not feasible to create an in-built screen reader with the timeframe allocated for this project, due to the vast considerations needed. It might even be a fair statement to consider it a project on its own.
-    \item \lintexspaced is not intended to find usage of outdated or incorrect accessibility, but rather to enhance a document's screen reader accessibility through additions to the document.
-    \item \lintexspaced is not intended to debug \latexspaced code, as a dedicated \acrfull{ide} and \texspaced engine should be used for this instead.
-    \item \lintexspaced expects code to compile in \lualatexspaced before its changes have been applied, with other \texspaced engines being considered outdated and consequently not supported for this context.
-    \item It is unfeasible to account for all \gls{tagging} options in our context. Therefore, a few key options have been selected based on what would be expected to have the most impact.
-\end{itemize}
-
 \subsection{Research questions}
 The following research questions cover the theoretical aspects of this project:
 \begin{enumerate}[label=\textbf{RQ\arabic*}]
