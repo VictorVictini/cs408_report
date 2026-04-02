@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.19)  2 APR 2026 13:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.19)  2 APR 2026 13:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1530,7 +1530,7 @@ ine 5.
 \openout10 = `main.lot'.
 
  [4] (./main.gls
-Underfull \hbox (badness 2644) in paragraph at lines 9--10
+Underfull \hbox (badness 2644) in paragraph at lines 12--13
 []|\OT1/cmss/m/n/10.95 text used in place of non-text components for
  []
 
@@ -1556,7 +1556,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                for \mkbibdateshort.
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 72--72
+Underfull \hbox (badness 1484) in paragraph at lines 77--77
 []|\OT1/cmss/m/n/10.95 data that can be represented in numerical form
  []
 
@@ -1571,20 +1571,35 @@ ignored error: Infinite glue shrinkage found in box being split [5
 
 ]) [6]
 (./sections/introduction.tex
+
+Package glossaries-extra Warning: Base acronym command \acrfull should not be u
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 3.
+
+
+
+Package glossaries-extra Warning: Base acronym command \acrlong should not be u
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 3.
+
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+3.
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 i
-      .e., issue(s) on which the research will focus, shall be clearly ident...
-[1
+l.26 
+      [1
 
 ]
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 40.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 33.
 
 
-LaTeX Warning: Reference `process' on page 2 undefined on input line 57.
+LaTeX Warning: Reference `process' on page 2 undefined on input line 50.
 
 [2]) [3] (./sections/background.tex
 
@@ -2194,20 +2209,16 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 [16
 
-] (./tables/document_summary_results.tex)
-(./figures/likert_scale_comparison.tex
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [17] (./tables/difficult_aspects.tex
+] (./tables/document_summary_results.tex) [17]
+(./figures/likert_scale_comparison.tex) (./tables/difficult_aspects.tex
 Underfull \hbox (badness 1062) in paragraph at lines 12--12
 []|\OT1/cmss/m/n/10.95 Images being plain file names made it difficult to
  []
 
-) (./tables/simple_aspects.tex [18])
+) [18] (./tables/simple_aspects.tex)
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 't-test' on input line 52.
+(biblatex)                at entry 't-test' on input line 54.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2216,8 +2227,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                loaded, is faulty or does not contain a definition
 (biblatex)                for \mkbibdateshort.
 
-(./figures/t-test_math.tex) [19] (./figures/screen_reader_support.tex)
-(./tables/lintex_usability.tex
+(./figures/t-test_math.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [19] (./figures/screen_reader_support.tex) (./tables/lintex_usability.tex
 Underfull \hbox (badness 1442) in paragraph at lines 17--17
 []|\OT1/cmss/m/n/10.95 Attempts were made to place the `tabular' group within t
 he required argument of
@@ -2436,12 +2450,12 @@ Package biblatex Warning: Bibliography string 'in' untranslated
 (biblatex)                at entry 't-test' on input line 194.
 
 [28] (./sections/appendix.tex
-<images/ethics_approval.pdf, id=871, 614.295pt x 794.97pt>
+<images/ethics_approval.pdf, id=882, 614.295pt x 794.97pt>
 File: images/ethics_approval.pdf Graphic file (type pdf)
 <use images/ethics_approval.pdf>
 Package pdftex.def Info: images/ethics_approval.pdf  used on input line 3.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<images/ethics_approval.pdf, id=873, page=1, 614.295pt x 794.97pt>
+<images/ethics_approval.pdf, id=884, page=1, 614.295pt x 794.97pt>
 File: images/ethics_approval.pdf Graphic file (type pdf)
 <use images/ethics_approval.pdf, page 1>
 Package pdftex.def Info: images/ethics_approval.pdf , page1 used on input line 
@@ -2473,12 +2487,12 @@ Package pdftex.def Info: images/ethics_approval.pdf , page1 used on input line
  [30
 
  <./images/ethics_approval.pdf>]
-<images/ethics_application.pdf, id=929, 614.295pt x 794.97pt>
+<images/ethics_application.pdf, id=940, 614.295pt x 794.97pt>
 File: images/ethics_application.pdf Graphic file (type pdf)
 <use images/ethics_application.pdf>
 Package pdftex.def Info: images/ethics_application.pdf  used on input line 6.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<images/ethics_application.pdf, id=931, page=1, 614.295pt x 794.97pt>
+<images/ethics_application.pdf, id=942, page=1, 614.295pt x 794.97pt>
 File: images/ethics_application.pdf Graphic file (type pdf)
 <use images/ethics_application.pdf, page 1>
 Package pdftex.def Info: images/ethics_application.pdf , page1 used on input li
@@ -2509,13 +2523,13 @@ ne 6.
 [32
 
  <./images/ethics_application.pdf>]
-<images/participant_info_sheet.pdf, id=987, 597.4822pt x 845.1575pt>
+<images/participant_info_sheet.pdf, id=998, 597.4822pt x 845.1575pt>
 File: images/participant_info_sheet.pdf Graphic file (type pdf)
 <use images/participant_info_sheet.pdf>
 Package pdftex.def Info: images/participant_info_sheet.pdf  used on input line 
 9.
 (pdftex.def)             Requested size: 597.48073pt x 845.15544pt.
-<images/participant_info_sheet.pdf, id=989, page=1, 597.4822pt x 845.1575pt>
+<images/participant_info_sheet.pdf, id=1000, page=1, 597.4822pt x 845.1575pt>
 File: images/participant_info_sheet.pdf Graphic file (type pdf)
 <use images/participant_info_sheet.pdf, page 1>
 Package pdftex.def Info: images/participant_info_sheet.pdf , page1 used on inpu
@@ -2545,12 +2559,12 @@ t line 9.
  [34
 
  <./images/participant_info_sheet.pdf>]
-<images/consent_form.pdf, id=1021, 597.55246pt x 845.07718pt>
+<images/consent_form.pdf, id=1032, 597.55246pt x 845.07718pt>
 File: images/consent_form.pdf Graphic file (type pdf)
 <use images/consent_form.pdf>
 Package pdftex.def Info: images/consent_form.pdf  used on input line 12.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-<images/consent_form.pdf, id=1023, page=1, 597.55246pt x 845.07718pt>
+<images/consent_form.pdf, id=1034, page=1, 597.55246pt x 845.07718pt>
 File: images/consent_form.pdf Graphic file (type pdf)
 <use images/consent_form.pdf, page 1>
 Package pdftex.def Info: images/consent_form.pdf , page1 used on input line 12.
@@ -2580,12 +2594,12 @@ Package pdftex.def Info: images/consent_form.pdf , page1 used on input line 12.
  [36
 
  <./images/consent_form.pdf>]
-<images/user_study_script.pdf, id=1061, 597.4822pt x 845.1575pt>
+<images/user_study_script.pdf, id=1072, 597.4822pt x 845.1575pt>
 File: images/user_study_script.pdf Graphic file (type pdf)
 <use images/user_study_script.pdf>
 Package pdftex.def Info: images/user_study_script.pdf  used on input line 15.
 (pdftex.def)             Requested size: 597.48073pt x 845.15544pt.
-<images/user_study_script.pdf, id=1063, page=1, 597.4822pt x 845.1575pt>
+<images/user_study_script.pdf, id=1074, page=1, 597.4822pt x 845.1575pt>
 File: images/user_study_script.pdf Graphic file (type pdf)
 <use images/user_study_script.pdf, page 1>
 Package pdftex.def Info: images/user_study_script.pdf , page1 used on input lin
@@ -2623,13 +2637,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 17.
 
-<images/inaccessible_document.pdf, id=1096, 597.53635pt x 845.04686pt>
+<images/inaccessible_document.pdf, id=1107, 597.53635pt x 845.04686pt>
 File: images/inaccessible_document.pdf Graphic file (type pdf)
 <use images/inaccessible_document.pdf>
 Package pdftex.def Info: images/inaccessible_document.pdf  used on input line 1
 8.
 (pdftex.def)             Requested size: 597.53488pt x 845.0448pt.
-<images/inaccessible_document.pdf, id=1098, page=1, 597.53635pt x 845.04686pt>
+<images/inaccessible_document.pdf, id=1109, page=1, 597.53635pt x 845.04686pt>
 File: images/inaccessible_document.pdf Graphic file (type pdf)
 <use images/inaccessible_document.pdf, page 1>
 Package pdftex.def Info: images/inaccessible_document.pdf , page1 used on input
@@ -2667,13 +2681,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 20.
 
-<images/accessible_document.pdf, id=1115, 597.53635pt x 845.04686pt>
+<images/accessible_document.pdf, id=1125, 597.53635pt x 845.04686pt>
 File: images/accessible_document.pdf Graphic file (type pdf)
 <use images/accessible_document.pdf>
 Package pdftex.def Info: images/accessible_document.pdf  used on input line 21.
 
 (pdftex.def)             Requested size: 597.53488pt x 845.0448pt.
-<images/accessible_document.pdf, id=1117, page=1, 597.53635pt x 845.04686pt>
+<images/accessible_document.pdf, id=1127, page=1, 597.53635pt x 845.04686pt>
 File: images/accessible_document.pdf Graphic file (type pdf)
 <use images/accessible_document.pdf, page 1>
 Package pdftex.def Info: images/accessible_document.pdf , page1 used on input l
@@ -2714,30 +2728,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 9E2B0108FAD50E5BFBF3EA30F30ED2E4;9420
-(rerunfilecheck)             After:  B67C244586CB41ADE2943A7AD099988B;9354.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 755DF735E04E2E887B76492E1AB18B92;9326.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 56567 strings out of 467538
- 1263691 string characters out of 5423724
- 2363197 words of memory out of 5000000
- 84496 multiletter control sequences out of 15000+600000
+ 56569 strings out of 467538
+ 1263748 string characters out of 5423724
+ 2363306 words of memory out of 5000000
+ 84498 multiletter control sequences out of 15000+600000
  640605 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,17n,108p,2525b,2056s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2755,10 +2756,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmtt10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/c
 m-super/sfss1095.pfb>
-Output written on main.pdf (50 pages, 2589851 bytes).
+Output written on main.pdf (50 pages, 2590685 bytes).
 PDF statistics:
- 1242 PDF objects out of 1440 (max. 8388607)
- 1073 compressed objects within 11 object streams
+ 1251 PDF objects out of 1440 (max. 8388607)
+ 1082 compressed objects within 11 object streams
  197 named destinations out of 1000 (max. 500000)
  570 words of extra memory for PDF output out of 10000 (max. 10000000)
 

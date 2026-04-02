@@ -1,26 +1,23 @@
 \section{Introduction}
 \subsection{Identifying \LaTeX's key accessibility problems for screen reader users}
-Similar to a tool like Microsoft Word, \latex is a tool used to process documents. However, \latex does this in a programmatical manner, likening it to a programming language, whereas Microsoft Word has a that
-
-
-- xetex
-    - came after pdflatex but before lualatex created for better font handling
-    - specify not under consideration
-        - since latex devs focused on lualatex
-    - was useful, but not used much
-    - 'could be considered evolutionary deadend'/might become one/find authorative source to say it is
-
-
-        - introduce latex here? - rough definition ig, and purpose
-            - (intended to be math textbook)
-            - (small paragraph)
+Similar to a tool like Microsoft Word, \latexspaced is a tool used to process documents. \latexspaced does this in a programmatical manner, likening it to a programming language, whereas Microsoft Word has a \acrfull{gui} which simplifies the process for an ordinary user. However, \latexspaced prevails in its ability to process scientific documents which may require graphs, images, tables, or advanced mathematical capabilities.
 
 \subsection{Why accessibility is important}
-        - who would benefit from it
+
+
+\parencite{accessibility_importance}
+
+- who would benefit from it
         - stats with disabilities e.g. how many people are blind and use screen readers
             - (use good sources e.g. government websites or world health organisations)
         - severity and frequency are considerations
 \subsection{Why LuaLaTeX provides better accessibility than PDFLaTeX}
+\pdflatexspaced was created to be a media printer, such that it produced PDF documents with the sole purpose of being printed out. Due to its innate design, this means it lacked support for screen reader users. Additionally, as its focus has shifted to maintenance rather than development, \pdflatexspaced is unsuitable for accessibility where requirements change frequently, making it an outdated \texspaced engine.
+
+The introduction of \xetexspaced improved font handling in \latex , yet its lifetime was short-lived, with it being considered an evolutionary deadend, at the addition of \lualatex.
+
+Unlike \pdflatex, \lualatexspaced was created for the purpose of creating electronic documents, giving its development a suitable reason to support screen reader users. Our tool, \lintex, utilises \lualatex's accessibility support, with emphasis placed on screen reader users.
+
 \subsection{Creating LinTeX}
         - intended purpose
         - (this section has the finished overview diagram)
