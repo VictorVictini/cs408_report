@@ -301,6 +301,45 @@
       \verb https://gic.delaware.gov/what-is-user-research-and-why-should-it-be-a-part-of-your-process/
       \endverb
     \endentry
+    \entry{accessibility_package}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8ed2327400553d11d09b7b6206b87726}{%
+           family={Clifton},
+           familyi={C\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Andy Clifton}%
+      }
+      \strng{namehash}{8ed2327400553d11d09b7b6206b87726}
+      \strng{fullhash}{8ed2327400553d11d09b7b6206b87726}
+      \strng{fullhashraw}{8ed2327400553d11d09b7b6206b87726}
+      \strng{bibnamehash}{8ed2327400553d11d09b7b6206b87726}
+      \strng{authorbibnamehash}{8ed2327400553d11d09b7b6206b87726}
+      \strng{authornamehash}{8ed2327400553d11d09b7b6206b87726}
+      \strng{authorfullhash}{8ed2327400553d11d09b7b6206b87726}
+      \strng{authorfullhashraw}{8ed2327400553d11d09b7b6206b87726}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/AndyClifton/accessibility}}
+      \field{title}{The Accessibility LaTeX package}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://github.com/AndyClifton/accessibility
+      \endverb
+      \verb{url}
+      \verb https://github.com/AndyClifton/accessibility
+      \endverb
+    \endentry
     \entry{codewars}{misc}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=abc07702bedff1eb43a32ad605e93d6a}{%
@@ -823,13 +862,52 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://leetcode.com/}}
-      \field{title}{Leetcode}
+      \field{title}{LeetCode}
       \field{year}{2015}
       \verb{urlraw}
       \verb https://leetcode.com/
       \endverb
       \verb{url}
       \verb https://leetcode.com/
+      \endverb
+    \endentry
+    \entry{accessibility_importance}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2b058e6395ae16e54c30c0e3410ed912}{%
+           family={University},
+           familyi={U\bibinitperiod},
+           given={Ulster},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Ulster University}%
+      }
+      \strng{namehash}{2b058e6395ae16e54c30c0e3410ed912}
+      \strng{fullhash}{2b058e6395ae16e54c30c0e3410ed912}
+      \strng{fullhashraw}{2b058e6395ae16e54c30c0e3410ed912}
+      \strng{bibnamehash}{2b058e6395ae16e54c30c0e3410ed912}
+      \strng{authorbibnamehash}{2b058e6395ae16e54c30c0e3410ed912}
+      \strng{authornamehash}{2b058e6395ae16e54c30c0e3410ed912}
+      \strng{authorfullhash}{2b058e6395ae16e54c30c0e3410ed912}
+      \strng{authorfullhashraw}{2b058e6395ae16e54c30c0e3410ed912}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.ulster.ac.uk/accessibility-standards/what}}
+      \field{title}{What is accessibility and why is it important?}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.ulster.ac.uk/accessibility-standards/what
+      \endverb
+      \verb{url}
+      \verb https://www.ulster.ac.uk/accessibility-standards/what
       \endverb
     \endentry
     \entry{wcag}{misc}{}{}

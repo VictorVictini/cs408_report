@@ -2,68 +2,48 @@
 \subsection{Identifying \LaTeX's key accessibility problems for screen reader users}
 Similar to a tool like Microsoft Word, \latexspaced is a tool used to process documents. \latexspaced does this in a programmatical manner, likening it to a programming language, whereas Microsoft Word has a \acrfull{gui} which simplifies the process for an ordinary user. However, \latexspaced prevails in its ability to process scientific documents which may require graphs, images, tables, or advanced mathematical capabilities.
 
+\latexspaced struggles to implement accessibility for screen readers, largely due to it not originally being built for that purpose, as explained in \cref{intro:lualatex_better_pdflatex}. Additionally, \latexspaced is broken by design, originally created as a set of macros built on the \texspaced typesetting engine that has evolved to the \lualatexspaced that we can work with in modern times.
+
+Additionally, \acrfull{pdf} files are built to not be changed, which adds difficulties in attempting to add \gls{tagging}.
 \subsection{Why accessibility is important}
+Accessibility has the potential to assist all users, even if it is aimed a few focus groups, with one such case being where an environment, such as a noisy train, restricts the user from hearing the audio output of a video. In this context, an accessibility feature such as subtitles on a video, ideally without \acrfull{ai} generation, can greatly enhance a user's experience.
 
+For example, in Northern Ireland alone, there are an estimated 8,000 users with sight loss \parencite{accessibility_importance}. These users may require the assistance of screen readers or someone else to read it out to them, which can add to their stresses, with the context simply not being built with their needs in mind.
 
-\parencite{accessibility_importance}
+Users with disabilities are over 50\% more likely to face difficulties due to a lack of digital inclusion \parencite{accessibility_importance}, which highlights the severity of its impact on a website's overall traffic. These users should not be an afterthought of the website's design, but rather a key focus.
 
-- who would benefit from it
-        - stats with disabilities e.g. how many people are blind and use screen readers
-            - (use good sources e.g. government websites or world health organisations)
-        - severity and frequency are considerations
-\subsection{Why LuaLaTeX provides better accessibility than PDFLaTeX}
-\pdflatexspaced was created to be a media printer, such that it produced PDF documents with the sole purpose of being printed out. Due to its innate design, this means it lacked support for screen reader users. Additionally, as its focus has shifted to maintenance rather than development, \pdflatexspaced is unsuitable for accessibility where requirements change frequently, making it an outdated \texspaced engine.
+\subsection{Why LuaLaTeX provides better accessibility than PDFLaTeX}\label{intro:lualatex_better_pdflatex}
+\pdflatexspaced was created to be a media printer, such that it produced PDF documents with the sole purpose of being printed out. Due to its innate design, this means it lacked support for screen reader users. \pdflatexspaced also frequently has outdated, or frankly broken, workarounds to implement accessibility, such as the accessibility package \parencite{accessibility_package} which has been deprecated since February 2021. Additionally, as its focus has shifted to maintenance rather than development, \pdflatexspaced is unsuitable for accessibility where requirements change frequently, making it an outdated \texspaced engine, which unfortunately still sees frequent usage.
 
-The introduction of \xetexspaced improved font handling in \latex , yet its lifetime was short-lived, with it being considered an evolutionary deadend, at the addition of \lualatex.
+The introduction of \xetexspaced improved font handling in \latex , yet its lifetime was short-lived, with it almost being considered an evolutionary deadend, at the addition of \lualatex.
 
-Unlike \pdflatex, \lualatexspaced was created for the purpose of creating electronic documents, giving its development a suitable reason to support screen reader users. Our tool, \lintex, utilises \lualatex's accessibility support, with emphasis placed on screen reader users.
+Unlike \pdflatex, \lualatexspaced was created for the purpose of creating electronic documents, giving its development a suitable reason to support screen reader users through use of \gls{alt_text} and \gls{tagging}. Our tool, \lintex, utilises \lualatex's accessibility support, with emphasis placed on screen reader users.
+\subsection{Aims and objectives}
+This project aimed to enhance \latexspaced documents' accessibility, with a focus placed on screen reader users, by creating a prototype, \lintex , which analyses a \latexspaced document to identify where to apply \gls{alt_text} and \gls{tagging}.
 
-\subsection{Creating LinTeX}
-        - intended purpose
-        - (this section has the finished overview diagram)
-\subsection{aims and objectives}
-\subsection{Limitations of the project overall}
-\subsection{research questions/hypothesis}
+The following objectives were created for this context:
+\begin{enumerate}[label=\textbf{OBJ\arabic*}]
+    \item The tool, \lintex , should be maintainable, as accessibility often requires changes to its handling.
+    \item \lintexspaced should improve a document's audio output in terms of its contents, when read by a screen reader.
+    \item \lintexspaced should provide useful error messages and descriptive.
+    \item \lintexspaced should be reasonably accessible, following the accessibility guidelines defined in \cref{backg:accessibility_guidelines}.
+\end{enumerate}
 
+\subsection{Limitations of the project}
+The following contain limitations are applied for this project:
+\begin{itemize}
+    \item \lintexspaced is not designed to handle the majority of parsing. Instead, it focuses on a few key elements that are related to the accessibility concerns targetted in our context. Otherwise, it handles a small amount of verification regarding the structure of individual lines and the overall document structure.
+    \item This project does not aim to provide automated fixes for errors encountered.
+    \item \lintexspaced does not contain an in-built screen reader. While some considerations were put aside for how this could be accomplished, it is not feasible to create an in-built screen reader with the timeframe allocated for this project, due to the vast considerations needed. It might even be a fair statement to consider it a project on its own.
+    \item \lintexspaced is not intended to find usage of outdated or incorrect accessibility, but rather to enhance a document's screen reader accessibility through additions to the document.
+    \item \lintexspaced is not intended to debug \latexspaced code, as a dedicated \acrfull{ide} and \texspaced engine should be used for this instead.
+    \item \lintexspaced expects code to compile in \lualatexspaced before its changes have been applied, with other \texspaced engines being considered outdated and consequently not supported for this context.
+    \item It is unfeasible to account for all \gls{tagging} options in our context. Therefore, a few key options have been selected based on what would be expected to have the most impact.
+\end{itemize}
 
-This is a concise and clear overview of your dissertation(more or less 2-3 pages). You can start off the project description provided of the project that was allocated to you and flesh it out.
-
-Include (1) the problem you have tackled, (2) why this problem is worth addressing, (3) what you did to address it - in broad terms. Detail will come later.
-
-
-
-i.e., issue(s) on which the research will focus, shall be clearly identified and described. You shall refer to past research work relevant to the topic and objectives, i.e, of the study. You shall outline where applicable the potential research output with respect to research transfer and uptake by the community.
-
-The introduction says: this is an overview of the project. This is why I did it (the problem) and how I tackled it. It is the \emph{runway} into the project. It lets the marker know what to expect of your report.
-
-If you're doing a research project, this would be the place to include the research questions you plan to address. For example:
-
-\begin{description}
-\item [RQ1:] Where did James Bond come from?
-
-\item [RQ2:] Why are pumpkins orange?
-\end{description}
-
-If you're doing a project of type 1, include a list of objectives. For example:
-\begin{description}
-\item [Objective 1:] Provide software to allow James Bond to become invisible.
-
-\item [Objective 2:] Provide software to keep track of all loyalty points in one place.
-\end{description}
-
-Provide a `map' of your dissertation. For example: Section \ref{backg} reviews the background literature that was reviewed to inform this project. Then Section \ref{process}.....
-
-\subsection{from nov progress}
-There is a lack of accessibility with \latex, largely due to usage of outdated PDFLaTeX as opposed to LuaLaTeX. Usage of this outdated TEX engine necessitates workarounds for desired features and accessibility in resulting PDF documents.
-
-\begin{quote}
-What can be done to make \latex documents more accessible?
-\end{quote}
-LinTeX is a developing tool dedicated to combat this problem by focusing on assisting screen readers' abilities to read the PDF documents produced from \latex documents. It aims to cover this area through suggesting structured tagging throughout a document, suggesting components where it may be lacking. Additionally, it will request users to input appropriate alternative text ('alt text') for non-text components of the document, including figures, images, and tables. Further focus may be placed on features such as ensuring appropriate contrast in any colours in the document, appropriate Sans Serif fonts, and flexible document design, largely depending on what development time allows for. 
-
-Additionally, as a tool focused on promoting accessibility, it too should be accessible. Therefore, the tool will ensure strict adherence to the Web Content Accessibility Guidelines 2 (WCAG 2)%~\cite{wcag} requirements with a focus placed on keeping it a simple and intuitive tool for users to make use of.
-
-\begin{quote}
-Why should I use LinTeX?
-\end{quote}
-While the tool is not limited strictly to the field, it is aimed to assist the many academics that find difficulties in accessing reports and academic literatures. By utilising this tool, you can ensure a wider demographic of users can view your documents, without necessitating an especially large amount of research in accessibility; it has been done for you.
+\subsection{Research questions}
+The following research questions cover the theoretical aspects of this project:
+\begin{enumerate}[label=\textbf{RQ\arabic*}]
+    \item What considerations are necessary to make a \latexspaced document accessible for screen reader users?\label{rq:accessibility_considerations}
+    \item Why does \latexspaced suffer a lack of accessibility for screen reader users?\label{rq:why_inaccessible}
+\end{enumerate}

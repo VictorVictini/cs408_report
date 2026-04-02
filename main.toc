@@ -5,12 +5,10 @@
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Identifying \LaTeX 's key accessibility problems for screen reader users}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Why accessibility is important}{1}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Why LuaLaTeX provides better accessibility than PDFLaTeX}{1}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Creating LinTeX}{1}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}aims and objectives}{2}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}Limitations of the project overall}{2}{subsection.1.6}%
-\contentsline {subsection}{\numberline {1.7}research questions/hypothesis}{2}{subsection.1.7}%
-\contentsline {subsection}{\numberline {1.8}from nov progress}{3}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.3}Why LuaLaTeX provides better accessibility than PDFLaTeX}{2}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Aims and objectives}{2}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Limitations of the project}{3}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Research questions}{3}{subsection.1.6}%
 \contentsline {section}{\numberline {2}Background Literature}{4}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Choice of programming language}{4}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Choosing a \acrshort {peg} library under the Go programming language}{5}{subsection.2.2}%
@@ -40,7 +38,7 @@
 \contentsline {subsection}{\numberline {4.4}verification \& validation}{15}{subsection.4.4}%
 \contentsline {section}{\numberline {5}User study}{16}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Study design}{16}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Hypothesis}{17}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.2}Hypotheses}{17}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Results}{17}{subsection.5.3}%
 \contentsline {subsubsection}{\numberline {5.3.1}Memorable document extracts}{17}{subsubsection.5.3.1}%
 \contentsline {subsubsection}{\numberline {5.3.2}\Gls {accessible_doc} and \gls {inaccessible_doc} comparisons}{17}{subsubsection.5.3.2}%
@@ -51,7 +49,7 @@
 \contentsline {subsubsection}{\numberline {5.4.1}Reasoning behind document extracts being memorable}{21}{subsubsection.5.4.1}%
 \contentsline {subsubsection}{\numberline {5.4.2}Lin\TeX 's impact on document screen reader accessibility}{22}{subsubsection.5.4.2}%
 \contentsline {subsubsection}{\numberline {5.4.3}Areas of improvement for Lin\TeX \ usability}{23}{subsubsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.5}Hypothesis testing and discussion}{24}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.5}Hypotheses testing and discussion}{24}{subsection.5.5}%
 \contentsline {section}{\numberline {6}Discussion and reflection}{25}{section.6}%
 \contentsline {subsection}{\numberline {6.1}something}{25}{subsection.6.1}%
 \contentsline {section}{\numberline {7}Conclusion}{26}{section.7}%
