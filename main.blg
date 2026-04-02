@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[236] biber-MSWIN64:342> INFO - === 
-[326] Biber.pm:421> INFO - Reading 'main.bcf'
-[451] Biber.pm:1002> INFO - Found 16 citekeys in bib section 0
-[466] Biber.pm:4487> INFO - Processing section 0
-[488] Biber.pm:4678> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[553] bibtex.pm:1713> INFO - LaTeX decoding ...
-[598] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
-[737] UCollate.pm:68> INFO - Overriding locale 'nil' defaults 'variable = shifted' with 'variable = non-ignorable'
-[737] UCollate.pm:68> INFO - Overriding locale 'nil' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[737] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'nil'
-[737] Biber.pm:4313> INFO - No sort tailoring available for locale 'nil'
-[790] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[798] bbl.pm:779> INFO - Output to main.bbl
+[152] biber-MSWIN64:342> INFO - === 
+[188] Biber.pm:421> INFO - Reading 'main.bcf'
+[310] Biber.pm:1002> INFO - Found 22 citekeys in bib section 0
+[325] Biber.pm:4487> INFO - Processing section 0
+[337] Biber.pm:4678> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[410] bibtex.pm:1713> INFO - LaTeX decoding ...
+[460] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[588] UCollate.pm:68> INFO - Overriding locale 'nil' defaults 'variable = shifted' with 'variable = non-ignorable'
+[588] UCollate.pm:68> INFO - Overriding locale 'nil' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[589] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'nil'
+[589] Biber.pm:4313> INFO - No sort tailoring available for locale 'nil'
+[617] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[629] bbl.pm:779> INFO - Output to main.bbl

@@ -301,6 +301,52 @@
       \verb https://gic.delaware.gov/what-is-user-research-and-why-should-it-be-a-part-of-your-process/
       \endverb
     \endentry
+    \entry{codewars}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=abc07702bedff1eb43a32ad605e93d6a}{%
+           family={Doctor},
+           familyi={D\bibinitperiod},
+           given={Nathan},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b35738b4fdab585433de4b032b259975}{%
+           family={Hoffner},
+           familyi={H\bibinitperiod},
+           given={Jake},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{2}{%
+        {Nathan Doctor}%
+        {Jake Hoffner}%
+      }
+      \strng{namehash}{ce2e6fe85c86b2c2988962bf27ef8dd2}
+      \strng{fullhash}{ce2e6fe85c86b2c2988962bf27ef8dd2}
+      \strng{fullhashraw}{ce2e6fe85c86b2c2988962bf27ef8dd2}
+      \strng{bibnamehash}{ce2e6fe85c86b2c2988962bf27ef8dd2}
+      \strng{authorbibnamehash}{ce2e6fe85c86b2c2988962bf27ef8dd2}
+      \strng{authornamehash}{ce2e6fe85c86b2c2988962bf27ef8dd2}
+      \strng{authorfullhash}{ce2e6fe85c86b2c2988962bf27ef8dd2}
+      \strng{authorfullhashraw}{ce2e6fe85c86b2c2988962bf27ef8dd2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.codewars.com/}}
+      \field{title}{CodeWars}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://www.codewars.com/
+      \endverb
+      \verb{url}
+      \verb https://www.codewars.com/
+      \endverb
+    \endentry
     \entry{right-tailed_test}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7793b130bbd2e2f644271117e72e7d95}{%
@@ -496,6 +542,140 @@
       \verb https://www.overleaf.com/learn/latex/Articles/LaTeX_is_More_Powerful_than_you_Think_-_Computing_the_Fibonacci_Numbers_and_Turing_Completeness
       \endverb
     \endentry
+    \entry{qual_data}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=851ca15cc76eda1c2c17a17975286687}{%
+           family={National\bibnamedelimb Library\bibnamedelimb of\bibnamedelima Medicine},
+           familyi={N\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Network},
+           giveni={N\bibinitperiod},
+           givenun=0,
+           prefix={of\bibnamedelima the},
+           prefixi={o\bibinitperiod\bibinitdelim t\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Network of the National Library of Medicine}%
+      }
+      \strng{namehash}{851ca15cc76eda1c2c17a17975286687}
+      \strng{fullhash}{851ca15cc76eda1c2c17a17975286687}
+      \strng{fullhashraw}{851ca15cc76eda1c2c17a17975286687}
+      \strng{bibnamehash}{851ca15cc76eda1c2c17a17975286687}
+      \strng{authorbibnamehash}{851ca15cc76eda1c2c17a17975286687}
+      \strng{authornamehash}{851ca15cc76eda1c2c17a17975286687}
+      \strng{authorfullhash}{851ca15cc76eda1c2c17a17975286687}
+      \strng{authorfullhashraw}{851ca15cc76eda1c2c17a17975286687}
+      \field{extraname}{1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.nnlm.gov/resources/data-glossary/qualitative-data}}
+      \field{title}{Qualitative Data}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.nnlm.gov/resources/data-glossary/qualitative-data
+      \endverb
+      \verb{url}
+      \verb https://www.nnlm.gov/resources/data-glossary/qualitative-data
+      \endverb
+    \endentry
+    \entry{quan_data}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=851ca15cc76eda1c2c17a17975286687}{%
+           family={National\bibnamedelimb Library\bibnamedelimb of\bibnamedelima Medicine},
+           familyi={N\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Network},
+           giveni={N\bibinitperiod},
+           givenun=0,
+           prefix={of\bibnamedelima the},
+           prefixi={o\bibinitperiod\bibinitdelim t\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Network of the National Library of Medicine}%
+      }
+      \strng{namehash}{851ca15cc76eda1c2c17a17975286687}
+      \strng{fullhash}{851ca15cc76eda1c2c17a17975286687}
+      \strng{fullhashraw}{851ca15cc76eda1c2c17a17975286687}
+      \strng{bibnamehash}{851ca15cc76eda1c2c17a17975286687}
+      \strng{authorbibnamehash}{851ca15cc76eda1c2c17a17975286687}
+      \strng{authornamehash}{851ca15cc76eda1c2c17a17975286687}
+      \strng{authorfullhash}{851ca15cc76eda1c2c17a17975286687}
+      \strng{authorfullhashraw}{851ca15cc76eda1c2c17a17975286687}
+      \field{extraname}{2}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.nnlm.gov/resources/data-glossary/quantitative-data}}
+      \field{title}{Quantitative Data}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.nnlm.gov/resources/data-glossary/quantitative-data
+      \endverb
+      \verb{url}
+      \verb https://www.nnlm.gov/resources/data-glossary/quantitative-data
+      \endverb
+    \endentry
+    \entry{hackerrank}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c2324bb79b60f8bea439b31138c9c5bf}{%
+           family={Ravisankar},
+           familyi={R\bibinitperiod},
+           given={Vivek},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9420965e673fbad5bda61f43bd5bdd8c}{%
+           family={Karunanidhi},
+           familyi={K\bibinitperiod},
+           given={Harishankaran},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{2}{%
+        {Vivek Ravisankar}%
+        {Harishankaran Karunanidhi}%
+      }
+      \strng{namehash}{3429ee61304b9d2a67772e125f50a01c}
+      \strng{fullhash}{3429ee61304b9d2a67772e125f50a01c}
+      \strng{fullhashraw}{3429ee61304b9d2a67772e125f50a01c}
+      \strng{bibnamehash}{3429ee61304b9d2a67772e125f50a01c}
+      \strng{authorbibnamehash}{3429ee61304b9d2a67772e125f50a01c}
+      \strng{authornamehash}{3429ee61304b9d2a67772e125f50a01c}
+      \strng{authorfullhash}{3429ee61304b9d2a67772e125f50a01c}
+      \strng{authorfullhashraw}{3429ee61304b9d2a67772e125f50a01c}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.hackerrank.com/}}
+      \field{title}{HackerRank}
+      \field{year}{2011}
+      \verb{urlraw}
+      \verb https://www.hackerrank.com/
+      \endverb
+      \verb{url}
+      \verb https://www.hackerrank.com/
+      \endverb
+    \endentry
     \entry{htmx}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=112f7a20de2087d35b1c1792dfeebe2f}{%
@@ -535,6 +715,45 @@
       \verb https://htmx.org/
       \endverb
     \endentry
+    \entry{likert}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5dc2854e8a3349c76ff97fe22c21f0eb}{%
+           family={Sullivan},
+           familyi={S\bibinitperiod},
+           given={Gail\bibnamedelima M.},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {National Center for Biotechnology Information}%
+      }
+      \strng{namehash}{5dc2854e8a3349c76ff97fe22c21f0eb}
+      \strng{fullhash}{5dc2854e8a3349c76ff97fe22c21f0eb}
+      \strng{fullhashraw}{5dc2854e8a3349c76ff97fe22c21f0eb}
+      \strng{bibnamehash}{5dc2854e8a3349c76ff97fe22c21f0eb}
+      \strng{authorbibnamehash}{5dc2854e8a3349c76ff97fe22c21f0eb}
+      \strng{authornamehash}{5dc2854e8a3349c76ff97fe22c21f0eb}
+      \strng{authorfullhash}{5dc2854e8a3349c76ff97fe22c21f0eb}
+      \strng{authorfullhashraw}{5dc2854e8a3349c76ff97fe22c21f0eb}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://pmc.ncbi.nlm.nih.gov/articles/PMC3886444/}}
+      \field{title}{Analyzing and Interpreting Data From Likert-Type Scales}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC3886444/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC3886444/
+      \endverb
+    \endentry
     \entry{tailwind}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=766d42c0267fcbdbbd0d67b32f6642ff}{%
@@ -572,6 +791,45 @@
       \endverb
       \verb{url}
       \verb https://tailwindcss.com/
+      \endverb
+    \endentry
+    \entry{leetcode}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a53fd3c67b603c24080d72512df99aec}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Winston},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Winston Tang}%
+      }
+      \strng{namehash}{a53fd3c67b603c24080d72512df99aec}
+      \strng{fullhash}{a53fd3c67b603c24080d72512df99aec}
+      \strng{fullhashraw}{a53fd3c67b603c24080d72512df99aec}
+      \strng{bibnamehash}{a53fd3c67b603c24080d72512df99aec}
+      \strng{authorbibnamehash}{a53fd3c67b603c24080d72512df99aec}
+      \strng{authornamehash}{a53fd3c67b603c24080d72512df99aec}
+      \strng{authorfullhash}{a53fd3c67b603c24080d72512df99aec}
+      \strng{authorfullhashraw}{a53fd3c67b603c24080d72512df99aec}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://leetcode.com/}}
+      \field{title}{Leetcode}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://leetcode.com/
+      \endverb
+      \verb{url}
+      \verb https://leetcode.com/
       \endverb
     \endentry
     \entry{wcag}{misc}{}{}
