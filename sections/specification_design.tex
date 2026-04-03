@@ -23,7 +23,7 @@ Non-functional requirements include:
 \end{itemize}
 The full list of functional requirements can be found in the appendix, namely \cref{appendix:non_func_requirements}
 
-\subsection{\lintexspaced supported accessibility}\label{specification_design:supported_accessibility}
+\subsection{\lintexspaced supported accessibility features}\label{specification_design:supported_accessibility}
 The key \latexspaced accessibility features supported were:
 \begin{enumerate}
 \item[\textbf{Document tagging}] The document would have tagging applied through its \verb|\DocumentMetadata| command. This command accepts a language (`lang') key to specify the document language; tagging key to enable tagging; tagging setup (`tagging-setup') key to select the type of tagging applied to the \latexspaced document; \acrshort{pdf} standard (`pdfstandard') key to specify the \acrshort{pdf} standard the document should follow; and the \acrshort{pdf} version (`pdfversion') key to specify the version of the \acrshort{pdf}. The \acrshort{pdf} version should be compatible with the \acrshort{pdf} standard. It should be noted that the \acrshort{pdf} standard PDF/UA-2 has inconsistencies in version 2.0, which are predicted to be fixed in version 2.1.
@@ -57,4 +57,4 @@ Another important point is to avoid the repetition of data in an error. For exam
 
 Lastly, it is worth noting that there are two methods of providing errors in \lintex : providing a short, but contextualised error message providing the error extract and location information; and providing a long and descriptive error message without information regarding the location the error had occurred.
 \subsection{\nmu Documentation \nmu}\label{specification_design:documentation}
-Thorough documentation has been provided in the form of comments in code, with special emphasis on the \acrshort{peg} script in \cref{appendix:peg_script}. Additionally, the `README.md' contains thorough steps focused on prerequisite installations, installation steps, and steps for contributing to the project.
+Thorough documentation has been provided in the form of comments in code, with extra emphasis on the \acrshort{peg} script in \cref{appendix:peg_script}. Additionally, the `README.md' contains thorough steps focused on prerequisite installations, installation steps, and steps for contributing to the project.

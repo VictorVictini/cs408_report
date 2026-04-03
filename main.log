@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.11.19)  3 APR 2026 07:43
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.11.19)  3 APR 2026 10:13
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1689,7 +1689,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                for \mkbibdateshort.
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 106--106
+Underfull \hbox (badness 1490) in paragraph at lines 107--107
 []|\TU/lmss/m/n/10.95 data that can be represented in numerical form
  []
 
@@ -2400,7 +2400,7 @@ Underfull \hbox (badness 1354) in paragraph at lines 30--31
  []
 
 (./figures/build_accessible_document.tex
-<images/build_accessible_document.png, id=782, 2694.065pt x 650.43pt>
+<images/build_accessible_document.png, id=785, 2694.065pt x 650.43pt>
 File: images/build_accessible_document.png Graphic file (type png)
 <use images/build_accessible_document.png>
 Package luatex.def Info: images/build_accessible_document.png  used on input li
@@ -2441,7 +2441,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                for \mkbibdateshort.
 
 (./figures/error_structure.tex
-<images/error_structure.png, id=796, 2453.165pt x 887.315pt>
+<images/error_structure.png, id=799, 2453.165pt x 887.315pt>
 File: images/error_structure.png Graphic file (type png)
 <use images/error_structure.png>
 Package luatex.def Info: images/error_structure.png  used on input line 4.
@@ -2619,7 +2619,7 @@ Underfull \hbox (badness 7540) in paragraph at lines 20--21
  []
 
 (./figures/latex_doc_parsing_structure.tex
-<images/latex_doc_parsing_structure.png, id=844, 3015.265pt x 1449.415pt>
+<images/latex_doc_parsing_structure.png, id=847, 3015.265pt x 1449.415pt>
 File: images/latex_doc_parsing_structure.png Graphic file (type png)
 <use images/latex_doc_parsing_structure.png>
 Package luatex.def Info: images/latex_doc_parsing_structure.png  used on input 
@@ -2632,7 +2632,7 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 28.
 
 (./figures/latex_line_parsing_structure.tex
-<images/latex_line_structure.png, id=846, 2653.915pt x 871.255pt>
+<images/latex_line_structure.png, id=849, 2653.915pt x 871.255pt>
 File: images/latex_line_structure.png Graphic file (type png)
 <use images/latex_line_structure.png>
 Package luatex.def Info: images/latex_line_structure.png  used on input line 4.
@@ -2660,23 +2660,16 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 [19
 
-] (./tables/document_summary_results.tex) [20]
-(./figures/likert_scale_comparison.tex) (./tables/difficult_aspects.tex
+] (./tables/document_summary_results.tex)
+(./figures/likert_scale_comparison.tex [20]) (./tables/difficult_aspects.tex
 Underfull \hbox (badness 1072) in paragraph at lines 12--12
 []|\TU/lmss/m/n/10.95 Images being plain file names made it difficult to
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (./tables/simple_aspects.tex
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [21]
+) [21] (./tables/simple_aspects.tex)
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 't-test' on input line 53.
+(biblatex)                at entry 't-test' on input line 56.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2685,11 +2678,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                loaded, is faulty or does not contain a definition
 (biblatex)                for \mkbibdateshort.
 
-(./figures/t-test_math.tex) (./figures/screen_reader_support.tex [22]
+(./figures/t-test_math.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./tables/lintex_usability.tex
+) [22] (./figures/screen_reader_support.tex) (./tables/lintex_usability.tex
 Underfull \hbox (badness 1448) in paragraph at lines 17--17
 []|\TU/lmss/m/n/10.95 Attempts were made to place the ‘tabular’ group within
  the required argument of
@@ -2731,9 +2724,9 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 27.
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 27--28
-[]\TU/lmss/m/n/10.95 Successfuly uploading a L[]T[]X file, previewing the genera
-ted [][][]PDF[][] file, and
+Underfull \hbox (badness 1226) in paragraph at lines 27--28
+[]\TU/lmss/m/n/10.95 Successfully uploading a L[]T[]X file, previewing the gener
+ated [][][]PDF[][] file, and
  []
 
 [30] [31]) [32]
@@ -3002,12 +2995,12 @@ Package biblatex Warning: Bibliography string 'in' untranslated
 (biblatex)                at entry 't-test' on input line 194.
 
 [34] (./sections/appendix.tex
-<images/ethics_approval.pdf, id=1173, 614.295pt x 794.97pt>
+<images/ethics_approval.pdf, id=1174, 614.295pt x 794.97pt>
 File: images/ethics_approval.pdf Graphic file (type pdf)
 <use images/ethics_approval.pdf>
 Package luatex.def Info: images/ethics_approval.pdf  used on input line 3.
 (luatex.def)             Requested size: 614.29349pt x 794.96806pt.
-<images/ethics_approval.pdf, id=1175, page=1, 614.295pt x 794.97pt>
+<images/ethics_approval.pdf, id=1176, page=1, 614.295pt x 794.97pt>
 File: images/ethics_approval.pdf Graphic file (type pdf)
 <use images/ethics_approval.pdf, page 1>
 Package luatex.def Info: images/ethics_approval.pdf , page1 used on input line 
@@ -3039,7 +3032,7 @@ Package luatex.def Info: images/ethics_approval.pdf , page1 used on input line
  [36
 
 <./images/ethics_approval.pdf>]
-<images/ethics_approval.pdf, id=1228, page=2, 614.295pt x 794.97pt>
+<images/ethics_approval.pdf, id=1229, page=2, 614.295pt x 794.97pt>
 File: images/ethics_approval.pdf Graphic file (type pdf)
 <use images/ethics_approval.pdf, page 2>
 Package luatex.def Info: images/ethics_approval.pdf , page2 used on input line 
@@ -3058,12 +3051,12 @@ Package luatex.def Info: images/ethics_approval.pdf , page2 used on input line
  [37
 
 <./images/ethics_approval.pdf>]
-<images/ethics_application.pdf, id=1245, 614.295pt x 794.97pt>
+<images/ethics_application.pdf, id=1246, 614.295pt x 794.97pt>
 File: images/ethics_application.pdf Graphic file (type pdf)
 <use images/ethics_application.pdf>
 Package luatex.def Info: images/ethics_application.pdf  used on input line 6.
 (luatex.def)             Requested size: 614.29349pt x 794.96806pt.
-<images/ethics_application.pdf, id=1247, page=1, 614.295pt x 794.97pt>
+<images/ethics_application.pdf, id=1248, page=1, 614.295pt x 794.97pt>
 File: images/ethics_application.pdf Graphic file (type pdf)
 <use images/ethics_application.pdf, page 1>
 Package luatex.def Info: images/ethics_application.pdf , page1 used on input li
@@ -3093,7 +3086,7 @@ ne 6.
  [39
 
 <./images/ethics_application.pdf>]
-<images/ethics_application.pdf, id=1300, page=2, 614.295pt x 794.97pt>
+<images/ethics_application.pdf, id=1301, page=2, 614.295pt x 794.97pt>
 File: images/ethics_application.pdf Graphic file (type pdf)
 <use images/ethics_application.pdf, page 2>
 Package luatex.def Info: images/ethics_application.pdf , page2 used on input li
@@ -3112,13 +3105,13 @@ ne 6.
  [40
 
 <./images/ethics_application.pdf>]
-<images/participant_info_sheet.pdf, id=1305, 597.4822pt x 845.1575pt>
+<images/participant_info_sheet.pdf, id=1306, 597.4822pt x 845.1575pt>
 File: images/participant_info_sheet.pdf Graphic file (type pdf)
 <use images/participant_info_sheet.pdf>
 Package luatex.def Info: images/participant_info_sheet.pdf  used on input line 
 9.
 (luatex.def)             Requested size: 597.48073pt x 845.15544pt.
-<images/participant_info_sheet.pdf, id=1307, page=1, 597.4822pt x 845.1575pt>
+<images/participant_info_sheet.pdf, id=1308, page=1, 597.4822pt x 845.1575pt>
 File: images/participant_info_sheet.pdf Graphic file (type pdf)
 <use images/participant_info_sheet.pdf, page 1>
 Package luatex.def Info: images/participant_info_sheet.pdf , page1 used on inpu
@@ -3148,7 +3141,7 @@ t line 9.
  [42
 
 <./images/participant_info_sheet.pdf>]
-<images/participant_info_sheet.pdf, id=1338, page=2, 597.4822pt x 845.1575pt>
+<images/participant_info_sheet.pdf, id=1339, page=2, 597.4822pt x 845.1575pt>
 File: images/participant_info_sheet.pdf Graphic file (type pdf)
 <use images/participant_info_sheet.pdf, page 2>
 Package luatex.def Info: images/participant_info_sheet.pdf , page2 used on inpu
@@ -3168,7 +3161,7 @@ t line 9.
 [43
 
 <./images/participant_info_sheet.pdf>]
-<images/participant_info_sheet.pdf, id=1344, page=3, 597.4822pt x 845.1575pt>
+<images/participant_info_sheet.pdf, id=1345, page=3, 597.4822pt x 845.1575pt>
 File: images/participant_info_sheet.pdf Graphic file (type pdf)
 <use images/participant_info_sheet.pdf, page 3>
 Package luatex.def Info: images/participant_info_sheet.pdf , page3 used on inpu
@@ -3187,12 +3180,12 @@ t line 9.
  [44
 
 <./images/participant_info_sheet.pdf>]
-<images/consent_form.pdf, id=1349, 597.55244pt x 845.0772pt>
+<images/consent_form.pdf, id=1350, 597.55244pt x 845.0772pt>
 File: images/consent_form.pdf Graphic file (type pdf)
 <use images/consent_form.pdf>
 Package luatex.def Info: images/consent_form.pdf  used on input line 12.
 (luatex.def)             Requested size: 597.55098pt x 845.07513pt.
-<images/consent_form.pdf, id=1351, page=1, 597.55244pt x 845.0772pt>
+<images/consent_form.pdf, id=1352, page=1, 597.55244pt x 845.0772pt>
 File: images/consent_form.pdf Graphic file (type pdf)
 <use images/consent_form.pdf, page 1>
 Package luatex.def Info: images/consent_form.pdf , page1 used on input line 12.
@@ -3222,12 +3215,12 @@ Package luatex.def Info: images/consent_form.pdf , page1 used on input line 12.
  [46
 
 <./images/consent_form.pdf>]
-<images/user_study_script.pdf, id=1386, 597.4822pt x 845.1575pt>
+<images/user_study_script.pdf, id=1387, 597.4822pt x 845.1575pt>
 File: images/user_study_script.pdf Graphic file (type pdf)
 <use images/user_study_script.pdf>
 Package luatex.def Info: images/user_study_script.pdf  used on input line 15.
 (luatex.def)             Requested size: 597.48073pt x 845.15544pt.
-<images/user_study_script.pdf, id=1388, page=1, 597.4822pt x 845.1575pt>
+<images/user_study_script.pdf, id=1389, page=1, 597.4822pt x 845.1575pt>
 File: images/user_study_script.pdf Graphic file (type pdf)
 <use images/user_study_script.pdf, page 1>
 Package luatex.def Info: images/user_study_script.pdf , page1 used on input lin
@@ -3257,7 +3250,7 @@ e 15.
  [48
 
 <./images/user_study_script.pdf>]
-<images/user_study_script.pdf, id=1418, page=2, 597.4822pt x 845.1575pt>
+<images/user_study_script.pdf, id=1419, page=2, 597.4822pt x 845.1575pt>
 File: images/user_study_script.pdf Graphic file (type pdf)
 <use images/user_study_script.pdf, page 2>
 Package luatex.def Info: images/user_study_script.pdf , page2 used on input lin
@@ -3276,7 +3269,7 @@ e 15.
  [49
 
 <./images/user_study_script.pdf>]
-<images/user_study_script.pdf, id=1423, page=3, 597.4822pt x 845.1575pt>
+<images/user_study_script.pdf, id=1424, page=3, 597.4822pt x 845.1575pt>
 File: images/user_study_script.pdf Graphic file (type pdf)
 <use images/user_study_script.pdf, page 3>
 Package luatex.def Info: images/user_study_script.pdf , page3 used on input lin
@@ -3295,13 +3288,13 @@ e 15.
  [50
 
 <./images/user_study_script.pdf>]
-<images/inaccessible_document.pdf, id=1428, 597.53633pt x 845.04684pt>
+<images/inaccessible_document.pdf, id=1429, 597.53633pt x 845.04684pt>
 File: images/inaccessible_document.pdf Graphic file (type pdf)
 <use images/inaccessible_document.pdf>
 Package luatex.def Info: images/inaccessible_document.pdf  used on input line 1
 8.
 (luatex.def)             Requested size: 597.53487pt x 845.04478pt.
-<images/inaccessible_document.pdf, id=1430, page=1, 597.53633pt x 845.04684pt>
+<images/inaccessible_document.pdf, id=1431, page=1, 597.53633pt x 845.04684pt>
 File: images/inaccessible_document.pdf Graphic file (type pdf)
 <use images/inaccessible_document.pdf, page 1>
 Package luatex.def Info: images/inaccessible_document.pdf , page1 used on input
@@ -3332,7 +3325,7 @@ Package luatex.def Info: images/inaccessible_document.pdf , page1 used on input
  [52
 
 <./images/inaccessible_document.pdf>]
-<images/inaccessible_document.pdf, id=1445, page=2, 597.53633pt x 845.04684pt>
+<images/inaccessible_document.pdf, id=1446, page=2, 597.53633pt x 845.04684pt>
 File: images/inaccessible_document.pdf Graphic file (type pdf)
 <use images/inaccessible_document.pdf, page 2>
 Package luatex.def Info: images/inaccessible_document.pdf , page2 used on input
@@ -3351,13 +3344,13 @@ Package luatex.def Info: images/inaccessible_document.pdf , page2 used on input
  [53
 
 <./images/inaccessible_document.pdf>]
-<images/accessible_document.pdf, id=1451, 597.53633pt x 845.04684pt>
+<images/accessible_document.pdf, id=1452, 597.53633pt x 845.04684pt>
 File: images/accessible_document.pdf Graphic file (type pdf)
 <use images/accessible_document.pdf>
 Package luatex.def Info: images/accessible_document.pdf  used on input line 21.
 
 (luatex.def)             Requested size: 597.53487pt x 845.04478pt.
-<images/accessible_document.pdf, id=1453, page=1, 597.53633pt x 845.04684pt>
+<images/accessible_document.pdf, id=1454, page=1, 597.53633pt x 845.04684pt>
 File: images/accessible_document.pdf Graphic file (type pdf)
 <use images/accessible_document.pdf, page 1>
 Package luatex.def Info: images/accessible_document.pdf , page1 used on input l
@@ -3387,7 +3380,7 @@ ine 21.
  [55
 
 <./images/accessible_document.pdf>]
-<images/accessible_document.pdf, id=1469, page=2, 597.53633pt x 845.04684pt>
+<images/accessible_document.pdf, id=1470, page=2, 597.53633pt x 845.04684pt>
 File: images/accessible_document.pdf Graphic file (type pdf)
 <use images/accessible_document.pdf, page 2>
 Package luatex.def Info: images/accessible_document.pdf , page2 used on input l
@@ -3406,12 +3399,12 @@ ine 21.
  [56
 
 <./images/accessible_document.pdf>]
-<images/peg_script.pdf, id=1474, 597.53633pt x 845.04684pt>
+<images/peg_script.pdf, id=1475, 597.53633pt x 845.04684pt>
 File: images/peg_script.pdf Graphic file (type pdf)
 <use images/peg_script.pdf>
 Package luatex.def Info: images/peg_script.pdf  used on input line 24.
 (luatex.def)             Requested size: 597.53487pt x 845.04478pt.
-<images/peg_script.pdf, id=1476, page=1, 597.53633pt x 845.04684pt>
+<images/peg_script.pdf, id=1477, page=1, 597.53633pt x 845.04684pt>
 File: images/peg_script.pdf Graphic file (type pdf)
 <use images/peg_script.pdf, page 1>
 Package luatex.def Info: images/peg_script.pdf , page1 used on input line 24.
@@ -3436,7 +3429,7 @@ Package luatex.def Info: images/peg_script.pdf , page1 used on input line 24.
  [58
 
 <./images/peg_script.pdf>]
-<images/peg_script.pdf, id=1491, page=2, 597.53633pt x 845.04684pt>
+<images/peg_script.pdf, id=1492, page=2, 597.53633pt x 845.04684pt>
 File: images/peg_script.pdf Graphic file (type pdf)
 <use images/peg_script.pdf, page 2>
 Package luatex.def Info: images/peg_script.pdf , page2 used on input line 24.
@@ -3452,7 +3445,7 @@ Package luatex.def Info: images/peg_script.pdf , page2 used on input line 24.
  [59
 
 <./images/peg_script.pdf>]
-<images/peg_script.pdf, id=1496, page=3, 597.53633pt x 845.04684pt>
+<images/peg_script.pdf, id=1497, page=3, 597.53633pt x 845.04684pt>
 File: images/peg_script.pdf Graphic file (type pdf)
 <use images/peg_script.pdf, page 3>
 Package luatex.def Info: images/peg_script.pdf , page3 used on input line 24.
@@ -3469,7 +3462,7 @@ Package luatex.def Info: images/peg_script.pdf , page3 used on input line 24.
 [60
 
 <./images/peg_script.pdf>]
-<images/peg_script.pdf, id=1501, page=4, 597.53633pt x 845.04684pt>
+<images/peg_script.pdf, id=1502, page=4, 597.53633pt x 845.04684pt>
 File: images/peg_script.pdf Graphic file (type pdf)
 <use images/peg_script.pdf, page 4>
 Package luatex.def Info: images/peg_script.pdf , page4 used on input line 24.
@@ -3485,7 +3478,7 @@ Package luatex.def Info: images/peg_script.pdf , page4 used on input line 24.
  [61
 
 <./images/peg_script.pdf>]
-<images/peg_script.pdf, id=1506, page=5, 597.53633pt x 845.04684pt>
+<images/peg_script.pdf, id=1507, page=5, 597.53633pt x 845.04684pt>
 File: images/peg_script.pdf Graphic file (type pdf)
 <use images/peg_script.pdf, page 5>
 Package luatex.def Info: images/peg_script.pdf , page5 used on input line 24.
@@ -3501,7 +3494,7 @@ Package luatex.def Info: images/peg_script.pdf , page5 used on input line 24.
  [62
 
 <./images/peg_script.pdf>]
-<images/peg_script.pdf, id=1511, page=6, 597.53633pt x 845.04684pt>
+<images/peg_script.pdf, id=1512, page=6, 597.53633pt x 845.04684pt>
 File: images/peg_script.pdf Graphic file (type pdf)
 <use images/peg_script.pdf, page 6>
 Package luatex.def Info: images/peg_script.pdf , page6 used on input line 24.
@@ -3517,7 +3510,7 @@ Package luatex.def Info: images/peg_script.pdf , page6 used on input line 24.
  [63
 
 <./images/peg_script.pdf>]
-<images/peg_script.pdf, id=1517, page=7, 597.53633pt x 845.04684pt>
+<images/peg_script.pdf, id=1518, page=7, 597.53633pt x 845.04684pt>
 File: images/peg_script.pdf Graphic file (type pdf)
 <use images/peg_script.pdf, page 7>
 Package luatex.def Info: images/peg_script.pdf , page7 used on input line 24.
@@ -3636,12 +3629,12 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 [67
 
 ]
-<images/errors_list.pdf, id=1555, 597.53633pt x 845.04684pt>
+<images/errors_list.pdf, id=1556, 597.53633pt x 845.04684pt>
 File: images/errors_list.pdf Graphic file (type pdf)
 <use images/errors_list.pdf>
 Package luatex.def Info: images/errors_list.pdf  used on input line 81.
 (luatex.def)             Requested size: 597.53487pt x 845.04478pt.
-<images/errors_list.pdf, id=1557, page=1, 597.53633pt x 845.04684pt>
+<images/errors_list.pdf, id=1558, page=1, 597.53633pt x 845.04684pt>
 File: images/errors_list.pdf Graphic file (type pdf)
 <use images/errors_list.pdf, page 1>
 Package luatex.def Info: images/errors_list.pdf , page1 used on input line 81.
@@ -3668,7 +3661,7 @@ Package luatex.def Info: images/errors_list.pdf , page1 used on input line 81.
  [69
 
 <./images/errors_list.pdf>]
-<images/errors_list.pdf, id=1572, page=2, 597.53633pt x 845.04684pt>
+<images/errors_list.pdf, id=1573, page=2, 597.53633pt x 845.04684pt>
 File: images/errors_list.pdf Graphic file (type pdf)
 <use images/errors_list.pdf, page 2>
 Package luatex.def Info: images/errors_list.pdf , page2 used on input line 81.
@@ -3684,7 +3677,7 @@ Package luatex.def Info: images/errors_list.pdf , page2 used on input line 81.
  [70
 
 <./images/errors_list.pdf>]
-<images/errors_list.pdf, id=1577, page=3, 597.53633pt x 845.04684pt>
+<images/errors_list.pdf, id=1578, page=3, 597.53633pt x 845.04684pt>
 File: images/errors_list.pdf Graphic file (type pdf)
 <use images/errors_list.pdf, page 3>
 Package luatex.def Info: images/errors_list.pdf , page3 used on input line 81.
@@ -3701,7 +3694,7 @@ Package luatex.def Info: images/errors_list.pdf , page3 used on input line 81.
 [71
 
 <./images/errors_list.pdf>]
-<images/errors_list.pdf, id=1582, page=4, 597.53633pt x 845.04684pt>
+<images/errors_list.pdf, id=1583, page=4, 597.53633pt x 845.04684pt>
 File: images/errors_list.pdf Graphic file (type pdf)
 <use images/errors_list.pdf, page 4>
 Package luatex.def Info: images/errors_list.pdf , page4 used on input line 81.
@@ -3717,7 +3710,7 @@ Package luatex.def Info: images/errors_list.pdf , page4 used on input line 81.
  [72
 
 <./images/errors_list.pdf>]
-<images/errors_list.pdf, id=1587, page=5, 597.53633pt x 845.04684pt>
+<images/errors_list.pdf, id=1588, page=5, 597.53633pt x 845.04684pt>
 File: images/errors_list.pdf Graphic file (type pdf)
 <use images/errors_list.pdf, page 5>
 Package luatex.def Info: images/errors_list.pdf , page5 used on input line 81.
@@ -3733,7 +3726,7 @@ Package luatex.def Info: images/errors_list.pdf , page5 used on input line 81.
  [73
 
 <./images/errors_list.pdf>]
-<images/errors_list.pdf, id=1593, page=6, 597.53633pt x 845.04684pt>
+<images/errors_list.pdf, id=1594, page=6, 597.53633pt x 845.04684pt>
 File: images/errors_list.pdf Graphic file (type pdf)
 <use images/errors_list.pdf, page 6>
 Package luatex.def Info: images/errors_list.pdf , page6 used on input line 81.
@@ -3749,7 +3742,7 @@ Package luatex.def Info: images/errors_list.pdf , page6 used on input line 81.
  [74
 
 <./images/errors_list.pdf>]
-<images/errors_list.pdf, id=1599, page=7, 597.53633pt x 845.04684pt>
+<images/errors_list.pdf, id=1600, page=7, 597.53633pt x 845.04684pt>
 File: images/errors_list.pdf Graphic file (type pdf)
 <use images/errors_list.pdf, page 7>
 Package luatex.def Info: images/errors_list.pdf , page7 used on input line 81.
@@ -3765,7 +3758,7 @@ Package luatex.def Info: images/errors_list.pdf , page7 used on input line 81.
  [75
 
 <./images/errors_list.pdf>]
-<images/errors_list.pdf, id=1604, page=8, 597.53633pt x 845.04684pt>
+<images/errors_list.pdf, id=1605, page=8, 597.53633pt x 845.04684pt>
 File: images/errors_list.pdf Graphic file (type pdf)
 <use images/errors_list.pdf, page 8>
 Package luatex.def Info: images/errors_list.pdf , page8 used on input line 81.
@@ -3790,8 +3783,14 @@ L3 programming layer <2025-11-06>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7E5429B1F6E8F9F7F0E02CE4725791DC;9485.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: D8FCB0A771CD24C17F298A73A77FF2C8;9533
+(rerunfilecheck)             After:  1146B83D66937B603CF1E7B0E94AFE4B;9525.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -3805,11 +3804,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of LuaTeX's memory you used:
  58251 strings out of 476081
  125056,2848258 words of node,token memory allocated
- 1141 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 100 attribute, 78 glue_spe
-c, 51 attribute_list, 2 write, 41 pdf_action nodes
-   avail lists: 1:1,2:3469,3:1025,4:383,5:688,6:164,7:8316,8:141,9:1586,10:16,11
-:48
+ 1117 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 96 attribute, 78 glue_spec
+, 49 attribute_list, 2 write, 39 pdf_action nodes
+   avail lists: 1:1,2:3499,3:970,4:391,5:688,6:168,7:7109,8:141,9:1590,10:16,11:
+48
  78746 multiletter control sequences out of 65536+600000
  59 fonts using 4558607 bytes
  99i,17n,104p,2524b,2106s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -3826,10 +3825,10 @@ i8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/
 texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (84 pages, 2849601 bytes).
+Output written on main.pdf (84 pages, 2849859 bytes).
 
-PDF statistics: 1688 PDF objects out of 1728 (max. 8388607)
- 1440 compressed objects within 15 object streams
+PDF statistics: 1689 PDF objects out of 1728 (max. 8388607)
+ 1441 compressed objects within 15 object streams
  257 named destinations out of 1000 (max. 131072)
  480 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -6,7 +6,7 @@ Frontend technologies used include Tailwind CSS \parencite{tailwind} to avoid re
 
 Additionally, Go, \acrfull{html}, Pigeon \parencite{pigeon} \acrshort{peg} script, and \acrshort{css} were the languages used in the project.
 
-Lastly, \lintexspaced implements a server-client relationship. This means the client sends a request for resources and the server provides those resources if it decides to accept the request, or provides an error. The net/http Go package \parencite{net-http} requires all directories and files on the server be explicitly provided, and applies validation to the server route taken, both of which acts as an additional security meaasure.
+Lastly, \lintexspaced implements a server-client relationship. This means the client sends a request for resources, and the server provides those resources if it decides to accept the request, or provides an error. The net/http Go package \parencite{net-http} requires all directories and files on the server to be explicitly provided, and applies validation to the server route taken, both of which act as additional security measures.
 
 \subsection{PEG parsing}\label{impl:peg_parsing}
 \figureref{figure:latex_doc_parsing_structure} showcases the order in which \lintexspaced parses the document in its \acrshort{peg} script. The \acrshort{peg} script can be found in \cref{appendix:peg_script}.
@@ -20,18 +20,18 @@ There are a few key points in reading this diagram:
     \item A line construct references a singular \latexspaced line, such as \verb|\includegraphics[alt={Some alt text}]{image.png}|. This does not reference any \latexspaced line that is involved in a grouping construct.
     \item A group construct references a named group starting with \verb|\begin{<name>}| and ending with \verb|\end{<name>}| with \verb|<name>| swapped for the group identifier. Other methods to reference group constructs are not included in \lintex 's parsing.
     \item Anonymous, or unnamed, group constructs are not handled by \lintex.
-    \item The content between line or group constructs, that do not conform to either, is mostly ignored. For example, plain text.
+    \item The content between line or group constructs that do not conform to either is mostly ignored. For example, plain text.
 \end{itemize}
 
 \input{figures/latex_doc_parsing_structure}
 
-In the creation of this \acrshort{peg} script, a top-down approach was taken. This involved looking at the general structure of a \latexspaced document and breaking it down further continuously until a group construct or a line construct is reached, depending on the context.
+In the creation of this \acrshort{peg} script, a top-down approach was taken. This involved looking at the general structure of a \latexspaced document and breaking it down further continuously until a group or line construct is reached, depending on the context.
 
 \input{figures/latex_line_parsing_structure}
 
-\figureref{figure:latex_line_parsing_structure} showcases the general structure of a line construct. A similar structure was utilised for group constructs, with the difference that the first required argument, an argument surrounded by curly braces (`\{\}'), contained the group identifier. A stack was utilised in a group's depths management and error identification. A generic class, a class that can have its typing defined during program execution, was utilised with its typing passed during construction of the stack. This provided the advantage of making the stack code reusable for different underlying typings.
+\figureref{figure:latex_line_parsing_structure} showcases the general structure of a line construct. A similar structure was utilised for group constructs, with the difference that the first required argument, an argument surrounded by curly braces (`\{\}'), contained the group identifier. A stack was utilised in a group construct's depth management and error identification. A generic class, a class that can have its typing defined during program execution, was utilised with its typing passed during construction of the stack. This provided the advantage of making the stack code reusable for different underlying typings.
 
-As the final parsing element, argument handling handled both optional (referenced as `OptionArgument' in program code) and required (referenced as `ClassArgument' in program code) arguments separately, while ensuring they conform to the same argument interface. Additionally, an argument type whose inner content aligns with a key-value pairing was created to handle some arguments in more depth. A key-value pairing references having a key and value separated by an equal sign (`=') creating a pair, and consequently having all pairs separated by a comma (`,').
+As the final parsing element, argument handling handled both optional (referenced as `OptionArgument' in program code) and required (referenced as `ClassArgument' in program code) arguments separately, while ensuring they conform to the same argument interface. Additionally, an argument type whose inner content aligns with a key-value pairing was created to handle some arguments in more depth. A key-value pairing references having a key and value separated by an equal sign (`='), creating a pair, and consequently having all pairs separated by a comma (`,').
 
 \subsection{Verification \& validation}
 Verification took advantage of Go's strictly typed nature, such that a custom data structure or interface was created for every reasonable context. For example, there is an interface, `IDocument', and a `Document' class that conforms to it, both of which are used in the handling of the overall document structure being enforced. However, minimal verification of the document content is applied at this stage, as that is outwith the scope of this project as defined in \fullref{conc:project_limits}.

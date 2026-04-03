@@ -5,7 +5,7 @@
 \contentsline {section}{\numberline {1}Introduction }{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Identifying \LaTeX 's key screen reader-focused accessibility problems}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Why accessibility is important}{1}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Why Lua\LaTeX \ provides better accessibility than PDF\LaTeX \ \ }{2}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.3}Why Lua\LaTeX \ provides better accessibility than PDF\LaTeX \ }{2}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}Aims and objectives}{2}{subsection.1.4}%
 \contentsline {subsection}{\numberline {1.5}Research questions}{3}{subsection.1.5}%
 \contentsline {section}{\numberline {2}Background Literature}{4}{section.2}%
@@ -26,7 +26,7 @@
 \contentsline {subsection}{\numberline {3.2}Key engineering requirements}{12}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Key functional requirements}{12}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Key non-functional requirements}{12}{subsubsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.3}Lin\TeX \ supported accessibility}{12}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Lin\TeX \ supported accessibility features}{12}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Design patterns used}{13}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Error handling}{14}{subsection.3.5}%
 \contentsline {subsection}{\numberline {3.6}Documentation }{15}{subsection.3.6}%
@@ -36,15 +36,15 @@
 \contentsline {subsection}{\numberline {4.3}Verification \& validation}{18}{subsection.4.3}%
 \contentsline {section}{\numberline {5}User study}{19}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Study design}{19}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Hypotheses}{20}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.2}Hypotheses}{19}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Results}{20}{subsection.5.3}%
 \contentsline {subsubsection}{\numberline {5.3.1}Memorable document extracts}{20}{subsubsection.5.3.1}%
-\contentsline {subsubsection}{\numberline {5.3.2}Accessible and inaccessible document comparisons}{21}{subsubsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.2}Accessible and inaccessible document comparisons}{20}{subsubsection.5.3.2}%
 \contentsline {subsubsection}{\numberline {5.3.3}Applying student's paired t-test}{22}{subsubsection.5.3.3}%
-\contentsline {subsubsection}{\numberline {5.3.4}Likelihood to support screen reader users}{22}{subsubsection.5.3.4}%
+\contentsline {subsubsection}{\numberline {5.3.4}Likelihood to support screen reader users}{23}{subsubsection.5.3.4}%
 \contentsline {subsubsection}{\numberline {5.3.5}Lin\TeX \ usability focuses}{23}{subsubsection.5.3.5}%
-\contentsline {subsection}{\numberline {5.4}Analysis}{23}{subsection.5.4}%
-\contentsline {subsubsection}{\numberline {5.4.1}Reasoning behind document extracts being memorable}{23}{subsubsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4}Analysis}{24}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Reasoning behind document extracts being memorable}{24}{subsubsection.5.4.1}%
 \contentsline {subsubsection}{\numberline {5.4.2}Lin\TeX 's impact on document screen reader accessibility}{25}{subsubsection.5.4.2}%
 \contentsline {subsubsection}{\numberline {5.4.3}Areas of improvement for Lin\TeX \ usability}{26}{subsubsection.5.4.3}%
 \contentsline {subsection}{\numberline {5.5}Hypotheses testing and discussion}{27}{subsection.5.5}%
@@ -55,9 +55,9 @@
 \contentsline {subsection}{\numberline {7.1}Project summary}{29}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Project limitations}{29}{subsection.7.2}%
 \contentsline {subsection}{\numberline {7.3}Achievements}{30}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Future work}{30}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.4}Future work}{31}{subsection.7.4}%
 \contentsline {subsection}{\numberline {7.5}Reflection}{31}{subsection.7.5}%
-\contentsline {subsection}{\numberline {7.6}Final thoughts}{31}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.6}Final thoughts}{32}{subsection.7.6}%
 \contentsline {section}{\numberline {A}Appendix}{35}{appendix.A}%
 \contentsline {subsection}{\numberline {A.1}Ethical approval}{35}{subsection.A.1}%
 \contentsline {subsection}{\numberline {A.2}Ethics application}{38}{subsection.A.2}%

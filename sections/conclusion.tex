@@ -1,21 +1,21 @@
 \section{Conclusions}\label{conc}
 \subsection{Project summary}
-After investigating causes for inaccessible \latexspaced document for screen reader users, including misinformation and outdated \pdflatexspaced usage, several solutions were identified in \fullref{specification_design:supported_accessibility}, leading to the creation of \lintex .
+After investigating causes for inaccessible \latexspaced document for screen reader users, including misinformation and outdated \pdflatexspaced usage, several solutions were identified in \cref{specification_design:supported_accessibility}, leading to the creation of \lintex .
 
-\lintexspaced was developed to target key screen reader-focused acceessibility concerns for \latexspaced users, namely \gls{tagging} and \gls{alt_text}. Additionally, it aimed to be a maintainable and accessible tool, to ensure its use by many users and its longevity to keep up with frequently changing demands for accessibility.
+\lintexspaced was developed to target key screen reader-focused accessibility concerns for \latexspaced users, namely \gls{tagging} and \glspl{image_desc}. Additionally, it aimed to be a maintainable and accessible tool, ensuring its use by many users and its longevity to keep up with frequently changing demands for accessibility.
 
-The results from the user study highlight the project succeeded in making an inaccessible document accessible for screen reader users, with some mild nuances in the usability of the tool. Due to the depth of research in related topics, \lintexspaced was made to be especially maintainable.
+The results from the user study highlight that the project was successful in making an inaccessible document accessible for screen reader users, with some mild nuances in the usability of the tool. Due to the depth of research in related topics, \lintexspaced was made to be especially maintainable.
 
 \subsection{\nmu Project \nmu limitations}\label{conc:project_limits}
 In an ideal world, it would have been possible to have created a project that could target any and all \latexspaced accessibility concerns. Unfortunately, that is outwith the scope of the project, which has been defined as follows:
 \begin{itemize}
-    \item \lintexspaced is not designed to handle the majority of parsing. Instead, it focuses on a few key elements that are related to the accessibility concerns targetted in our context. Otherwise, it handles a small amount of verification regarding the structure of individual lines and the overall document structure.
+    \item \lintexspaced is not designed to handle the majority of parsing. Instead, it focuses on a few key elements that are related to the accessibility concerns targeted in our context. Otherwise, it handles a small amount of verification regarding the structure of individual lines and the overall document structure.
     \item This project does not aim to provide automated fixes for errors encountered.
-    \item \lintexspaced does not contain an in-built screen reader. While some considerations were put aside for how this could be accomplished, it is not feasible to create an in-built screen reader with the timeframe allocated for this project, due to the vast considerations needed. It might even be a fair statement to consider it a project on its own.
+    \item \lintexspaced does not contain an in-built screen reader. While some considerations were set aside for how this could be accomplished, it is not feasible to create an in-built screen reader within the timeframe allocated for this project, due to the vast number of considerations required. It might even be a fair statement to consider it a project by itself.
     \item \lintexspaced is not intended to find usage of outdated or incorrect accessibility, but rather to enhance a document's screen reader accessibility through additions to the document.
     \item \lintexspaced is not intended to debug \latexspaced code, as a dedicated \acrfull{ide} and \texspaced engine should be used for this instead.
-    \item \lintexspaced expects code to compile in \lualatexspaced before its changes have been applied, with other \texspaced engines being considered outdated and consequently not supported for this context.
-    \item \lintexspaced places emphasis on accessibility features for screen reader users.
+    \item \lintexspaced expects \latexspaced code to compile in \lualatexspaced before being used, with other \texspaced engines being considered outdated and consequently not supported for this context.
+    \item \lintexspaced places emphasis on accessibility features for screen reader users, and does not intentionally target any other form of accessibility for its \latexspaced file processing.
     \item It is unfeasible to account for all \gls{tagging} options in our context. Therefore, a few key options have been selected based on what would be expected to have the most impact.
     \item It is outwith the scope of this project to consider the security implications of local \latexspaced compilation.
 \end{itemize}
@@ -24,28 +24,29 @@ In an ideal world, it would have been possible to have created a project that co
 \lintexspaced achieved many targets, including but not limited to:
 \begin{itemize}
     \item Implementation of several design patterns and documentation, as indicated in \cref{specification_design:design_patterns_used} and \cref{specification_design:documentation} respectively, ensuring the project's maintainability.
-    \item Successfuly uploading a \latexspaced file, previewing the generated \acrshort{pdf} file, and downloading it.
+    \item Successfully uploading a \latexspaced file, previewing the generated \acrshort{pdf} file, and downloading it.
     \item Providing in-depth error messages with several changes depending on their context, as indicated in \fullref{specification_design:error_handling}.
     \item Successfully making an inaccessible document support \gls{tagging} and \glspl{image_desc}.
     \item Creating a tool, \lintex , which is very quick on launch and takes minimal time to load documents.
 \end{itemize}
 
 \subsection{\nmu Future \nmu work}\label{conc:future_work}
-\lintexspaced has the potential to grow in a variety of manners, such as targetting the limitations in \fullref{conc:project_limits}.
+\lintexspaced has the potential to grow in a variety of manners, such as targeting the limitations in \fullref{conc:project_limits}.
 
-An in-built screen reader for \lintexspaced is an interesting proposition, with it likely being a project by itself due to the lack of finer details requiring vast amounts of consideration and the difficulties with finding similar materials, seeing as most references for an in-built screen reader appear to point to screen readers as a browser extension. However, it may be possible to make \lintexspaced work with those extensions to provide the ideal experience for the end user.
+An in-built web-based screen reader for \lintexspaced is an interesting proposition, with it likely being a project by itself due to the lack of finer details requiring vast amounts of consideration and research, and the difficulties with finding similar materials, seeing as most references for an in-built web-based screen reader appear to point to screen readers as a browser extension. However, it may be possible to make \lintexspaced work with those extensions to provide the ideal experience for the end user.
 
-Automated fixes, with the addition of being able to fix several identical errors at once, would be a great feature to include in \lintex . There is potential for this feature to work alongside the error handling of \lintex , yet this has unfortunately not been explored further at this time.
+Automated fixes, with the option to fix several identical errors at once, would be an outstanding feature to include in \lintex . There is potential for this feature to work alongside the error handling of \lintex ; however, this has unfortunately not been explored further at this time, as it is outwith the current scope of the project.
 
-Additionally, highlighting why \lintexspaced has recommended a change would make the experience a lot more insightful and better encourage developers to be inclusive of screen reader users in the future.
+Additionally, highlighting why \lintexspaced has recommended a change would make the user experience a lot more insightful and better encourage developers to be inclusive of screen reader users in the future.
 
-Finally, utilising HTMX to make \lintexspaced more responsive to the end user's actions would allow for a more immersive experience for the user, while keeping the technologies required at a reasonable minimum requirements.
+Lastly, utilising HTMX to make \lintexspaced more responsive to the end user's actions would allow for a more immersive experience for the user, while keeping the technologies required to a reasonable minimum.
+
 \subsection{Reflection}
-At the start of this project, I was overzealous with all the targets I had in mind for it. However, this led to research, time and energy spent in areas that ended up unused such as HTMX, the University of Strathclyde's DevWeb servers, automated error fixes, and the potential for an in-built screen reader.
+At the start of this project, I was overzealous with all the targets I had in mind for it. However, this led to research, time, and energy spent in areas that remained unused, such as identifying HTMX, programming language compatibility with the University of Strathclyde's DevWeb servers, automated error fixes, and the potential for an in-built screen reader.
 
-The time and energy spent on those enthusiastic tasks could have been spent on a simpler, yet just as advantageous, task. For example, researching methods in which accessibility is incorrectly used in \pdflatexspaced and identifying those examples, to promote more accessible alternatives.
+The time and energy spent on those enthusiastic tasks could have been spent on a simpler, yet just as advantageous, task. For example, researching methods in which accessibility is incorrectly used in \pdflatexspaced and identifying those examples to promote more accessible alternatives.
 
 \subsection{Final thoughts}
-Despite the hardships in creating \lintex , it has been an enjoyable process with many quirks paved through the road. There are a lot of methods to expand on this project, as indicated in \fullref{conc:future_work}, which would be fascinating to see the results for.
+Despite the hardships in creating \lintex , it has been an enjoyable process with many quirks that paved the way. There are many methods to expand on this project, as indicated in \fullref{conc:future_work}, which would be fascinating to see the results for.
 
-As a final note: avoid \pdflatex ; use \lualatexspaced instead.
+As a final note: avoid \pdflatex; use \lualatexspaced instead.
