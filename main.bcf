@@ -2398,7 +2398,7 @@
     <bcf:citekey order="22" intorder="1">hackerrank</bcf:citekey>
     <bcf:citekey order="23" intorder="1">codewars</bcf:citekey>
     <bcf:citekey order="24" intorder="1">builder_design_pattern</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">wrapper_design_pattern</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">adapter_design_pattern</bcf:citekey>
     <bcf:citekey order="26" intorder="1">composite_design_pattern</bcf:citekey>
     <bcf:citekey order="27" intorder="1">dependency_inversion</bcf:citekey>
     <bcf:citekey order="28" intorder="1">dependency_inversion</bcf:citekey>

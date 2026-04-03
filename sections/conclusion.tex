@@ -2,7 +2,7 @@
 \subsection{Project summary}
 After investigating causes for inaccessible \latexspaced document for screen reader users, including misinformation and outdated \pdflatexspaced usage, several solutions were identified in \fullref{specification_design:supported_accessibility}, leading to the creation of \lintex .
 
-\lintexspaced was developed to target key screen reader acceessibility concerns for \latexspaced users, namely \gls{tagging} and \gls{alt_text}. Additionally, it aimed to be a maintainable and accessible tool, to ensure its use by many users and its longevity to keep up with frequently changing demands for accessibility.
+\lintexspaced was developed to target key screen reader-focused acceessibility concerns for \latexspaced users, namely \gls{tagging} and \gls{alt_text}. Additionally, it aimed to be a maintainable and accessible tool, to ensure its use by many users and its longevity to keep up with frequently changing demands for accessibility.
 
 The results from the user study highlight the project succeeded in making an inaccessible document accessible for screen reader users, with some mild nuances in the usability of the tool. Due to the depth of research in related topics, \lintexspaced was made to be especially maintainable.
 
@@ -21,12 +21,16 @@ In an ideal world, it would have been possible to have created a project that co
 \end{itemize}
 
 \subsection{Achievements}
-\lintex achieved many targets, including but not limited to:
+\lintexspaced achieved many targets, including but not limited to:
 \begin{itemize}
-    \item 
+    \item Implementation of several design patterns and documentation, as indicated in \cref{specification_design:design_patterns_used} and \cref{specification_design:documentation} respectively, ensuring the project's maintainability.
+    \item Successfuly uploading a \latexspaced file, previewing the generated \acrshort{pdf} file, and downloading it.
+    \item Providing in-depth error messages with several changes depending on their context, as indicated in \fullref{specification_design:error_handling}.
+    \item Successfully making an inaccessible document support \gls{tagging} and \glspl{image_desc}.
+    \item Creating a tool, \lintex , which is very quick on launch and takes minimal time to load documents.
 \end{itemize}
 
-\subsection{Future work}
+\subsection{\nmu Future \nmu work}\label{conc:future_work}
 \lintexspaced has the potential to grow in a variety of manners, such as targetting the limitations in \fullref{conc:project_limits}.
 
 An in-built screen reader for \lintexspaced is an interesting proposition, with it likely being a project by itself due to the lack of finer details requiring vast amounts of consideration and the difficulties with finding similar materials, seeing as most references for an in-built screen reader appear to point to screen readers as a browser extension. However, it may be possible to make \lintexspaced work with those extensions to provide the ideal experience for the end user.
@@ -37,11 +41,11 @@ Additionally, highlighting why \lintexspaced has recommended a change would make
 
 Finally, utilising HTMX to make \lintexspaced more responsive to the end user's actions would allow for a more immersive experience for the user, while keeping the technologies required at a reasonable minimum requirements.
 \subsection{Reflection}
-put more thought into how realistic doing things in timeframe is
+At the start of this project, I was overzealous with all the targets I had in mind for it. However, this led to research, time and energy spent in areas that ended up unused such as HTMX, the University of Strathclyde's DevWeb servers, automated error fixes, and the potential for an in-built screen reader.
 
-wanted -> made preparations for
-- wanted to do htmx
-- wanted to do devweb stuff
-- wanted automated error fixes
+The time and energy spent on those enthusiastic tasks could have been spent on a simpler, yet just as advantageous, task. For example, researching methods in which accessibility is incorrectly used in \pdflatexspaced and identifying those examples, to promote more accessible alternatives.
 
 \subsection{Final thoughts}
+Despite the hardships in creating \lintex , it has been an enjoyable process with many quirks paved through the road. There are a lot of methods to expand on this project, as indicated in \fullref{conc:future_work}, which would be fascinating to see the results for.
+
+As a final note: avoid \pdflatex ; use \lualatexspaced instead.

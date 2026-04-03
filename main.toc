@@ -29,7 +29,7 @@
 \contentsline {subsection}{\numberline {3.3}Lin\TeX \ supported accessibility}{12}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Design patterns used}{13}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Error handling}{14}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Documentation}{15}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.6}Documentation }{15}{subsection.3.6}%
 \contentsline {section}{\numberline {4}Implementation}{16}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Technologies used}{16}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}PEG parsing}{16}{subsection.4.2}%
@@ -48,7 +48,7 @@
 \contentsline {subsubsection}{\numberline {5.4.2}Lin\TeX 's impact on document screen reader accessibility}{25}{subsubsection.5.4.2}%
 \contentsline {subsubsection}{\numberline {5.4.3}Areas of improvement for Lin\TeX \ usability}{26}{subsubsection.5.4.3}%
 \contentsline {subsection}{\numberline {5.5}Hypotheses testing and discussion}{27}{subsection.5.5}%
-\contentsline {section}{\numberline {6}Discussion and reflection}{28}{section.6}%
+\contentsline {section}{\numberline {6}Discussion}{28}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Objectives discussion}{28}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Research question discussion}{28}{subsection.6.2}%
 \contentsline {section}{\numberline {7}Conclusions}{29}{section.7}%
@@ -58,16 +58,16 @@
 \contentsline {subsection}{\numberline {7.4}Future work}{30}{subsection.7.4}%
 \contentsline {subsection}{\numberline {7.5}Reflection}{31}{subsection.7.5}%
 \contentsline {subsection}{\numberline {7.6}Final thoughts}{31}{subsection.7.6}%
-\contentsline {section}{\numberline {A}Appendix}{34}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Ethical approval}{34}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Ethics application}{37}{subsection.A.2}%
-\contentsline {subsection}{\numberline {A.3}Participant information sheet}{40}{subsection.A.3}%
-\contentsline {subsection}{\numberline {A.4}Consent form}{44}{subsection.A.4}%
-\contentsline {subsection}{\numberline {A.5}User study script}{46}{subsection.A.5}%
-\contentsline {subsection}{\numberline {A.6}Inaccessible document}{50}{subsection.A.6}%
-\contentsline {subsection}{\numberline {A.7}Accessible document}{53}{subsection.A.7}%
-\contentsline {subsection}{\numberline {A.8}PEG script}{56}{subsection.A.8}%
-\contentsline {subsection}{\numberline {A.9}Agile sprint focuses}{64}{subsection.A.9}%
-\contentsline {subsection}{\numberline {A.10}Functional requirements}{65}{subsection.A.10}%
-\contentsline {subsection}{\numberline {A.11}Non-functional requirements}{66}{subsection.A.11}%
-\contentsline {subsection}{\numberline {A.12}Error list}{67}{subsection.A.12}%
+\contentsline {section}{\numberline {A}Appendix}{35}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Ethical approval}{35}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Ethics application}{38}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Participant information sheet}{41}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}Consent form}{45}{subsection.A.4}%
+\contentsline {subsection}{\numberline {A.5}User study script}{47}{subsection.A.5}%
+\contentsline {subsection}{\numberline {A.6}Inaccessible document}{51}{subsection.A.6}%
+\contentsline {subsection}{\numberline {A.7}Accessible document}{54}{subsection.A.7}%
+\contentsline {subsection}{\numberline {A.8}PEG script}{57}{subsection.A.8}%
+\contentsline {subsection}{\numberline {A.9}Agile sprint focuses}{65}{subsection.A.9}%
+\contentsline {subsection}{\numberline {A.10}Functional requirements}{66}{subsection.A.10}%
+\contentsline {subsection}{\numberline {A.11}Non-functional requirements}{67}{subsection.A.11}%
+\contentsline {subsection}{\numberline {A.12}Error list}{68}{subsection.A.12}%
