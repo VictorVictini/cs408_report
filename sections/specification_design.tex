@@ -1,81 +1,57 @@
 
 \section{Specification \& Design}\label{Specification_design}
-- software development methodology usage + other stuff
+\subsection{Agile sprints}
+An agile sprint is a short timeframe where dedicated efforts are put towards a few goals. They were utilised for several components of the project, with not only a usage in the software engineering side, but also on the project management end. A list of these sprints can be found in the appendix, namely \cref{appendix:sprints_list}.
 
-- key engineering requirements
-
-- GUI design
-
-- design patterns used
-
-- maintainability via documentation (readme) + a lot of comments
-
-Describe all details of the  design and procedures used to achieve the project objectives. Do this chronologically. 
-
-
-It should be detailed enough to allow for an assessment of the rigour of your process, and, in the case of research projects, in terms of how well grounded your research is in the research literature. In these cases, refer back to relevant sections in the previous chapter.
-
-Say which  software lifecycle approach you used e.g., Waterfall, Spiral, Agile. 
-
-How did you gather user requirements?
-
-\subsection{Methodology}
-Which methodology did you choose?
-
-\subsection{Analysis}
-How did you decide on the particular software artifact you decided to develop?
-
-\subsection{Requirements}
-Here you explain what the functional and non-functional requirements are. Explain how you prioritised them. 
-  See \url{https://www.nuclino.com/articles/functional-requirements} for more information. 
-
-   \textbf{Functional requirement:} "The system must \textbf{\emph{do}} [requirement]."
-
-    \textbf{Non-functional requirement:} "The system shall \textbf{\emph{be}} [requirement]."
-
-
-Well-written functional requirements typically have the following characteristics:
-\begin{description}
-
-
-
-    \item[Necessary:] Although functional requirements may have different priority, every one of them needs to relate to a particular business goal or user requirement.
-
-  \item[Concise:] Use simple and easy-to-understand language without any unnecessary jargon to prevent confusion or misinterpretations.
-
- \item[Attainable:] All requirements you include need to be realistic within the time and budget constraints set in the business requirements document.
-
- \item[Granular:] Do not try to combine many requirements within one. The more precise and granular your requirements are, the easier it is to manage them.
-
- \item[Consistent:] Make sure the requirements do not contradict each other and use consistent terminology.
-
- \item[Verifiable:] It should be possible to determine whether the requirement has been met at the end of the project.
-    \end{description}
-
-\subsubsection{Functional Requirements}
-This is the \textbf{WHAT} of your artifact.
-
-Functional requirements are product features that developers must implement to enable the users to achieve their goals. They define the basic system behavior under specific conditions. 
-
-Functional requirements need to be clear, simple, and unambiguous.Examples:
+\subsection{Key engineering requirements}
+\subsubsection{Key functional requirements}
+The key functional requirements include:
 \begin{itemize}
-    \item The system must send a confirmation email whenever an order is placed.
-
-      \item The system must allow blog visitors to sign up for the newsletter by leaving their email.
-
-      \item The system must allow users to verify their accounts using their phone number.
+\item \lintexspaced must allow one \latexspaced file to be uploaded, with its generated \acrshort{pdf} file previewed and downloaded if requested.
+\item \lintexspaced must detect and recommend fixes for \gls{tagging} and lack of \gls{alt_text}.
+\item \lintexspaced must provide useful error messages. This conforms to the objective \ref{intro:objective:errors_useful}
 \end{itemize}
+The full list of functional requirements can be found in the appendix, namely \cref{appendix:func_requirements}.
 
+\subsubsection{Key non-functional requirements}
+Non-functional requirements include:
+\begin{itemize}
+\item The website should be reasonably efficient.
+\item The website should be flexible with supported browsers and desktop screen sizes.
+\item The website should be reasonably accessible.
+\item \lintexspaced should have thorough documentation describing its usage and code. This conforms to the objective \ref{intro:objective:lintex_maintainable}
+\end{itemize}
+The full list of functional requirements can be found in the appendix, namely \cref{appendix:non_func_requirements}
 
-\subsubsection{Non-Functional Requirements}
-This is the \textbf{HOW} of your artifact. Example non-functional requirement: ``When the submit button is pressed, the confirmation screen must load within 2 seconds.''
+\subsection{\lintexspaced supported accessibility}\label{specification_design:supported_accessibility}
+The key \latexspaced accessibility features supported were:
+\begin{enumerate}
+\item[\textbf{Document tagging}] The document would have tagging applied through its \verb|\DocumentMetadata| command. This command accepted a language (`lang') key to specify the document language; tagging key to enable tagging; tagging setup (`tagging-setup') key to select the type of tagging applied to the \latexspaced document; \acrshort{pdf} standard (`pdfstandard') key to specify the \acrshort{pdf} standard the document should follow; and the \acrshort{pdf} version (`pdfversion') key to specify the version of the \acrshort{pdf}. The \acrshort{pdf} version should be compatible with the \acrshort{pdf} standard. It should be noted that the \acrshort{pdf} standard PDF/UA-2 has inconsistencies in version 2.0, that are predicted to be fixed in version 2.1.
+\item[\textbf{Table tagging}] Each table should have its tagging standard applied, with the \verb|\tagpdfsetup| command prefixing the tabular group construct, as defined in \fullref{impl:peg_parsing}, with either `table/tagging=presentation' for tables that are read in reading order, or `table/header-rows={N}', where N is the row the headings, for tables where the heading is prefixed before stating a table cell's contents.
+\item[\textbf{\Gls{alt_text}}] \verb|\includegraphics| may include \gls{alt_text} applied through the optional key `alt'.
+\item[\textbf{Actual text}] \verb|\includegraphics| may include actual text applied through the optional key `actualtext'. Unlike \gls{alt_text}, which has the purpose of describing the text, actual text is used to repeat text extracts within the image itself. For example, a tongue twister.
+\item[\textbf{\Gls{artifact}}] \verb|\includegraphics| may include an artifact, applied through the optional key `artifact' with no value or equal sign (`='). This is used to avoid a graphic's screen reader audio output for when a graphic is purely decorative.
+\end{enumerate}
+All \verb|\includegraphics| are expected to have \gls{alt_text}, actual text, or \gls{artifact}.
 
-\subsection{Design}
+Examples of each of these supported accessibility features can be found in \cref{appendix:accessible_doc}.
 
-\subsubsection{Interface Design}
-Explain how you used wireframes, and how you tested these to design the user interface.
+\subsection{Design patterns used}
+\figureref{figure:build_accessible_document} showcases the design patterns involved in the creation of an accessible document. 
 
+\input{figures/build_accessible_document}
 
- \subsubsection{System Design}
- Show how you designed your database (if appropriate) and how you designed your system architecture, and the individual parts. Use UML and an Entity Relationship diagram
+The builder design pattern \parencite{builder_design_pattern} was used to create a document that conforms to the `IDocument' interface, rather than a concrete `Document' class. This was necessary to work together with the wrapper design pattern \parencite{wrapper_design_pattern} to ensure a concrete `AccessibleDocument' class could be created, with it containing the original document conforming to the `IDocument' interface. This promoted the reusability of the concrete `Document' for other contexts, which would not have been possible if the builder pattern had created a concrete `AccessibleDocument' from the start.
 
+The Composite design pattern \parencite{composite_design_pattern} was utilised for the handling of the document content, as showcased in \figureref{figure:latex_doc_parsing_structure}. This ensured that both group and line constructs could be treated uniformly through a common interface. 
+
+\fullref{impl:peg_parsing} describes how arguments were written to conform to a common interface, ensuring compliance with the dependency inversion princple \parencite{dependency_inversion}.
+\subsection{Error handling}
+Below is a diagram showcasing the general structure of error management in \lintex :
+\input{figures/error_structure}
+
+Error handling in \lintexspaced follows the dependency inversion principle \parencite{dependency_inversion}. In Go, all errors write to the `error' interface. However, it was necessary to create our own interface, `CustomError', to have special handling of data, while still conforming to the `error' interface. From that point, it is simple to have error classes such as `StructureError' conform to the `CustomError' interface.
+
+Another important point is to avoid repetition of data in an error. For example, the `CustomError' interface implements separate \verb|LongError()| and \verb|Error()| methods. Repeating the description of the \verb|LongError()| in several locations would likely lead to mistakes and additional work with keeping them up-to-date. Hence, a custom function type, `CreateError', was created to compile the error while only necessitating the location information of the error. This worked by creating a helper function that returned the `CreateError' function type, and providing the consistent data between errors to the helper function, such that the `CreateError' function would only require the location information of the error. The full error list can be found in the appendix in \cref{appendix:err_list}.
+\subsection{Documentation}
+Thorough documentation has been provided in the form of comments in code, with special emphasis to the \acrshort{peg} script in \cref{appendix:peg_script}. Additionally, the `README.md' contains thorough steps on prerequisite installations, installation steps, and steps for contributing to the project.

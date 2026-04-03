@@ -1,4 +1,4 @@
-\section{Introduction}
+\section{\nmu Introduction \nmu}\label{intro}
 \subsection{Identifying \LaTeX's key accessibility problems for screen reader users}
 Similar to a tool like Microsoft Word, \latexspaced is a tool used to process documents. \latexspaced does this in a programmatical manner, likening it to a programming language, whereas Microsoft Word has a \acrfull{gui} which simplifies the process for an ordinary user. However, \latexspaced prevails in its ability to process scientific documents which may require graphs, images, tables, or advanced mathematical capabilities.
 
@@ -12,7 +12,7 @@ For example, in Northern Ireland alone, there are an estimated 8,000 users with 
 
 Users with disabilities are over 50\% more likely to face difficulties due to a lack of digital inclusion \parencite{accessibility_importance}, which highlights the severity of its impact on a website's overall traffic. These users should not be an afterthought of the website's design, but rather a key focus.
 
-\subsection{Why LuaLaTeX provides better accessibility than PDFLaTeX}\label{intro:lualatex_better_pdflatex}
+\subsection{Why \lualatexspaced provides better accessibility than \pdflatexspaced}\label{intro:lualatex_better_pdflatex}
 \pdflatexspaced was created to be a media printer, such that it produced PDF documents with the sole purpose of being printed out. Due to its innate design, this means it lacked support for screen reader users. \pdflatexspaced also frequently has outdated, or frankly broken, workarounds to implement accessibility, such as the accessibility package \parencite{accessibility_package} which has been deprecated since February 2021. Additionally, as its focus has shifted to maintenance rather than development, \pdflatexspaced is unsuitable for accessibility where requirements change frequently, making it an outdated \texspaced engine, which unfortunately still sees frequent usage.
 
 The introduction of \xetexspaced improved font handling in \latex , yet its lifetime was short-lived, with it almost being considered an evolutionary deadend, at the addition of \lualatex.
@@ -23,10 +23,10 @@ This project aimed to enhance \latexspaced documents' accessibility, with a focu
 
 The following objectives were created for this context:
 \begin{enumerate}[label=\textbf{OBJ\arabic*}]
-    \item The tool, \lintex , should be maintainable, as accessibility often requires changes to its handling.
-    \item \lintexspaced should improve a document's audio output in terms of its contents, when read by a screen reader.
-    \item \lintexspaced should provide useful error messages and descriptive.
-    \item \lintexspaced should be reasonably accessible, following the accessibility guidelines defined in \cref{backg:accessibility_guidelines}.
+    \item The tool, \lintex , should be maintainable, as accessibility often requires changes to its handling.\label{intro:objective:lintex_maintainable}
+    \item \lintexspaced should improve a document's audio output in terms of its contents, when read by a screen reader.\label{intro:objective:audio_output_improved}
+    \item \lintexspaced should provide useful error messages and descriptive.\label{intro:objective:errors_useful}
+    \item \lintexspaced should be reasonably accessible, following the accessibility guidelines defined in \cref{backg:accessibility_guidelines}.\label{intro:objective:lintex_accessible}
 \end{enumerate}
 
 \subsection{Research questions}

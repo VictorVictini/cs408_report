@@ -2397,18 +2397,29 @@
     <bcf:citekey order="21" intorder="1">leetcode</bcf:citekey>
     <bcf:citekey order="22" intorder="1">hackerrank</bcf:citekey>
     <bcf:citekey order="23" intorder="1">codewars</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">pigeon</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">net-http</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">html-template</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">os-exec</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">tailwind</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">flowbite</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">pigeon</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">net-http</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">composite_design_pattern</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">adapter_design_pattern</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">user_study_definition</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">t-test</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">builder_design_pattern</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">wrapper_design_pattern</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">composite_design_pattern</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">dependency_inversion</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">dependency_inversion</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">pigeon</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">net-http</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">html-template</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">os-exec</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">tailwind</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">flowbite</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">pigeon</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">net-http</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">composite_design_pattern</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">adapter_design_pattern</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">user_study_definition</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">t-test</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">wcag</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">wcag</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">wcag</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">wcag</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">wcag</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">wcag</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

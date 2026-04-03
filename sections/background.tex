@@ -15,7 +15,7 @@ It should be noted that while Go, C, C\#, and C++ are not directly compatible wi
 
 This leaves us with a focus placed on JavaScript, Go, and TypeScript. However, JavaScript will be removed from consideration as a strictly typed language is preferred for our context. Therefore, leaving Go and TypeScript as the main considerations for this project. Finally, as I have more experience and a stronger preference towards Go as opposed to TypeScript, it was the chosen programming language for the project.
 
-\subsection{\nmu Choosing \nmu a \acrshort{peg} library under the Go programming language}\label{backg:peg_library_choice}
+\subsection{\nmu Choosing \nmu a PEG library under the Go programming language}\label{backg:peg_library_choice}
 Go has two libraries that are used in relation to \acrshort{peg} systems: Pigeon by Martin Angers (mna) and \acrshort{peg} by Andrew Snodgrass (pointlander). Direct comparisons with core components of both have been made in \tableref{table:peg_pigeon_comparison}.
 
 \input{tables/peg_pigeon_comparison}
@@ -42,18 +42,18 @@ To ensure appropriate responsiveness of \lintex, it was necessary to be able to 
 \subsection{\nmu Guidelines \nmu for accessibility}\label{backg:accessibility_guidelines}
 The following key points have been used in the design of \lintexspaced to ensure its accessibility, following WCAG 2.2 \parencite{wcag} standards.
 \begin{itemize}
-\item The website should have all non-text content contain an \gls{alt_text} (WCAG 2.2: Guideline 1.1).
-\item The website may be operable through the keyboard alone (WCAG 2.2: Guideline 2.1).
-\item \lintexspaced should provide simple error messages.
-\item The website should allow for content to be distinguishable, including supporting resizing content and minimal colour usage (WCAG 2.2: Guideline 1.4).
-\item The website should be presentable in a simpler format if required (WCAG 2.2: Guideline 1.3).
-\item The website should include navigation features (WCAG 2.2: Guideline 2.4).
-\item The website should be predictable (WCAG 2.2: Guideline 3.2).
-\item The produced document by \lintexspaced should contain appropriate tagging.
-\item The produced \gls{accessible_doc} by \lintexspaced should contain appropriate \gls{alt_text}, actual text, or artifact.
+    \item The website should have all non-text content contain an \gls{alt_text} (WCAG 2.2: Guideline 1.1).
+    \item The website may be operable through the keyboard alone (WCAG 2.2: Guideline 2.1).
+    \item \lintexspaced should provide simple error messages.
+    \item The website should allow for content to be distinguishable, including supporting resizing content and minimal colour usage (WCAG 2.2: Guideline 1.4).
+    \item The website should be presentable in a simpler format if required (WCAG 2.2: Guideline 1.3).
+    \item The website should include navigation features (WCAG 2.2: Guideline 2.4).
+    \item The website should be predictable (WCAG 2.2: Guideline 3.2).
+    \item The produced document by \lintexspaced should contain appropriate tagging.
+    \item The produced \gls{accessible_doc} by \lintexspaced should contain appropriate \gls{alt_text}, actual text, or artifact.
 \end{itemize}
 
-\subsection{Choosing a software development methodology}
+\subsection{Choosing a software development methodology}\label{backg:swe_methodology}
 The available options under consideration for the project are the waterfall methodology, agile development methodology, \acrfull{tdd}, and \acrfull{bdd}.
 
 The waterfall methodology requires significant research early in the project to have success. However, as I lack experience in \acrshort{peg} script usage and many related topics for this project, it was likely that changes would be needed dynamically.
@@ -94,7 +94,7 @@ To gauge an understanding of how truly impactful an \gls{inaccessible_doc}'s imp
 It is necessary to understand what components of the relevant listening were found to be simple or difficult. However, these should be asked separately to ensure no confusion about what is being asked. The participant will be asked to provide their opinion on how well the screen reader audio output could be understood in terms of its contents, with a \gls{likert} to provide quantitative data that can be analysed.
 
 Participants were asked if they were likely to accommodate screen reader users in the future, to gain an understanding of whether \lintexspaced had made doing so appear to be an easier process.
-\subsection{\acrshort{gui} design considerations}
+\subsection{GUI design considerations}
 \lintexspaced took strong inspiration from \acrfullpl{ide} with regards to its \acrfull{uiux} design. This is because \latex in structure is similar to a programming language, even being Turing complete \parencite{latexturingcomplete}. Hence, an environment suitable for programming is suitable program \latex in, with some special considerations put aside for its quirks. For example, depending on the user's screen size and preferences, they may wish to have the output of the \latexspaced documents taking up half of the screen, a separate browser window or monitor, or out of the way until compilation.
 
 Additionally, online code editors such as LeetCode \parencite{leetcode}, HackerRank \parencite{hackerrank}, and CodeWars \parencite{codewars} were similar in nature to what \lintexspaced would like to achieve regarding its \acrshort{uiux}, and were consequently used as inspiration.

@@ -5,22 +5,77 @@
 \subsection{Ethics application}
 \includepdf[pages=-]{images/ethics_application}
 
-\subsection{Participant information sheet}
+\subsection{\nmu Participant \nmu information sheet}\label{appendix:pis}
 \includepdf[pages=-]{images/participant_info_sheet}
 
-\subsection{Consent form}
+\subsection{\nmu Consent \nmu form}\label{appendix:consent_form}
 \includepdf[pages=-]{images/consent_form}
 
 \subsection{\nmu User \nmu study script}\label{appendix:user_study_script}
 \includepdf[pages=-]{images/user_study_script}
 
-\subsection{\Gls{inaccessible_doc}}\label{appendix:inaccessible_doc}
+\subsection{Inaccessible document}\label{appendix:inaccessible_doc}
 \includepdf[pages=-]{images/inaccessible_document}
 
-\subsection{\Gls{accessible_doc}}\label{appendix:accessible_doc}
+\subsection{Accessible document}\label{appendix:accessible_doc}
 \includepdf[pages=-]{images/accessible_document}
 
-\subsection{\acrshort{peg} script}\label{appendix:peg_script}
+\subsection{PEG script}\label{appendix:peg_script}
 \includepdf[pages=-]{images/peg_script}
 
+\subsection{Agile sprint focuses}\label{appendix:sprints_list}
+Agile sprints used during this project include:
+\begin{itemize}
+    \item Creating the initial draft for the overview diagram for this project, with the purpose of showcasing, at a glance, the main objectives of \lintex .
+    \item Starting the ethics application. For this process, draft consent form (found in \cref{appendix:consent_form}) and \acrfull{pis} (found in \cref{appendix:pis}) were created.
+    \item Creating the \acrfull{mvp} to identify lack of \gls{alt_text} usage, originally conforming to the `accessibility' package, and implementing it through the necessary steps.
+    \item Writing the November progress report.
+    \item Improving the backend's parsing to be more maintainable through the use of design patterns and restructuring of file management.
+    \item Implementing sophisticated error handling to ensure separate outputs for either specific, contextualised errors or descriptive, context-free error messages.
+    \item Creating the final draft of the overview diagram.
+    \item Completing the ethics application to gain ethics approval for the \fullref{user_study}.
+    \item Designing and implementing the \acrfull{gui} using Tailwind CSS and Flowbite.
+    \item Conducting the user study to determine \lintex 's usability and its effectiveness in improving a \latexspaced document's accessibility for screen reader users.
+    \item Implementing a few suggested fixes, depending on what the timeframe allowed, for usability concerns identified in the \fullref{user_study}.
+    \item Writing the final report, namely this one.
+\end{itemize}
 \clearpage
+
+\subsection{Functional requirements}\label{appendix:func_requirements}
+Functional requirements include:
+\begin{itemize}
+    \item \lintexspaced must allow one \latexspaced file to be uploaded.
+    \item \lintexspaced must allow the file to be downloaded once the user has finished using the system.
+    \item \lintexspaced should allow the finished document to be previewed.
+    \item \lintexspaced must detect if tagging exists or not.
+    \item \lintexspaced must recommend a fix by inserting tagging.
+    \item \lintexspaced must detect when alt text is missing for graphics.
+    \item \lintexspaced must recommend a fix by inserting alt text for graphics.
+    \item \lintexspaced must detect when tagging is missing for tables.
+    \item \lintexspaced must recommend tagging for tables.
+    \item \lintexspaced should reference further reading for screen reader accessibility recommendations.
+    \item The website should have all non-text content contain an alt text (WCAG 2.2: Guideline 1.1) \cite{wcag}.
+    \item \lintexspaced may be usable without a keyboard.
+    \item \lintexspaced should provide context-free, descriptive error messages.
+    \item \lintexspaced should provide contextualised, simple error messages.
+\end{itemize}
+\clearpage
+
+\subsection{Non-functional requirements}\label{appendix:non_func_requirements}
+Non-functional requirements include:
+\begin{itemize}
+    \item The website should load within 2 seconds.
+    \item The website should support a variety of standard desktop screen sizes.
+    \item The website should support a variety of browsers.
+    \item The website should be presentable in a simpler format if required (WCAG 2.2: Guideline 1.3) \cite{wcag}.
+    \item The website should allow for content to be distinguishable including supporting resizing content and minimal colour usage (WCAG 2.2: Guideline 1.4) \cite{wcag}.
+    \item The website may be operable through the keyboard alone (WCAG 2.2: Guideline 2.1) \cite{wcag}.
+    \item The website should include navigation features (WCAG 2.2: Guideline 2.4) \cite{wcag}.
+    \item The website should be predictable (WCAG 2.2: Guideline 3.2) \cite{wcag}.
+    \item LinTeX should provide a \acrshort{pdf} document in under a minute.
+    \item LinTeX should have thorough documentation describing its usage and code.
+\end{itemize}
+\clearpage
+
+\subsection{Error list}\label{appendix:err_list}
+\includepdf[pages=-]{images/errors_list}

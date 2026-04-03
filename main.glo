@@ -1,14 +1,11 @@
-\glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{iii}
-\glossaryentry{GUI?\glossentry{gui}|setentrycounter[]{page}"\glsnumberformat}{iii}
-\glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{iii}
-\glossaryentry{V"\&V?\glossentry{vv}|setentrycounter[]{page}"\glsnumberformat}{iii}
-\glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{iv}
-\glossaryentry{accessible document?\glossentry{accessible_doc}|setentrycounter[]{page}"\glsnumberformat}{iv}
-\glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{iv}
+\glossaryentry{tagging?\glossentry{tagging}|setentrycounter[]{page}"\glsnumberformat}{i}
+\glossaryentry{image descriptor?\glossentry{image_desc}|setentrycounter[]{page}"\glsnumberformat}{i}
 \glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{iv}
 \glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{iv}
 \glossaryentry{OS?\glossentry{os}|setentrycounter[]{page}"\glsnumberformat}{iv}
 \glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{v}
+\glossaryentry{alternative text?\glossentry{alt_text}|setentrycounter[]{page}"\glsnumberformat}{v}
+\glossaryentry{actual text?\glossentry{actual_text}|setentrycounter[]{page}"\glsnumberformat}{v}
 \glossaryentry{GUI?\glossentry{gui}|setentrycounter[]{page}"\glsnumberformat}{1}
 \glossaryentry{GUI?\glossentry{gui}|setentrycounter[]{page}"\glsnumberformat}{1}
 \glossaryentry{PDF?\glossentry{pdf}|setentrycounter[]{page}"\glsnumberformat}{1}
@@ -27,7 +24,6 @@
 \glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{4}
 \glossaryentry{CGI?\glossentry{cgi}|setentrycounter[]{page}"\glsnumberformat}{4}
 \glossaryentry{CGI?\glossentry{cgi}|setentrycounter[]{page}"\glsnumberformat}{4}
-\glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{5}
 \glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{5}
 \glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{5}
 \glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{5}
@@ -74,7 +70,6 @@
 \glossaryentry{BDD?\glossentry{bdd}|setentrycounter[]{page}"\glsnumberformat}{8}
 \glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{8}
 \glossaryentry{TDD?\glossentry{tdd}|setentrycounter[]{page}"\glsnumberformat}{8}
-\glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{8}
 \glossaryentry{BDD?\glossentry{bdd}|setentrycounter[]{page}"\glsnumberformat}{9}
 \glossaryentry{TDD?\glossentry{tdd}|setentrycounter[]{page}"\glsnumberformat}{9}
 \glossaryentry{OS?\glossentry{os}|setentrycounter[]{page}"\glsnumberformat}{9}
@@ -91,54 +86,73 @@
 \glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{11}
 \glossaryentry{think-aloud session?\glossentry{think_aloud}|setentrycounter[]{page}"\glsnumberformat}{11}
 \glossaryentry{likert scale datum?\glossentry{likert}|setentrycounter[]{page}"\glsnumberformat}{11}
-\glossaryentry{GUI?\glossentry{gui}|setentrycounter[]{page}"\glsnumberformat}{11}
 \glossaryentry{IDE?\glossentry{ide}|setentrycounter[]{page}"\glsnumberformat}{11}
 \glossaryentry{IDE?\glossentry{ide}|setentrycounter[]{page}"\glsnumberformat}{11}
 \glossaryentry{UI/UX?\glossentry{uiux}|setentrycounter[]{page}"\glsnumberformat}{11}
 \glossaryentry{UI/UX?\glossentry{uiux}|setentrycounter[]{page}"\glsnumberformat}{11}
 \glossaryentry{UI/UX?\glossentry{uiux}|setentrycounter[]{page}"\glsnumberformat}{11}
-\glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{CMD?\glossentry{cmd}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{CMD?\glossentry{cmd}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{CSS?\glossentry{css}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{CSS?\glossentry{css}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{HTML?\glossentry{html}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{HTML?\glossentry{html}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{CSS?\glossentry{css}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{15}
+\glossaryentry{PDF?\glossentry{pdf}|setentrycounter[]{page}"\glsnumberformat}{12}
+\glossaryentry{tagging?\glossentry{tagging}|setentrycounter[]{page}"\glsnumberformat}{12}
+\glossaryentry{alternative text?\glossentry{alt_text}|setentrycounter[]{page}"\glsnumberformat}{12}
+\glossaryentry{PDF?\glossentry{pdf}|setentrycounter[]{page}"\glsnumberformat}{13}
+\glossaryentry{PDF?\glossentry{pdf}|setentrycounter[]{page}"\glsnumberformat}{13}
+\glossaryentry{PDF?\glossentry{pdf}|setentrycounter[]{page}"\glsnumberformat}{13}
+\glossaryentry{PDF?\glossentry{pdf}|setentrycounter[]{page}"\glsnumberformat}{13}
+\glossaryentry{PDF?\glossentry{pdf}|setentrycounter[]{page}"\glsnumberformat}{13}
+\glossaryentry{PDF?\glossentry{pdf}|setentrycounter[]{page}"\glsnumberformat}{13}
+\glossaryentry{PDF?\glossentry{pdf}|setentrycounter[]{page}"\glsnumberformat}{13}
+\glossaryentry{alternative text?\glossentry{alt_text}|setentrycounter[]{page}"\glsnumberformat}{13}
+\glossaryentry{alternative text?\glossentry{alt_text}|setentrycounter[]{page}"\glsnumberformat}{13}
+\glossaryentry{alternative text?\glossentry{alt_text}|setentrycounter[]{page}"\glsnumberformat}{13}
+\glossaryentry{artifact?\glossentry{artifact}|setentrycounter[]{page}"\glsnumberformat}{13}
+\glossaryentry{alternative text?\glossentry{alt_text}|setentrycounter[]{page}"\glsnumberformat}{13}
+\glossaryentry{artifact?\glossentry{artifact}|setentrycounter[]{page}"\glsnumberformat}{13}
 \glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{15}
 \glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{16}
-\glossaryentry{V"\&V?\glossentry{vv}|setentrycounter[]{page}"\glsnumberformat}{17}
-\glossaryentry{alternative text?\glossentry{alt_text}|setentrycounter[]{page}"\glsnumberformat}{17}
-\glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{18}
-\glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{18}
-\glossaryentry{accessible document?\glossentry{accessible_doc}|setentrycounter[]{page}"\glsnumberformat}{18}
-\glossaryentry{accessible document?\glossentry{accessible_doc}|setentrycounter[]{page}"\glsnumberformat}{18}
+\glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{CMD?\glossentry{cmd}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{CMD?\glossentry{cmd}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{CSS?\glossentry{css}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{CSS?\glossentry{css}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{HTML?\glossentry{html}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{HTML?\glossentry{html}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{CSS?\glossentry{css}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{17}
+\glossaryentry{alternative text?\glossentry{alt_text}|setentrycounter[]{page}"\glsnumberformat}{18}
+\glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{19}
+\glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{19}
 \glossaryentry{accessible document?\glossentry{accessible_doc}|setentrycounter[]{page}"\glsnumberformat}{19}
-\glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{19}
-\glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{19}
-\glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{19}
 \glossaryentry{accessible document?\glossentry{accessible_doc}|setentrycounter[]{page}"\glsnumberformat}{19}
-\glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{19}
-\glossaryentry{metadata?\glossentry{metadata}|setentrycounter[]{page}"\glsnumberformat}{20}
-\glossaryentry{metadata?\glossentry{metadata}|setentrycounter[]{page}"\glsnumberformat}{20}
-\glossaryentry{accessible document?\glossentry{accessible_doc}|setentrycounter[]{page}"\glsnumberformat}{24}
-\glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{24}
-\glossaryentry{accessible document?\glossentry{accessible_doc}|setentrycounter[]{page}"\glsnumberformat}{24}
-\glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{24}
-\glossaryentry{metadata?\glossentry{metadata}|setentrycounter[]{page}"\glsnumberformat}{24}
-\glossaryentry{metadata?\glossentry{metadata}|setentrycounter[]{page}"\glsnumberformat}{24}
-\glossaryentry{accessible document?\glossentry{accessible_doc}|setentrycounter[]{page}"\glsnumberformat}{24}
-\glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{24}
-\glossaryentry{right-tailed test?\glossentry{right_tailed_alternative_hypothesis}|setentrycounter[]{page}"\glsnumberformat}{26}
-\glossaryentry{accessible document?\glossentry{accessible_doc}|setentrycounter[]{page}"\glsnumberformat}{26}
-\glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{26}
-\glossaryentry{IDE?\glossentry{ide}|setentrycounter[]{page}"\glsnumberformat}{28}
-\glossaryentry{IDE?\glossentry{ide}|setentrycounter[]{page}"\glsnumberformat}{28}
-\glossaryentry{tagging?\glossentry{tagging}|setentrycounter[]{page}"\glsnumberformat}{28}
-\glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{48}
-\glossaryentry{accessible document?\glossentry{accessible_doc}|setentrycounter[]{page}"\glsnumberformat}{51}
-\glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{54}
+\glossaryentry{accessible document?\glossentry{accessible_doc}|setentrycounter[]{page}"\glsnumberformat}{20}
+\glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{20}
+\glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{20}
+\glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{20}
+\glossaryentry{metadata?\glossentry{metadata}|setentrycounter[]{page}"\glsnumberformat}{22}
+\glossaryentry{metadata?\glossentry{metadata}|setentrycounter[]{page}"\glsnumberformat}{22}
+\glossaryentry{accessible document?\glossentry{accessible_doc}|setentrycounter[]{page}"\glsnumberformat}{25}
+\glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{25}
+\glossaryentry{accessible document?\glossentry{accessible_doc}|setentrycounter[]{page}"\glsnumberformat}{25}
+\glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{25}
+\glossaryentry{metadata?\glossentry{metadata}|setentrycounter[]{page}"\glsnumberformat}{25}
+\glossaryentry{metadata?\glossentry{metadata}|setentrycounter[]{page}"\glsnumberformat}{25}
+\glossaryentry{accessible document?\glossentry{accessible_doc}|setentrycounter[]{page}"\glsnumberformat}{25}
+\glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{25}
+\glossaryentry{right-tailed test?\glossentry{right_tailed_alternative_hypothesis}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{accessible document?\glossentry{accessible_doc}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{inaccessible document?\glossentry{inaccessible_doc}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{tagging?\glossentry{tagging}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{alternative text?\glossentry{alt_text}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{IDE?\glossentry{ide}|setentrycounter[]{page}"\glsnumberformat}{30}
+\glossaryentry{IDE?\glossentry{ide}|setentrycounter[]{page}"\glsnumberformat}{30}
+\glossaryentry{tagging?\glossentry{tagging}|setentrycounter[]{page}"\glsnumberformat}{30}
+\glossaryentry{PIS?\glossentry{pis}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{PIS?\glossentry{pis}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{MVP?\glossentry{mvp}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{MVP?\glossentry{mvp}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{alternative text?\glossentry{alt_text}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{GUI?\glossentry{gui}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{GUI?\glossentry{gui}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{PDF?\glossentry{pdf}|setentrycounter[]{page}"\glsnumberformat}{66}

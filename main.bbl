@@ -705,6 +705,39 @@
       \verb https://www.nnlm.gov/resources/data-glossary/quantitative-data
       \endverb
     \endentry
+    \entry{dependency_inversion}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b0b76b9603b1a2c71e57695ed495921e}{%
+           family={Noback},
+           familyi={N\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b0b76b9603b1a2c71e57695ed495921e}
+      \strng{fullhash}{b0b76b9603b1a2c71e57695ed495921e}
+      \strng{fullhashraw}{b0b76b9603b1a2c71e57695ed495921e}
+      \strng{bibnamehash}{b0b76b9603b1a2c71e57695ed495921e}
+      \strng{authorbibnamehash}{b0b76b9603b1a2c71e57695ed495921e}
+      \strng{authornamehash}{b0b76b9603b1a2c71e57695ed495921e}
+      \strng{authorfullhash}{b0b76b9603b1a2c71e57695ed495921e}
+      \strng{authorfullhashraw}{b0b76b9603b1a2c71e57695ed495921e}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-4842-4118-9}
+      \field{month}{01}
+      \field{title}{The Dependency Inversion Principle: Creating Reusable Software Components}
+      \field{year}{2018}
+      \field{pages}{67\bibrangedash 104}
+      \range{pages}{38}
+      \verb{doi}
+      \verb 10.1007/978-1-4842-4119-6_5
+      \endverb
+    \endentry
     \entry{hackerrank}{misc}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=c2324bb79b60f8bea439b31138c9c5bf}{%
@@ -792,7 +825,7 @@
       \verb https://refactoring.guru/design-patterns/adapter
       \endverb
     \endentry
-    \entry{composite_design_pattern}{online}{}{}
+    \entry{builder_design_pattern}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=96dfef298f5fd8385c9bda34f6502377}{%
            family={Shvets},
@@ -819,6 +852,47 @@
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://refactoring.guru/design-patterns/builder}}
+      \field{title}{Builder}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://refactoring.guru/design-patterns/builder
+      \endverb
+      \verb{url}
+      \verb https://refactoring.guru/design-patterns/builder
+      \endverb
+    \endentry
+    \entry{composite_design_pattern}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=96dfef298f5fd8385c9bda34f6502377}{%
+           family={Shvets},
+           familyi={S\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Refactoring.Guru}%
+      }
+      \strng{namehash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{fullhash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{fullhashraw}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{bibnamehash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{authorbibnamehash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{authornamehash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{authorfullhash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{authorfullhashraw}{96dfef298f5fd8385c9bda34f6502377}
+      \field{extraname}{3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -1108,6 +1182,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{wrapper_design_pattern}
 \endrefsection
 \endinput
 

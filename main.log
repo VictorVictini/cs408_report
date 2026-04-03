@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.11.19)  2 APR 2026 23:37
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.11.19)  3 APR 2026 04:55
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1577,10 +1577,18 @@ Package biblatex Info: Automatic encoding selection.
 \openout4 = main.bcf
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
-(./main.bbl)
+(./main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                wrapper_design_pattern
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 74.
 Package biblatex Info: Reference segment=0 on input line 74.
-<./images/strath_fullcolour.png, id=207, 582.4962pt x 422.7795pt>
+<./images/strath_fullcolour.png, id=239, 582.4962pt x 422.7795pt>
 File: ./images/strath_fullcolour.png Graphic file (type png)
 <use ./images/strath_fullcolour.png>
 Package luatex.def Info: ./images/strath_fullcolour.png  used on input line 94.
@@ -1592,12 +1600,12 @@ Package luatex.def Info: ./images/strath_fullcolour.png  used on input line 94.
 \openout5 = main.ist
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./images/strath_f
 ullcolour.png>] (./sections/abstract.tex [1])
-<images/ComicStructure.pdf, id=221, 4084.7506pt x 2167.829pt>
+<images/ComicStructure.pdf, id=259, 4084.7506pt x 2167.829pt>
 File: images/ComicStructure.pdf Graphic file (type pdf)
 <use images/ComicStructure.pdf>
 Package luatex.def Info: images/ComicStructure.pdf  used on input line 142.
 (luatex.def)             Requested size: 4084.74069pt x 2167.82372pt.
-<images/ComicStructure.pdf, id=223, page=1, 4084.7506pt x 2167.829pt>
+<images/ComicStructure.pdf, id=261, page=1, 4084.7506pt x 2167.829pt>
 File: images/ComicStructure.pdf Graphic file (type pdf)
 <use images/ComicStructure.pdf, page 1>
 Package luatex.def Info: images/ComicStructure.pdf , page1 used on input line 1
@@ -1627,37 +1635,10 @@ Package luatex.def Info: images/ComicStructure.pdf , page1 used on input line 1
 
 
 ]
-(./main.toc
-
-Package glossaries-extra Warning: Base acronym command \acrshort should not be 
-used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-13.
+(./main.toc [3
 
 
-Package glossaries-extra Warning: Base acronym command \acrshort should not be 
-used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-23.
-
-
-Package glossaries-extra Warning: Base acronym command \acrshort should not be 
-used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-35.
-
-
-Package glossaries-extra Warning: Base acronym command \Acrlong should not be u
-sed with new abbreviation definitions. Use \Glsxtrlong instead on input line 36
-.
-
-[3
-
-
-]
-
-Package glossaries-extra Warning: Base acronym command \acrshort should not be 
-used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-67.
-
-)
+])
 \tf@toc=\write8
 
 \openout8 = main.toc
@@ -1686,10 +1667,6 @@ ine 5.
 
 \openout10 = main.lot
  [4] (./main.gls
-Underfull \hbox (badness 2662) in paragraph at lines 16--17
-[]|\TU/lmss/m/n/10.95 text used in place of non-text components for
- []
-
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                The command should be defined in the .lbx file.
@@ -1712,7 +1689,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                for \mkbibdateshort.
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 88--88
+Underfull \hbox (badness 1490) in paragraph at lines 99--99
 []|\TU/lmss/m/n/10.95 data that can be represented in numerical form
  []
 
@@ -1852,15 +1829,6 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 [4
 
 ]
-
-Package glossaries-extra Warning: Base acronym command \acrshort should not be 
-used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-18.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\acrshort' on input line 18.
-
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
@@ -2258,11 +2226,6 @@ used with new abbreviation definitions. Use \Glsxtrshort instead on input line
 61.
 
 
-Package glossaries-extra Warning: Base acronym command \acrshort should not be 
-used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-61.
-
-
 Package glossaries-extra Warning: Base acronym command \Acrshort should not be 
 used with new abbreviation definitions. Use \Glsxtrshort instead on input line 
 63.
@@ -2306,15 +2269,6 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 72.
 
 [9] [10]
-
-Package glossaries-extra Warning: Base acronym command \acrshort should not be 
-used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-97.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\acrshort' on input line 97.
-
 
 Package glossaries-extra Warning: Base acronym command \acrfullpl should not be
  used with new abbreviation definitions. Use \glsxtrfullpl instead on input lin
@@ -2387,12 +2341,118 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 100.
 
 ) [11] (./sections/specification_design.tex
-LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 32.
- [12
 
-] [13]) [14]
-(./sections/implementation.tex
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+10.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+29.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+29.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+29.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+29.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+29.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+29.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+29.
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 29--30
+[]\TU/lmss/m/n/10.95 The document would have tagging applied through its []\TU/
+lmtt/m/n/10.95 \DocumentMetadata
+ []
+
+[12
+
+]
+Underfull \hbox (badness 1354) in paragraph at lines 30--31
+\TU/lmss/m/n/10.95 command prefixing the tabular group construct, as defined in [][]PEG parsing[][]
+ []
+
+(./figures/build_accessible_document.tex
+<images/build_accessible_document.png, id=765, 2694.065pt x 650.43pt>
+File: images/build_accessible_document.png Graphic file (type png)
+<use images/build_accessible_document.png>
+Package luatex.def Info: images/build_accessible_document.png  used on input li
+ne 4.
+(luatex.def)             Requested size: 2694.05847pt x 650.4284pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+LaTeX Warning: Citation 'wrapper_design_pattern' on page 13 undefined on input 
+line 44.
+
+[13]
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+(./figures/error_structure.tex
+<images/error_structure.png, id=778, 2453.165pt x 887.315pt>
+File: images/error_structure.png Graphic file (type png)
+<use images/error_structure.png>
+Package luatex.def Info: images/error_structure.png  used on input line 4.
+(luatex.def)             Requested size: 2453.15903pt x 887.31284pt.
+)
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+[14<./images/build_accessible_document.png><./images/error_structure.png>]
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+57.
+
+) [15] (./sections/implementation.tex
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                The command should be defined in the .lbx file.
@@ -2522,15 +2582,6 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-11.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\acrshort' on input line 11.
-
-
-Package glossaries-extra Warning: Base acronym command \acrshort should not be 
-used with new abbreviation definitions. Use \glsxtrshort instead on input line 
 12.
 
 
@@ -2545,7 +2596,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                loaded, is faulty or does not contain a definition
 (biblatex)                for \mkbibdateshort.
 
-[15
+[16
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 20--21
@@ -2560,7 +2611,7 @@ Underfull \hbox (badness 7540) in paragraph at lines 20--21
  []
 
 (./figures/latex_doc_parsing_structure.tex
-<images/latex_doc_parsing_structure.png, id=731, 3015.265pt x 1449.415pt>
+<images/latex_doc_parsing_structure.png, id=825, 3015.265pt x 1449.415pt>
 File: images/latex_doc_parsing_structure.png Graphic file (type png)
 <use images/latex_doc_parsing_structure.png>
 Package luatex.def Info: images/latex_doc_parsing_structure.png  used on input 
@@ -2573,7 +2624,7 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 28.
 
 (./figures/latex_line_parsing_structure.tex
-<images/latex_line_structure.png, id=733, 2653.915pt x 871.255pt>
+<images/latex_line_structure.png, id=827, 2653.915pt x 871.255pt>
 File: images/latex_line_structure.png Graphic file (type png)
 <use images/latex_line_structure.png>
 Package luatex.def Info: images/latex_line_structure.png  used on input line 4.
@@ -2583,16 +2634,7 @@ Package luatex.def Info: images/latex_line_structure.png  used on input line 4.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [16<./images/latex_doc_parsing_structure.png>]
-
-Package glossaries-extra Warning: Base acronym command \Acrlong should not be u
-sed with new abbreviation definitions. Use \Glsxtrlong instead on input line 35
-.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Acrlong' on input line 35.
-
+) [17<./images/latex_doc_parsing_structure.png>]
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                The command should be defined in the .lbx file.
@@ -2600,7 +2642,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                loaded, is faulty or does not contain a definition
 (biblatex)                for \mkbibdateshort.
 
-) [17<./images/latex_line_structure.png>] (./sections/user_study.tex
+) [18<./images/latex_line_structure.png>] (./sections/user_study.tex
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                The command should be defined in the .lbx file.
@@ -2608,28 +2650,22 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                loaded, is faulty or does not contain a definition
 (biblatex)                for \mkbibdateshort.
 
-[18
+[19
 
-]
-
-LaTeX Warning: Reference `objective:audio_output_improved' on page 19 undefined
- on input line 22.
-
-
-LaTeX Warning: Reference `accessible_website' on page 19 undefined on input lin
-e 23.
-
-
-LaTeX Warning: Reference `errors_useful' on page 19 undefined on input line 24.
-
-
-(./tables/document_summary_results.tex) [19]
+] (./tables/document_summary_results.tex) [20]
 (./figures/likert_scale_comparison.tex) (./tables/difficult_aspects.tex
 Underfull \hbox (badness 1072) in paragraph at lines 12--12
 []|\TU/lmss/m/n/10.95 Images being plain file names made it difficult to
  []
 
-) [20] (./tables/simple_aspects.tex)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./tables/simple_aspects.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [21]
 
 Package biblatex Warning: Bibliography string 'and' untranslated
 (biblatex)                at entry 't-test' on input line 53.
@@ -2641,11 +2677,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                loaded, is faulty or does not contain a definition
 (biblatex)                for \mkbibdateshort.
 
-(./figures/t-test_math.tex
+(./figures/t-test_math.tex) (./figures/screen_reader_support.tex [22]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [21] (./figures/screen_reader_support.tex) (./tables/lintex_usability.tex
+) (./tables/lintex_usability.tex
 Underfull \hbox (badness 1448) in paragraph at lines 17--17
 []|\TU/lmss/m/n/10.95 Attempts were made to place the ‘tabular’ group within
  the required argument of
@@ -2660,28 +2696,28 @@ quired argument of
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [22] [23] [24] [25]) [26] (./sections/discussion_reflection.tex) [27
+) [23] [24] [25] [26]) [27] (./sections/discussion_reflection.tex) [28
 
 ]
-(./sections/conclusion.tex
+(./sections/conclusion.tex [29
+
+]
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 10
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 16
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 10
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 16
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-10.
+16.
 
-[28
-
-]) [29]
+[30]) [31]
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 (biblatex)                The command should be defined in the .lbx file.
@@ -2820,6 +2856,29 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 (biblatex)                for \mkbibdatelong.
 
 
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'january' untranslated
+(biblatex)                at entry 'dependency_inversion' on input line 194.
+
+
+Package csquotes Warning: No style for language 'nil'.
+(csquotes)                Using fallback style on input line 194.
+
+
+Package biblatex Warning: Bibliography string 'in' untranslated
+(biblatex)                at entry 'dependency_inversion' on input line 194.
+
+
+Package biblatex Warning: Bibliography string 'pages' untranslated
+(biblatex)                at entry 'dependency_inversion' on input line 194.
+
+
 Package biblatex Warning: Bibliography string 'and' untranslated
 (biblatex)                at entry 'hackerrank' on input line 194.
 
@@ -2830,23 +2889,30 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 (biblatex)                loaded, is faulty or does not contain a definition
 (biblatex)                for \mkbibdatelong.
 
-
-Package biblatex Warning: Using fallback definition for \mkbibdatelong.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdatelong.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdatelong.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdatelong.
-
-[30
+[32
 
 ]
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 (biblatex)                The command should be defined in the .lbx file.
@@ -2916,13 +2982,13 @@ Package csquotes Warning: No style for language 'nil'.
 Package biblatex Warning: Bibliography string 'in' untranslated
 (biblatex)                at entry 't-test' on input line 194.
 
-[31] (./sections/appendix.tex
-<images/ethics_approval.pdf, id=1009, 614.295pt x 794.97pt>
+[33] (./sections/appendix.tex
+<images/ethics_approval.pdf, id=1124, 614.295pt x 794.97pt>
 File: images/ethics_approval.pdf Graphic file (type pdf)
 <use images/ethics_approval.pdf>
 Package luatex.def Info: images/ethics_approval.pdf  used on input line 3.
 (luatex.def)             Requested size: 614.29349pt x 794.96806pt.
-<images/ethics_approval.pdf, id=1011, page=1, 614.295pt x 794.97pt>
+<images/ethics_approval.pdf, id=1126, page=1, 614.295pt x 794.97pt>
 File: images/ethics_approval.pdf Graphic file (type pdf)
 <use images/ethics_approval.pdf, page 1>
 Package luatex.def Info: images/ethics_approval.pdf , page1 used on input line 
@@ -2933,7 +2999,7 @@ File: images/ethics_approval.pdf Graphic file (type pdf)
 Package luatex.def Info: images/ethics_approval.pdf , page1 used on input line 
 3.
 (luatex.def)             Requested size: 597.78697pt x 773.60669pt.
- [32
+ [34
 
 ]
 File: images/ethics_approval.pdf Graphic file (type pdf)
@@ -2951,10 +3017,10 @@ File: images/ethics_approval.pdf Graphic file (type pdf)
 Package luatex.def Info: images/ethics_approval.pdf , page1 used on input line 
 3.
 (luatex.def)             Requested size: 597.78697pt x 773.60669pt.
- [33
+ [35
 
 <./images/ethics_approval.pdf>]
-<images/ethics_approval.pdf, id=1066, page=2, 614.295pt x 794.97pt>
+<images/ethics_approval.pdf, id=1179, page=2, 614.295pt x 794.97pt>
 File: images/ethics_approval.pdf Graphic file (type pdf)
 <use images/ethics_approval.pdf, page 2>
 Package luatex.def Info: images/ethics_approval.pdf , page2 used on input line 
@@ -2970,15 +3036,15 @@ File: images/ethics_approval.pdf Graphic file (type pdf)
 Package luatex.def Info: images/ethics_approval.pdf , page2 used on input line 
 3.
 (luatex.def)             Requested size: 597.78697pt x 773.60669pt.
- [34
+ [36
 
 <./images/ethics_approval.pdf>]
-<images/ethics_application.pdf, id=1083, 614.295pt x 794.97pt>
+<images/ethics_application.pdf, id=1197, 614.295pt x 794.97pt>
 File: images/ethics_application.pdf Graphic file (type pdf)
 <use images/ethics_application.pdf>
 Package luatex.def Info: images/ethics_application.pdf  used on input line 6.
 (luatex.def)             Requested size: 614.29349pt x 794.96806pt.
-<images/ethics_application.pdf, id=1085, page=1, 614.295pt x 794.97pt>
+<images/ethics_application.pdf, id=1199, page=1, 614.295pt x 794.97pt>
 File: images/ethics_application.pdf Graphic file (type pdf)
 <use images/ethics_application.pdf, page 1>
 Package luatex.def Info: images/ethics_application.pdf , page1 used on input li
@@ -2989,7 +3055,7 @@ File: images/ethics_application.pdf Graphic file (type pdf)
 Package luatex.def Info: images/ethics_application.pdf , page1 used on input li
 ne 6.
 (luatex.def)             Requested size: 597.78697pt x 773.60669pt.
- [35]
+ [37]
 File: images/ethics_application.pdf Graphic file (type pdf)
 <use images/ethics_application.pdf, page 1>
 Package luatex.def Info: images/ethics_application.pdf , page1 used on input li
@@ -3005,10 +3071,10 @@ File: images/ethics_application.pdf Graphic file (type pdf)
 Package luatex.def Info: images/ethics_application.pdf , page1 used on input li
 ne 6.
 (luatex.def)             Requested size: 597.78697pt x 773.60669pt.
- [36
+ [38
 
 <./images/ethics_application.pdf>]
-<images/ethics_application.pdf, id=1138, page=2, 614.295pt x 794.97pt>
+<images/ethics_application.pdf, id=1252, page=2, 614.295pt x 794.97pt>
 File: images/ethics_application.pdf Graphic file (type pdf)
 <use images/ethics_application.pdf, page 2>
 Package luatex.def Info: images/ethics_application.pdf , page2 used on input li
@@ -3024,16 +3090,16 @@ File: images/ethics_application.pdf Graphic file (type pdf)
 Package luatex.def Info: images/ethics_application.pdf , page2 used on input li
 ne 6.
 (luatex.def)             Requested size: 597.78697pt x 773.60669pt.
- [37
+ [39
 
 <./images/ethics_application.pdf>]
-<images/participant_info_sheet.pdf, id=1143, 597.4822pt x 845.1575pt>
+<images/participant_info_sheet.pdf, id=1257, 597.4822pt x 845.1575pt>
 File: images/participant_info_sheet.pdf Graphic file (type pdf)
 <use images/participant_info_sheet.pdf>
 Package luatex.def Info: images/participant_info_sheet.pdf  used on input line 
 9.
 (luatex.def)             Requested size: 597.48073pt x 845.15544pt.
-<images/participant_info_sheet.pdf, id=1145, page=1, 597.4822pt x 845.1575pt>
+<images/participant_info_sheet.pdf, id=1259, page=1, 597.4822pt x 845.1575pt>
 File: images/participant_info_sheet.pdf Graphic file (type pdf)
 <use images/participant_info_sheet.pdf, page 1>
 Package luatex.def Info: images/participant_info_sheet.pdf , page1 used on inpu
@@ -3044,7 +3110,7 @@ File: images/participant_info_sheet.pdf Graphic file (type pdf)
 Package luatex.def Info: images/participant_info_sheet.pdf , page1 used on inpu
 t line 9.
 (luatex.def)             Requested size: 597.50807pt x 845.19412pt.
- [38]
+ [40]
 File: images/participant_info_sheet.pdf Graphic file (type pdf)
 <use images/participant_info_sheet.pdf, page 1>
 Package luatex.def Info: images/participant_info_sheet.pdf , page1 used on inpu
@@ -3058,56 +3124,56 @@ t line 9.
 File: images/participant_info_sheet.pdf Graphic file (type pdf)
 <use images/participant_info_sheet.pdf, page 1>
 Package luatex.def Info: images/participant_info_sheet.pdf , page1 used on inpu
-t line 9.
-(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
- [39
-
-<./images/participant_info_sheet.pdf>]
-<images/participant_info_sheet.pdf, id=1175, page=2, 597.4822pt x 845.1575pt>
-File: images/participant_info_sheet.pdf Graphic file (type pdf)
-<use images/participant_info_sheet.pdf, page 2>
-Package luatex.def Info: images/participant_info_sheet.pdf , page2 used on inpu
-t line 9.
-(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
-File: images/participant_info_sheet.pdf Graphic file (type pdf)
-<use images/participant_info_sheet.pdf, page 2>
-Package luatex.def Info: images/participant_info_sheet.pdf , page2 used on inpu
-t line 9.
-(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
-File: images/participant_info_sheet.pdf Graphic file (type pdf)
-<use images/participant_info_sheet.pdf, page 2>
-Package luatex.def Info: images/participant_info_sheet.pdf , page2 used on inpu
-t line 9.
-(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
-
-[40
-
-<./images/participant_info_sheet.pdf>]
-<images/participant_info_sheet.pdf, id=1180, page=3, 597.4822pt x 845.1575pt>
-File: images/participant_info_sheet.pdf Graphic file (type pdf)
-<use images/participant_info_sheet.pdf, page 3>
-Package luatex.def Info: images/participant_info_sheet.pdf , page3 used on inpu
-t line 9.
-(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
-File: images/participant_info_sheet.pdf Graphic file (type pdf)
-<use images/participant_info_sheet.pdf, page 3>
-Package luatex.def Info: images/participant_info_sheet.pdf , page3 used on inpu
-t line 9.
-(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
-File: images/participant_info_sheet.pdf Graphic file (type pdf)
-<use images/participant_info_sheet.pdf, page 3>
-Package luatex.def Info: images/participant_info_sheet.pdf , page3 used on inpu
 t line 9.
 (luatex.def)             Requested size: 597.50807pt x 845.19412pt.
  [41
 
 <./images/participant_info_sheet.pdf>]
-<images/consent_form.pdf, id=1185, 597.55244pt x 845.0772pt>
+<images/participant_info_sheet.pdf, id=1289, page=2, 597.4822pt x 845.1575pt>
+File: images/participant_info_sheet.pdf Graphic file (type pdf)
+<use images/participant_info_sheet.pdf, page 2>
+Package luatex.def Info: images/participant_info_sheet.pdf , page2 used on inpu
+t line 9.
+(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
+File: images/participant_info_sheet.pdf Graphic file (type pdf)
+<use images/participant_info_sheet.pdf, page 2>
+Package luatex.def Info: images/participant_info_sheet.pdf , page2 used on inpu
+t line 9.
+(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
+File: images/participant_info_sheet.pdf Graphic file (type pdf)
+<use images/participant_info_sheet.pdf, page 2>
+Package luatex.def Info: images/participant_info_sheet.pdf , page2 used on inpu
+t line 9.
+(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
+
+[42
+
+<./images/participant_info_sheet.pdf>]
+<images/participant_info_sheet.pdf, id=1294, page=3, 597.4822pt x 845.1575pt>
+File: images/participant_info_sheet.pdf Graphic file (type pdf)
+<use images/participant_info_sheet.pdf, page 3>
+Package luatex.def Info: images/participant_info_sheet.pdf , page3 used on inpu
+t line 9.
+(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
+File: images/participant_info_sheet.pdf Graphic file (type pdf)
+<use images/participant_info_sheet.pdf, page 3>
+Package luatex.def Info: images/participant_info_sheet.pdf , page3 used on inpu
+t line 9.
+(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
+File: images/participant_info_sheet.pdf Graphic file (type pdf)
+<use images/participant_info_sheet.pdf, page 3>
+Package luatex.def Info: images/participant_info_sheet.pdf , page3 used on inpu
+t line 9.
+(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
+ [43
+
+<./images/participant_info_sheet.pdf>]
+<images/consent_form.pdf, id=1300, 597.55244pt x 845.0772pt>
 File: images/consent_form.pdf Graphic file (type pdf)
 <use images/consent_form.pdf>
 Package luatex.def Info: images/consent_form.pdf  used on input line 12.
 (luatex.def)             Requested size: 597.55098pt x 845.07513pt.
-<images/consent_form.pdf, id=1187, page=1, 597.55244pt x 845.0772pt>
+<images/consent_form.pdf, id=1302, page=1, 597.55244pt x 845.0772pt>
 File: images/consent_form.pdf Graphic file (type pdf)
 <use images/consent_form.pdf, page 1>
 Package luatex.def Info: images/consent_form.pdf , page1 used on input line 12.
@@ -3118,7 +3184,7 @@ File: images/consent_form.pdf Graphic file (type pdf)
 Package luatex.def Info: images/consent_form.pdf , page1 used on input line 12.
 
 (luatex.def)             Requested size: 597.57832pt x 845.11382pt.
- [42]
+ [44]
 File: images/consent_form.pdf Graphic file (type pdf)
 <use images/consent_form.pdf, page 1>
 Package luatex.def Info: images/consent_form.pdf , page1 used on input line 12.
@@ -3134,15 +3200,15 @@ File: images/consent_form.pdf Graphic file (type pdf)
 Package luatex.def Info: images/consent_form.pdf , page1 used on input line 12.
 
 (luatex.def)             Requested size: 597.57832pt x 845.11382pt.
- [43
+ [45
 
 <./images/consent_form.pdf>]
-<images/user_study_script.pdf, id=1224, 597.4822pt x 845.1575pt>
+<images/user_study_script.pdf, id=1338, 597.4822pt x 845.1575pt>
 File: images/user_study_script.pdf Graphic file (type pdf)
 <use images/user_study_script.pdf>
 Package luatex.def Info: images/user_study_script.pdf  used on input line 15.
 (luatex.def)             Requested size: 597.48073pt x 845.15544pt.
-<images/user_study_script.pdf, id=1226, page=1, 597.4822pt x 845.1575pt>
+<images/user_study_script.pdf, id=1340, page=1, 597.4822pt x 845.1575pt>
 File: images/user_study_script.pdf Graphic file (type pdf)
 <use images/user_study_script.pdf, page 1>
 Package luatex.def Info: images/user_study_script.pdf , page1 used on input lin
@@ -3153,7 +3219,7 @@ File: images/user_study_script.pdf Graphic file (type pdf)
 Package luatex.def Info: images/user_study_script.pdf , page1 used on input lin
 e 15.
 (luatex.def)             Requested size: 597.50807pt x 845.19412pt.
- [44]
+ [46]
 File: images/user_study_script.pdf Graphic file (type pdf)
 <use images/user_study_script.pdf, page 1>
 Package luatex.def Info: images/user_study_script.pdf , page1 used on input lin
@@ -3167,64 +3233,56 @@ e 15.
 File: images/user_study_script.pdf Graphic file (type pdf)
 <use images/user_study_script.pdf, page 1>
 Package luatex.def Info: images/user_study_script.pdf , page1 used on input lin
-e 15.
-(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
- [45
-
-<./images/user_study_script.pdf>]
-<images/user_study_script.pdf, id=1256, page=2, 597.4822pt x 845.1575pt>
-File: images/user_study_script.pdf Graphic file (type pdf)
-<use images/user_study_script.pdf, page 2>
-Package luatex.def Info: images/user_study_script.pdf , page2 used on input lin
-e 15.
-(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
-File: images/user_study_script.pdf Graphic file (type pdf)
-<use images/user_study_script.pdf, page 2>
-Package luatex.def Info: images/user_study_script.pdf , page2 used on input lin
-e 15.
-(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
-File: images/user_study_script.pdf Graphic file (type pdf)
-<use images/user_study_script.pdf, page 2>
-Package luatex.def Info: images/user_study_script.pdf , page2 used on input lin
-e 15.
-(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
- [46
-
-<./images/user_study_script.pdf>]
-<images/user_study_script.pdf, id=1261, page=3, 597.4822pt x 845.1575pt>
-File: images/user_study_script.pdf Graphic file (type pdf)
-<use images/user_study_script.pdf, page 3>
-Package luatex.def Info: images/user_study_script.pdf , page3 used on input lin
-e 15.
-(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
-File: images/user_study_script.pdf Graphic file (type pdf)
-<use images/user_study_script.pdf, page 3>
-Package luatex.def Info: images/user_study_script.pdf , page3 used on input lin
-e 15.
-(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
-File: images/user_study_script.pdf Graphic file (type pdf)
-<use images/user_study_script.pdf, page 3>
-Package luatex.def Info: images/user_study_script.pdf , page3 used on input lin
 e 15.
 (luatex.def)             Requested size: 597.50807pt x 845.19412pt.
  [47
 
 <./images/user_study_script.pdf>]
+<images/user_study_script.pdf, id=1370, page=2, 597.4822pt x 845.1575pt>
+File: images/user_study_script.pdf Graphic file (type pdf)
+<use images/user_study_script.pdf, page 2>
+Package luatex.def Info: images/user_study_script.pdf , page2 used on input lin
+e 15.
+(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
+File: images/user_study_script.pdf Graphic file (type pdf)
+<use images/user_study_script.pdf, page 2>
+Package luatex.def Info: images/user_study_script.pdf , page2 used on input lin
+e 15.
+(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
+File: images/user_study_script.pdf Graphic file (type pdf)
+<use images/user_study_script.pdf, page 2>
+Package luatex.def Info: images/user_study_script.pdf , page2 used on input lin
+e 15.
+(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
+ [48
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Gls' on input line 17.
+<./images/user_study_script.pdf>]
+<images/user_study_script.pdf, id=1375, page=3, 597.4822pt x 845.1575pt>
+File: images/user_study_script.pdf Graphic file (type pdf)
+<use images/user_study_script.pdf, page 3>
+Package luatex.def Info: images/user_study_script.pdf , page3 used on input lin
+e 15.
+(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
+File: images/user_study_script.pdf Graphic file (type pdf)
+<use images/user_study_script.pdf, page 3>
+Package luatex.def Info: images/user_study_script.pdf , page3 used on input lin
+e 15.
+(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
+File: images/user_study_script.pdf Graphic file (type pdf)
+<use images/user_study_script.pdf, page 3>
+Package luatex.def Info: images/user_study_script.pdf , page3 used on input lin
+e 15.
+(luatex.def)             Requested size: 597.50807pt x 845.19412pt.
+ [49
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 17.
-
-<images/inaccessible_document.pdf, id=1267, 597.53633pt x 845.04684pt>
+<./images/user_study_script.pdf>]
+<images/inaccessible_document.pdf, id=1380, 597.53633pt x 845.04684pt>
 File: images/inaccessible_document.pdf Graphic file (type pdf)
 <use images/inaccessible_document.pdf>
 Package luatex.def Info: images/inaccessible_document.pdf  used on input line 1
 8.
 (luatex.def)             Requested size: 597.53487pt x 845.04478pt.
-<images/inaccessible_document.pdf, id=1269, page=1, 597.53633pt x 845.04684pt>
+<images/inaccessible_document.pdf, id=1382, page=1, 597.53633pt x 845.04684pt>
 File: images/inaccessible_document.pdf Graphic file (type pdf)
 <use images/inaccessible_document.pdf, page 1>
 Package luatex.def Info: images/inaccessible_document.pdf , page1 used on input
@@ -3235,7 +3293,8 @@ File: images/inaccessible_document.pdf Graphic file (type pdf)
 Package luatex.def Info: images/inaccessible_document.pdf , page1 used on input
  line 18.
 (luatex.def)             Requested size: 597.56221pt x 845.08347pt.
-[48]
+
+[50]
 File: images/inaccessible_document.pdf Graphic file (type pdf)
 <use images/inaccessible_document.pdf, page 1>
 Package luatex.def Info: images/inaccessible_document.pdf , page1 used on input
@@ -3251,10 +3310,10 @@ File: images/inaccessible_document.pdf Graphic file (type pdf)
 Package luatex.def Info: images/inaccessible_document.pdf , page1 used on input
  line 18.
 (luatex.def)             Requested size: 597.56221pt x 845.08347pt.
- [49
+ [51
 
 <./images/inaccessible_document.pdf>]
-<images/inaccessible_document.pdf, id=1284, page=2, 597.53633pt x 845.04684pt>
+<images/inaccessible_document.pdf, id=1397, page=2, 597.53633pt x 845.04684pt>
 File: images/inaccessible_document.pdf Graphic file (type pdf)
 <use images/inaccessible_document.pdf, page 2>
 Package luatex.def Info: images/inaccessible_document.pdf , page2 used on input
@@ -3270,24 +3329,16 @@ File: images/inaccessible_document.pdf Graphic file (type pdf)
 Package luatex.def Info: images/inaccessible_document.pdf , page2 used on input
  line 18.
 (luatex.def)             Requested size: 597.56221pt x 845.08347pt.
- [50
+ [52
 
 <./images/inaccessible_document.pdf>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Gls' on input line 20.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 20.
-
-<images/accessible_document.pdf, id=1290, 597.53633pt x 845.04684pt>
+<images/accessible_document.pdf, id=1402, 597.53633pt x 845.04684pt>
 File: images/accessible_document.pdf Graphic file (type pdf)
 <use images/accessible_document.pdf>
 Package luatex.def Info: images/accessible_document.pdf  used on input line 21.
 
 (luatex.def)             Requested size: 597.53487pt x 845.04478pt.
-<images/accessible_document.pdf, id=1292, page=1, 597.53633pt x 845.04684pt>
+<images/accessible_document.pdf, id=1404, page=1, 597.53633pt x 845.04684pt>
 File: images/accessible_document.pdf Graphic file (type pdf)
 <use images/accessible_document.pdf, page 1>
 Package luatex.def Info: images/accessible_document.pdf , page1 used on input l
@@ -3298,7 +3349,7 @@ File: images/accessible_document.pdf Graphic file (type pdf)
 Package luatex.def Info: images/accessible_document.pdf , page1 used on input l
 ine 21.
 (luatex.def)             Requested size: 597.56221pt x 845.08347pt.
-[51]
+ [53]
 File: images/accessible_document.pdf Graphic file (type pdf)
 <use images/accessible_document.pdf, page 1>
 Package luatex.def Info: images/accessible_document.pdf , page1 used on input l
@@ -3314,10 +3365,10 @@ File: images/accessible_document.pdf Graphic file (type pdf)
 Package luatex.def Info: images/accessible_document.pdf , page1 used on input l
 ine 21.
 (luatex.def)             Requested size: 597.56221pt x 845.08347pt.
- [52
+ [54
 
 <./images/accessible_document.pdf>]
-<images/accessible_document.pdf, id=1307, page=2, 597.53633pt x 845.04684pt>
+<images/accessible_document.pdf, id=1420, page=2, 597.53633pt x 845.04684pt>
 File: images/accessible_document.pdf Graphic file (type pdf)
 <use images/accessible_document.pdf, page 2>
 Package luatex.def Info: images/accessible_document.pdf , page2 used on input l
@@ -3333,24 +3384,15 @@ File: images/accessible_document.pdf Graphic file (type pdf)
 Package luatex.def Info: images/accessible_document.pdf , page2 used on input l
 ine 21.
 (luatex.def)             Requested size: 597.56221pt x 845.08347pt.
- [53
+ [55
 
 <./images/accessible_document.pdf>]
-
-Package glossaries-extra Warning: Base acronym command \acrshort should not be 
-used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-23.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\acrshort' on input line 23.
-
-<images/peg_script.pdf, id=1314, 597.53633pt x 845.04684pt>
+<images/peg_script.pdf, id=1425, 597.53633pt x 845.04684pt>
 File: images/peg_script.pdf Graphic file (type pdf)
 <use images/peg_script.pdf>
 Package luatex.def Info: images/peg_script.pdf  used on input line 24.
 (luatex.def)             Requested size: 597.53487pt x 845.04478pt.
-<images/peg_script.pdf, id=1316, page=1, 597.53633pt x 845.04684pt>
+<images/peg_script.pdf, id=1427, page=1, 597.53633pt x 845.04684pt>
 File: images/peg_script.pdf Graphic file (type pdf)
 <use images/peg_script.pdf, page 1>
 Package luatex.def Info: images/peg_script.pdf , page1 used on input line 24.
@@ -3359,7 +3401,7 @@ File: images/peg_script.pdf Graphic file (type pdf)
 <use images/peg_script.pdf, page 1>
 Package luatex.def Info: images/peg_script.pdf , page1 used on input line 24.
 (luatex.def)             Requested size: 597.56221pt x 845.08347pt.
-[54]
+ [56]
 File: images/peg_script.pdf Graphic file (type pdf)
 <use images/peg_script.pdf, page 1>
 Package luatex.def Info: images/peg_script.pdf , page1 used on input line 24.
@@ -3371,155 +3413,395 @@ Package luatex.def Info: images/peg_script.pdf , page1 used on input line 24.
 File: images/peg_script.pdf Graphic file (type pdf)
 <use images/peg_script.pdf, page 1>
 Package luatex.def Info: images/peg_script.pdf , page1 used on input line 24.
-(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
- [55
-
-<./images/peg_script.pdf>]
-<images/peg_script.pdf, id=1331, page=2, 597.53633pt x 845.04684pt>
-File: images/peg_script.pdf Graphic file (type pdf)
-<use images/peg_script.pdf, page 2>
-Package luatex.def Info: images/peg_script.pdf , page2 used on input line 24.
-(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
-File: images/peg_script.pdf Graphic file (type pdf)
-<use images/peg_script.pdf, page 2>
-Package luatex.def Info: images/peg_script.pdf , page2 used on input line 24.
-(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
-File: images/peg_script.pdf Graphic file (type pdf)
-<use images/peg_script.pdf, page 2>
-Package luatex.def Info: images/peg_script.pdf , page2 used on input line 24.
-(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
- [56
-
-<./images/peg_script.pdf>]
-<images/peg_script.pdf, id=1336, page=3, 597.53633pt x 845.04684pt>
-File: images/peg_script.pdf Graphic file (type pdf)
-<use images/peg_script.pdf, page 3>
-Package luatex.def Info: images/peg_script.pdf , page3 used on input line 24.
-(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
-File: images/peg_script.pdf Graphic file (type pdf)
-<use images/peg_script.pdf, page 3>
-Package luatex.def Info: images/peg_script.pdf , page3 used on input line 24.
-(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
-File: images/peg_script.pdf Graphic file (type pdf)
-<use images/peg_script.pdf, page 3>
-Package luatex.def Info: images/peg_script.pdf , page3 used on input line 24.
 (luatex.def)             Requested size: 597.56221pt x 845.08347pt.
  [57
 
 <./images/peg_script.pdf>]
-<images/peg_script.pdf, id=1341, page=4, 597.53633pt x 845.04684pt>
+<images/peg_script.pdf, id=1442, page=2, 597.53633pt x 845.04684pt>
 File: images/peg_script.pdf Graphic file (type pdf)
-<use images/peg_script.pdf, page 4>
-Package luatex.def Info: images/peg_script.pdf , page4 used on input line 24.
+<use images/peg_script.pdf, page 2>
+Package luatex.def Info: images/peg_script.pdf , page2 used on input line 24.
 (luatex.def)             Requested size: 597.56221pt x 845.08347pt.
 File: images/peg_script.pdf Graphic file (type pdf)
-<use images/peg_script.pdf, page 4>
-Package luatex.def Info: images/peg_script.pdf , page4 used on input line 24.
+<use images/peg_script.pdf, page 2>
+Package luatex.def Info: images/peg_script.pdf , page2 used on input line 24.
 (luatex.def)             Requested size: 597.56221pt x 845.08347pt.
 File: images/peg_script.pdf Graphic file (type pdf)
-<use images/peg_script.pdf, page 4>
-Package luatex.def Info: images/peg_script.pdf , page4 used on input line 24.
+<use images/peg_script.pdf, page 2>
+Package luatex.def Info: images/peg_script.pdf , page2 used on input line 24.
 (luatex.def)             Requested size: 597.56221pt x 845.08347pt.
  [58
 
 <./images/peg_script.pdf>]
-<images/peg_script.pdf, id=1346, page=5, 597.53633pt x 845.04684pt>
+<images/peg_script.pdf, id=1447, page=3, 597.53633pt x 845.04684pt>
 File: images/peg_script.pdf Graphic file (type pdf)
-<use images/peg_script.pdf, page 5>
-Package luatex.def Info: images/peg_script.pdf , page5 used on input line 24.
+<use images/peg_script.pdf, page 3>
+Package luatex.def Info: images/peg_script.pdf , page3 used on input line 24.
 (luatex.def)             Requested size: 597.56221pt x 845.08347pt.
 File: images/peg_script.pdf Graphic file (type pdf)
-<use images/peg_script.pdf, page 5>
-Package luatex.def Info: images/peg_script.pdf , page5 used on input line 24.
+<use images/peg_script.pdf, page 3>
+Package luatex.def Info: images/peg_script.pdf , page3 used on input line 24.
 (luatex.def)             Requested size: 597.56221pt x 845.08347pt.
 File: images/peg_script.pdf Graphic file (type pdf)
-<use images/peg_script.pdf, page 5>
-Package luatex.def Info: images/peg_script.pdf , page5 used on input line 24.
+<use images/peg_script.pdf, page 3>
+Package luatex.def Info: images/peg_script.pdf , page3 used on input line 24.
 (luatex.def)             Requested size: 597.56221pt x 845.08347pt.
- [59
+
+[59
 
 <./images/peg_script.pdf>]
-<images/peg_script.pdf, id=1351, page=6, 597.53633pt x 845.04684pt>
+<images/peg_script.pdf, id=1452, page=4, 597.53633pt x 845.04684pt>
 File: images/peg_script.pdf Graphic file (type pdf)
-<use images/peg_script.pdf, page 6>
-Package luatex.def Info: images/peg_script.pdf , page6 used on input line 24.
+<use images/peg_script.pdf, page 4>
+Package luatex.def Info: images/peg_script.pdf , page4 used on input line 24.
 (luatex.def)             Requested size: 597.56221pt x 845.08347pt.
 File: images/peg_script.pdf Graphic file (type pdf)
-<use images/peg_script.pdf, page 6>
-Package luatex.def Info: images/peg_script.pdf , page6 used on input line 24.
+<use images/peg_script.pdf, page 4>
+Package luatex.def Info: images/peg_script.pdf , page4 used on input line 24.
 (luatex.def)             Requested size: 597.56221pt x 845.08347pt.
 File: images/peg_script.pdf Graphic file (type pdf)
-<use images/peg_script.pdf, page 6>
-Package luatex.def Info: images/peg_script.pdf , page6 used on input line 24.
+<use images/peg_script.pdf, page 4>
+Package luatex.def Info: images/peg_script.pdf , page4 used on input line 24.
 (luatex.def)             Requested size: 597.56221pt x 845.08347pt.
-
-[60
+ [60
 
 <./images/peg_script.pdf>]
-<images/peg_script.pdf, id=1356, page=7, 597.53633pt x 845.04684pt>
+<images/peg_script.pdf, id=1457, page=5, 597.53633pt x 845.04684pt>
 File: images/peg_script.pdf Graphic file (type pdf)
-<use images/peg_script.pdf, page 7>
-Package luatex.def Info: images/peg_script.pdf , page7 used on input line 24.
+<use images/peg_script.pdf, page 5>
+Package luatex.def Info: images/peg_script.pdf , page5 used on input line 24.
 (luatex.def)             Requested size: 597.56221pt x 845.08347pt.
 File: images/peg_script.pdf Graphic file (type pdf)
-<use images/peg_script.pdf, page 7>
-Package luatex.def Info: images/peg_script.pdf , page7 used on input line 24.
+<use images/peg_script.pdf, page 5>
+Package luatex.def Info: images/peg_script.pdf , page5 used on input line 24.
 (luatex.def)             Requested size: 597.56221pt x 845.08347pt.
 File: images/peg_script.pdf Graphic file (type pdf)
-<use images/peg_script.pdf, page 7>
-Package luatex.def Info: images/peg_script.pdf , page7 used on input line 24.
+<use images/peg_script.pdf, page 5>
+Package luatex.def Info: images/peg_script.pdf , page5 used on input line 24.
 (luatex.def)             Requested size: 597.56221pt x 845.08347pt.
  [61
 
-<./images/peg_script.pdf>]) (./main.aux)
+<./images/peg_script.pdf>]
+<images/peg_script.pdf, id=1462, page=6, 597.53633pt x 845.04684pt>
+File: images/peg_script.pdf Graphic file (type pdf)
+<use images/peg_script.pdf, page 6>
+Package luatex.def Info: images/peg_script.pdf , page6 used on input line 24.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+File: images/peg_script.pdf Graphic file (type pdf)
+<use images/peg_script.pdf, page 6>
+Package luatex.def Info: images/peg_script.pdf , page6 used on input line 24.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+File: images/peg_script.pdf Graphic file (type pdf)
+<use images/peg_script.pdf, page 6>
+Package luatex.def Info: images/peg_script.pdf , page6 used on input line 24.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+ [62
+
+<./images/peg_script.pdf>]
+<images/peg_script.pdf, id=1467, page=7, 597.53633pt x 845.04684pt>
+File: images/peg_script.pdf Graphic file (type pdf)
+<use images/peg_script.pdf, page 7>
+Package luatex.def Info: images/peg_script.pdf , page7 used on input line 24.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+File: images/peg_script.pdf Graphic file (type pdf)
+<use images/peg_script.pdf, page 7>
+Package luatex.def Info: images/peg_script.pdf , page7 used on input line 24.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+File: images/peg_script.pdf Graphic file (type pdf)
+<use images/peg_script.pdf, page 7>
+Package luatex.def Info: images/peg_script.pdf , page7 used on input line 24.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+ [63
+
+<./images/peg_script.pdf>]
+
+Package glossaries-extra Warning: Base acronym command \acrfull should not be u
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 30
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrlong should not be u
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 30
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+30.
+
+
+Package glossaries-extra Warning: Base acronym command \acrfull should not be u
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 31
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrlong should not be u
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 31
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+31.
+
+
+Package glossaries-extra Warning: Base acronym command \acrfull should not be u
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 37
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrlong should not be u
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 37
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+37.
+
+[64]
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+[]\TU/lmss/m/n/10.95 LinT[]X should reference further reading for screen reader accessibility
+ []
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+[65
+
+]
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+75.
+
+[66
+
+]
+<images/errors_list.pdf, id=1507, 597.53633pt x 845.04684pt>
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf>
+Package luatex.def Info: images/errors_list.pdf  used on input line 81.
+(luatex.def)             Requested size: 597.53487pt x 845.04478pt.
+<images/errors_list.pdf, id=1509, page=1, 597.53633pt x 845.04684pt>
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 1>
+Package luatex.def Info: images/errors_list.pdf , page1 used on input line 81.
+(luatex.def)             Requested size: 597.53487pt x 845.04478pt.
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 1>
+Package luatex.def Info: images/errors_list.pdf , page1 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+ [67
+
+]
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 1>
+Package luatex.def Info: images/errors_list.pdf , page1 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 1>
+Package luatex.def Info: images/errors_list.pdf , page1 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 1>
+Package luatex.def Info: images/errors_list.pdf , page1 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+ [68
+
+<./images/errors_list.pdf>]
+<images/errors_list.pdf, id=1524, page=2, 597.53633pt x 845.04684pt>
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 2>
+Package luatex.def Info: images/errors_list.pdf , page2 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 2>
+Package luatex.def Info: images/errors_list.pdf , page2 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 2>
+Package luatex.def Info: images/errors_list.pdf , page2 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+ [69
+
+<./images/errors_list.pdf>]
+<images/errors_list.pdf, id=1529, page=3, 597.53633pt x 845.04684pt>
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 3>
+Package luatex.def Info: images/errors_list.pdf , page3 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 3>
+Package luatex.def Info: images/errors_list.pdf , page3 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 3>
+Package luatex.def Info: images/errors_list.pdf , page3 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+
+[70
+
+<./images/errors_list.pdf>]
+<images/errors_list.pdf, id=1534, page=4, 597.53633pt x 845.04684pt>
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 4>
+Package luatex.def Info: images/errors_list.pdf , page4 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 4>
+Package luatex.def Info: images/errors_list.pdf , page4 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 4>
+Package luatex.def Info: images/errors_list.pdf , page4 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+ [71
+
+<./images/errors_list.pdf>]
+<images/errors_list.pdf, id=1539, page=5, 597.53633pt x 845.04684pt>
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 5>
+Package luatex.def Info: images/errors_list.pdf , page5 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 5>
+Package luatex.def Info: images/errors_list.pdf , page5 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 5>
+Package luatex.def Info: images/errors_list.pdf , page5 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+ [72
+
+<./images/errors_list.pdf>]
+<images/errors_list.pdf, id=1544, page=6, 597.53633pt x 845.04684pt>
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 6>
+Package luatex.def Info: images/errors_list.pdf , page6 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 6>
+Package luatex.def Info: images/errors_list.pdf , page6 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 6>
+Package luatex.def Info: images/errors_list.pdf , page6 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+ [73
+
+<./images/errors_list.pdf>]
+<images/errors_list.pdf, id=1550, page=7, 597.53633pt x 845.04684pt>
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 7>
+Package luatex.def Info: images/errors_list.pdf , page7 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 7>
+Package luatex.def Info: images/errors_list.pdf , page7 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 7>
+Package luatex.def Info: images/errors_list.pdf , page7 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+ [74
+
+<./images/errors_list.pdf>]
+<images/errors_list.pdf, id=1555, page=8, 597.53633pt x 845.04684pt>
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 8>
+Package luatex.def Info: images/errors_list.pdf , page8 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 8>
+Package luatex.def Info: images/errors_list.pdf , page8 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+File: images/errors_list.pdf Graphic file (type pdf)
+<use images/errors_list.pdf, page 8>
+Package luatex.def Info: images/errors_list.pdf , page8 used on input line 81.
+(luatex.def)             Requested size: 597.56221pt x 845.08347pt.
+
+[75
+
+<./images/errors_list.pdf>]) (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-06>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 104EF648C08FA610AADCD5237E97AF8E;7829.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
+(rerunfilecheck)             Checksum: 22FD9F2AAF183D1E0C3EBB3C16F720D8;9574.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 57856 strings out of 476081
+ 58235 strings out of 476081
  125056,2848258 words of node,token memory allocated
- 1114 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 96 attribute, 78 glue_spec
-, 49 attribute_list, 3 write, 38 pdf_action nodes
-   avail lists: 1:1,2:3083,3:967,4:311,5:681,6:139,7:7275,8:141,9:1452,10:16,11:
-46
- 78479 multiletter control sequences out of 65536+600000
- 60 fonts using 4690615 bytes
+ 1129 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 98 attribute, 78 glue_spec
+, 50 attribute_list, 2 write, 40 pdf_action nodes
+   avail lists: 1:1,2:3362,3:1025,4:347,5:688,6:156,7:8316,8:141,9:1568,10:18,11
+:46
+ 78731 multiletter control sequences out of 65536+600000
+ 59 fonts using 4558607 bytes
  99i,17n,104p,2524b,2106s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf><
 c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmsans10-oblique.otf><c:/tex
-live/2025/texmf-dist/fonts/opentype/public/lm/lmsans10-boldoblique.otf><c:/texli
-ve/2025/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/texlive/202
-5/texmf-dist/fonts/opentype/public/lm/lmsans8-regular.otf><c:/texlive/2025/texmf
--dist/fonts/opentype/public/lm/lmsans10-regular.otf><c:/texlive/2025/texmf-dist/
-fonts/opentype/public/lm/lmsans12-regular.otf><c:/texlive/2025/texmf-dist/fonts/
-opentype/public/lm/lmsans10-bold.otf><c:/texlive/2025/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8
-.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/te
-xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (69 pages, 2723069 bytes).
+live/2025/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/texlive/2
+025/texmf-dist/fonts/opentype/public/lm/lmsans8-regular.otf><c:/texlive/2025/tex
+mf-dist/fonts/opentype/public/lm/lmsans10-regular.otf><c:/texlive/2025/texmf-dis
+t/fonts/opentype/public/lm/lmsans12-regular.otf><c:/texlive/2025/texmf-dist/font
+s/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2025/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/
+texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (83 pages, 2845817 bytes).
 
-PDF statistics: 1446 PDF objects out of 1728 (max. 8388607)
- 1228 compressed objects within 13 object streams
- 228 named destinations out of 1000 (max. 131072)
- 416 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1638 PDF objects out of 1728 (max. 8388607)
+ 1392 compressed objects within 14 object streams
+ 256 named destinations out of 1000 (max. 131072)
+ 480 words of extra memory for PDF output out of 10000 (max. 100000000)
 
