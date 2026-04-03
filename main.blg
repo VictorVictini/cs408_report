@@ -1,17 +1,17 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[155] biber-MSWIN64:342> INFO - === 
-[199] Biber.pm:421> INFO - Reading 'main.bcf'
-[350] Biber.pm:1002> INFO - Found 30 citekeys in bib section 0
-[370] Biber.pm:4487> INFO - Processing section 0
-[385] Biber.pm:4678> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[507] bibtex.pm:1713> INFO - LaTeX decoding ...
-[588] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
-[894] UCollate.pm:68> INFO - Overriding locale 'nil' defaults 'variable = shifted' with 'variable = non-ignorable'
-[894] UCollate.pm:68> INFO - Overriding locale 'nil' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[894] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'nil'
-[894] Biber.pm:4313> INFO - No sort tailoring available for locale 'nil'
-[937] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[961] bbl.pm:779> INFO - Output to main.bbl
-[962] Biber.pm:132> WARN - I didn't find a database entry for 'wrapper_design_pattern' (section 0)
-[962] Biber.pm:134> INFO - WARNINGS: 1
+[230] biber-MSWIN64:342> INFO - === 
+[313] Biber.pm:421> INFO - Reading 'main.bcf'
+[437] Biber.pm:1002> INFO - Found 30 citekeys in bib section 0
+[453] Biber.pm:4487> INFO - Processing section 0
+[475] Biber.pm:4678> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[550] bibtex.pm:1713> INFO - LaTeX decoding ...
+[608] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[890] UCollate.pm:68> INFO - Overriding locale 'nil' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[890] UCollate.pm:68> INFO - Overriding locale 'nil' defaults 'variable = shifted' with 'variable = non-ignorable'
+[891] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'nil'
+[891] Biber.pm:4313> INFO - No sort tailoring available for locale 'nil'
+[954] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[968] bbl.pm:779> INFO - Output to main.bbl
+[968] Biber.pm:132> WARN - I didn't find a database entry for 'wrapper_design_pattern' (section 0)
+[969] Biber.pm:134> INFO - WARNINGS: 1

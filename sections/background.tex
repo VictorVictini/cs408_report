@@ -1,48 +1,47 @@
 \section{Background Literature}\label{backg}
-% talk about latex3 stuff if there's time and space
 \subsection{Choice of programming language}
-There were many considerations when deciding what programming language to write \lintexspaced in. The languages chosen were based on those that I had prior experience in, to ensure minimal hindrance from the language itself to the development of the project. An important factor is ensuring \lintex's maintainability in the future. Therefore, only the languages that have actively maintained \acrfull{peg} libraries will be considered, as can be seen in \tableref{table:language_peg_frameworks}. The most recent update times provided in \tableref{table:language_peg_frameworks} are in reference to 24\textsuperscript{th} November 2025.
+There were many considerations when deciding what programming language to write \lintexspaced in. The languages chosen were based on those I had prior experience in, to ensure minimal hindrance from the language itself to the project development. An important factor is ensuring \lintex's maintainability in the future. Therefore, only languages that have actively maintained \acrfull{peg} libraries will be considered, as can be viewed in \tableref{table:language_peg_frameworks}. The most recent update times provided in \tableref{table:language_peg_frameworks} are in reference to 24\textsuperscript{th} November 2025.
 
 \input{tables/languages_peg_frameworks}
 
 Based on the current criteria, we can rule out C, C\#, PHP, and Dart.
 
-As many languages remain, there is a need for stricter criteria: suitability to be utilised as a web application as well as compatibility with the University of Strathclyde's development web server (devweb) system.
+As many languages remain, there is a need for stricter criteria: suitability to be used as a web application and compatibility with the University of Strathclyde's development web server (devweb) system.
 
 \input{tables/languages_web_dev_support}
 
 It should be noted that while Go, C, C\#, and C++ are not directly compatible with devweb, as referenced in \tableref{table:language_web_dev}, they can be supported through the use of \acrfull{cgi} scripts, and consequently should not be fully disregarded for this alone. However, based on their support for web development, C, Java, C\#, and C++ will have a lower priority for being a chosen language.
 
-This leaves us with a focus placed on JavaScript, Go, and TypeScript. However, JavaScript will be removed from consideration as a strictly typed language is preferred for our context. Therefore, leaving Go and TypeScript as the main considerations for this project. Finally, as I have more experience and a stronger preference towards Go as opposed to TypeScript, it was the chosen programming language for the project.
+This leaves a focus on JavaScript, Go, and TypeScript. However, JavaScript will be removed from consideration as a strictly typed language is preferred for our context. Therefore, leaving Go and TypeScript as the main considerations for this project. Lastly, as I have more experience and a stronger preference towards Go as opposed to TypeScript, it was the chosen programming language for the project.
 
 \subsection{\nmu Choosing \nmu a PEG library under the Go programming language}\label{backg:peg_library_choice}
 Go has two libraries that are used in relation to \acrshort{peg} systems: Pigeon by Martin Angers (mna) and \acrshort{peg} by Andrew Snodgrass (pointlander). Direct comparisons with core components of both have been made in \tableref{table:peg_pigeon_comparison}.
 
 \input{tables/peg_pigeon_comparison}
 
-While examples are relatively similar, the simplicity of installation for Pigeon as opposed to \acrshort{peg}, combined with the depths of documentation both in generated code and outwith it, makes Pigeon a more ideal option. Additionally, its greater number of features gives \lintexspaced more to make use of. Therefore, Pigeon was the chosen library for the project.
+While examples are relatively similar, the simplicity of installation for Pigeon as opposed to \acrshort{peg}, combined with the depth of documentation both in generated code and outwith it, makes Pigeon a more ideal option. Additionally, its greater number of features gives \lintexspaced more to make use of. Therefore, Pigeon was the chosen library for the project.
 
 \subsection{Choice of frameworks and libraries}
 \subsubsection{Backend frameworks and libraries}
-There were three options for web frameworks and packages, namely Gin \parencite{go-gin}, Gorilla \parencite{gorilla-mux}, and net/http \parencite{net-http}. For \lintex , net/http was chosen for the key reason that it had the least barriers to entry, as there was a provided guide on the Go development website that was utilised in the project setup. However, in hindsight, more consideration towards what web framework to use would have had a great impact on the project as a whole, as net/http is a lower level web framework than Gin or Gorilla, consequently requiring more management on \lintex's end. Some examples of difficulties that occurred are a lack of POST requests being easily supported and necessitating that server files are explicitly stated as opposed to implicitly defined within a given context.
+There were three options for web frameworks and packages, namely Gin \parencite{go-gin}, Gorilla \parencite{gorilla-mux}, and net/http \parencite{net-http}. For \lintex , net/http was chosen for the key reason that it had the least barriers to entry, as there was a provided guide on the Go development website that was utilised in the project setup. However, in hindsight, more consideration towards what web framework to use would have had a great impact on the project as a whole, as net/http is a lower-level web framework than Gin or Gorilla, consequently requiring more management on \lintex's end. Some examples of difficulties that occurred are a lack of POST requests being easily supported and necessitating that server files are explicitly stated as opposed to implicitly defined within a given context.
 
 The html/template \parencite{html-template} package was included in the project. This package provided the ability to load \acrfull{html} files through Go, while allowing information to be provided to them. The alternative choice was to provide a raw print output to the client, which made the package a far clearer winner.
 
 For the project to be able to compile \latexspaced documents to convert them into \acrshortpl{pdf}, it was necessary to either use a pre-built package or to compile \latexspaced documents locally. Pre-built packages that were found include go-latex \parencite{go-latex} and latex-fast-compile \parencite{latex-fast-compile}. It was necessary to rule out go-latex as it emulated a \latexspaced compiler, rather than directly linking to one. Additionally, it lacked documentation and necessary features, making it unsuitable. Latex-fast-compile was also unsuitable due to using \pdflatexspaced rather than \lualatexspaced, which was desired.
 
-Consequently, it became necessary to compile \latexspaced documents directly. This was done through the use of \acrfull{cmd}, which allowed the `lualatex' command to be ran, consequently compiling the requested file. It did, however, prerequisite that the hosting server had a \latexspaced compiler in their backend, for the relevant \lualatexspaced engine. The os/exec \parencite{os-exec} package allowed for a \acrshort{cmd} shell to be created within Go code, consequently allowing the `lualatex' command to be run. Hence, compiling the \latexspaced document that the user provides.
+Consequently, it became necessary to compile \latexspaced documents directly. This was done through the use of \acrfull{cmd}, which allowed the `lualatex' command to be run, therefore compiling the requested file. It did, however, require that the hosting server has a \texspaced typesetting engine in their backend, for the \lualatexspaced engine. The os/exec \parencite{os-exec} package allowed for a \acrshort{cmd} shell to be created within Go code, consequently allowing the `lualatex' command to be run. Hence, compiling the \latexspaced document that the user provides.
 
 \subsubsection{Frontend frameworks and libraries}
-As plain \acrfull{css} is difficult to work with and maintain, it was necessary to decide on a \acrshort{css} framework for the project. My prior experience in Bootstrap \parencite{bootstrap} made it a close choice, but the opportunity to learn to utilise Tailwind CSS \parencite{tailwind} was more enticing and eventually won the decision.
+As plain \acrfull{css} is difficult to work with and maintain, it was necessary to decide on a \acrshort{css} framework for the project. My prior experience with Bootstrap \parencite{bootstrap} made it a close choice, but the opportunity to learn to utilise Tailwind CSS \parencite{tailwind} was more enticing and eventually won the decision.
 
-To implement Tailwind CSS, it was necessary to install its \acrfull{cli} through \acrfull{npm}. This permitted usage of Tailwind CSS without necessitating \acrfull{js} within the codebase, and avoided workarounds such as a \acrfull{cdn}. Additionally, due to difficulties in using Tailwind CSS, it was necessary to utilise a component library built on top of it, for which Flowbite \parencite{flowbite} was chosen as it could be used as almost plug-and-play.
+To implement Tailwind CSS, it was necessary to install its \acrfull{cli} through \acrfull{npm}. This permitted usage of Tailwind CSS without necessitating \acrfull{js} within the codebase, and avoided workarounds such as a \acrfull{cdn}. Additionally, due to difficulties in using Tailwind CSS, it was necessary to utilise a component library built on top of it. Flowbite \parencite{flowbite} was chosen as it could be used as almost plug-and-play and contained a vast amount of relevant examples.
 
-To ensure appropriate responsiveness of \lintex, it was necessary to be able to introduce updates in real time. For this, HTMX \parencite{htmx} was utilised, as it is a tool that permits \acrshort{html} tags other than the `a' and `form' tags to send \acrfull{http} requests to the server. For example, it is possible to use HTMX to create a \acrshort{http} request when a given key is pressed through its event management.
+To ensure appropriate responsiveness of \lintex, it is necessary to be able to introduce updates in real time. For this, HTMX \parencite{htmx} was planned to be utilised, as it is a tool that permits \acrshort{html} tags other than the `a' and `form' tags to send \acrfull{http} requests to the server. For example, it is possible to use HTMX to create a \acrshort{http} request when a given key is pressed through its event management system.
 
 \subsection{\nmu Guidelines \nmu for accessibility}\label{backg:accessibility_guidelines}
-The following key points have been used in the design of \lintexspaced to ensure its accessibility, following WCAG 2.2 \parencite{wcag} standards.
+The following key points have been used in the design of \lintexspaced to ensure its accessibility, largely following WCAG 2.2 \parencite{wcag} standards.
 \begin{itemize}
-    \item The website should have all non-text content contain an \gls{alt_text} (WCAG 2.2: Guideline 1.1).
+    \item The website should have all non-text content contain \glspl{image_desc} (WCAG 2.2: Guideline 1.1).
     \item The website may be operable through the keyboard alone (WCAG 2.2: Guideline 2.1).
     \item \lintexspaced should provide simple error messages.
     \item The website should allow for content to be distinguishable, including supporting resizing content and minimal colour usage (WCAG 2.2: Guideline 1.4).
@@ -50,30 +49,30 @@ The following key points have been used in the design of \lintexspaced to ensure
     \item The website should include navigation features (WCAG 2.2: Guideline 2.4).
     \item The website should be predictable (WCAG 2.2: Guideline 3.2).
     \item The produced document by \lintexspaced should contain appropriate tagging.
-    \item The produced \gls{accessible_doc} by \lintexspaced should contain appropriate \gls{alt_text}, actual text, or artifact.
+    \item The produced \gls{accessible_doc} by \lintexspaced should contain appropriate \gls{alt_text}, \gls{actual_text}, or \gls{artifact}.
 \end{itemize}
 
 \subsection{Choosing a software development methodology}\label{backg:swe_methodology}
 The available options under consideration for the project are the waterfall methodology, agile development methodology, \acrfull{tdd}, and \acrfull{bdd}.
 
-The waterfall methodology requires significant research early in the project to have success. However, as I lack experience in \acrshort{peg} script usage and many related topics for this project, it was likely that changes would be needed dynamically.
+The waterfall methodology requires significant research early in the project to have success. However, as I lacked experience in \acrshort{peg} script usage and many related topics for this project, it was likely that changes would be needed dynamically.
 
-\Acrshort{tdd} was the next consideration, with a personal strong bias towards it due to its usefulness in being self-documenting and saving the hassle of writing the unit tests after creating the software, which can be a more draining process. However, as Pigeon, the PEG library chosen in \fullref{backg:peg_library_choice}, generates Go files without a way to test individual components, it was not possible to create unit tests without it using complete \latexspaced code for the feature that should be tested. Additionally, creating unit tests can be time-consuming, which may be unsuitable for the short timeframe of the project.
+\Acrshort{tdd} was the next consideration, with a personal strong bias towards it due to its usefulness in being self-documenting and saving the hassle of writing the unit tests after creating the software, which can be a more draining process. However, as Pigeon (the PEG library chosen in \cref{backg:peg_library_choice}) generates Go files without a way to test individual components, it was not possible to create unit tests without it requiring an entire \latexspaced document for each unit test to be made. Additionally, creating unit tests can be time-consuming, which is unsuitable for the short timeframe of this project.
 
-\Acrshort{bdd} was removed from consideration for similar reasons as \acrshort{tdd}, with the addition of it being more suitable for larger contexts such as games development, where it is a lot less practical to test every feature individually.
+\Acrshort{bdd} was removed from consideration for similar reasons as \acrshort{tdd}, with the addition of it being more suitable for larger contexts such as game development, where it is less practical to test every feature individually.
 
-The final methodology, agile development methodology, allowed for code to be created quickly through its sprints. Additionally, as there was no prerequisite to create unit tests before creating the features, it saved a lot of time in development for the project. Consequently, agile development methodology was chosen for this project.
+The final methodology, agile development methodology, allowed for code to be created quickly through its sprints. Additionally, as there is no prerequisite to create unit tests before creating the features, it saved a lot of time in development for the project. Consequently, agile development methodology was chosen for this project.
 
-\subsection{Screen reader choice}
-Through a small number of criteria, as showcased in \tableref{table:screen_reader_choices}, it was possible to reduce the choices for what screen reader to use in our context.
+\subsection{\nmu Screen \nmu reader choice}\label{backg:screen_reader_choice}
+Through a small number of criteria, as showcased in \tableref{table:screen_reader_choices}, it was possible to greatly reduce the choices for what screen reader to use in our context.
 
 \input{tables/screen_reader_choices}
 
-As a student, I do not have the leeway to purchase subscriptions for several screen readers, making those that require payments ruled out, even if it would just be in the form of a free trial. Additionally, there is an ethical dilemma in requiring payments for a necessary accessibility tool, which pushed me away from choosing them. Another criterion was that the Windows \acrfull{os} should be supported, with emphasis placed on Windows 10 and Windows 11. These were chosen as they are the most common PC \acrshort{os} used, consequently targeting a larger base of users who may require screen readers.
+As a student, I do not have the leeway to purchase subscriptions for several screen readers, ruling out those that require payments, even if it would just be in the form of a free trial. Additionally, there is an ethical dilemma in requiring payments for a necessary accessibility tool, which pushed me away from choosing them. Another criterion was that the Windows \acrfull{os} should be supported, with emphasis placed on Windows 10 and Windows 11. These were chosen as they are the most common PC \acrshort{os} used, consequently targeting a larger base of users who may require screen readers.
 
 Considering these criteria, NVDA and Microsoft Narrator were the final choices. When testing both on a placeholder document, emulating the experience of a screen reader user working with \latex , I found that there was more difficulty with Windows Narrator in terms of having it read the correct extract on the document, often requiring using a mouse to get to the correct location. Inversely, NVDA read the correct extract in full detail. Hence, by process of elimination to a degree, NVDA was the chosen screen reader for \lintex.
 
-Adobe Acrobat Reader was used to work alongside NVDA to make the documents easier to navigate in more complex contexts, such as where the document may not be read as simply as top-to-bottom, left-to-right.
+Adobe Acrobat Reader was used with NVDA to make the documents easier to navigate in more complex contexts, such as those where the document may not be read as simply as top-to-bottom, left-to-right.
 
 \subsection{\nmu User \nmu study design choices}\label{backg:user_study_design}
 \subsubsection{User study structure design}
@@ -81,20 +80,20 @@ A combination of a think-aloud session and questionnaires was utilised in the cr
 
 A \gls{think_aloud} was performed where \glsdesc{think_aloud} This was utilised to acquire \gls{qual_data} regarding the usability of \lintex , with focus placed on most affected areas in \tableref{table:lintex_usability}.
 
-It was deemed necessary to compare a \latexspaced document before and after applying \lintex 's changes to determine whether \lintexspaced had a measurable impact on the screen reader accessibility of the documents. This comparison was created through a listening of the document's screen reader output at a given stage, and a questioning stage immediately after the relevant listening.
+It was deemed necessary to compare a \latexspaced document before and after applying \lintex 's changes to determine whether \lintexspaced had a measurable impact on the screen reader-related accessibility of the documents. This comparison was created through a listening of the document's screen reader output at a given stage and a questioning stage immediately after the relevant listening. This utilised the screen reader selected in \cref{backg:screen_reader_choice}
 
 Additionally, it was possible that the participant's experience level in related topics would have an impact on their answers to questions or experience during the \gls{think_aloud}, consequently necessitating a small questionnaire to gauge experience levels.
 \subsubsection{User study question design}
 Factors that may influence a user's experience in the user study include their experience level in \latex , using screen readers, and listening to audio recordings of speaking. \Glspl{likert} were used to gauge these experience levels in a numerical method, providing \gls{quan_data}.
 
-Qualitative data were obtained from open-ended questions, with a clear focus placed on each question, such that it would minimise confusion.
+\Gls{qual_data} were obtained from open-ended questions, with a clear focus placed on each question, to minimise confusion.
 
-To gauge an understanding of how truly impactful an \gls{inaccessible_doc}'s impact is on a screen reader user's experience, participants will be questioned on what they could recall from the listening. However, as the participant will have worked with the document directly during the \gls{think_aloud}, it is redundant to include it in the final questioning.
+To gauge an understanding of how truly impactful an \gls{inaccessible_doc}'s impact was on a screen reader user's experience, participants were questioned on what they could recall from the listening. However, as the participant will have worked with the document directly during the \gls{think_aloud}, it is redundant to include it in the final questioning.
 
-It is necessary to understand what components of the relevant listening were found to be simple or difficult. However, these should be asked separately to ensure no confusion about what is being asked. The participant will be asked to provide their opinion on how well the screen reader audio output could be understood in terms of its contents, with a \gls{likert} to provide quantitative data that can be analysed.
+It is necessary to understand what components of the relevant listening were found to be simple or difficult. However, these should be asked separately to ensure no ambiguity about what is being asked. The participant will be asked to provide their opinion on how well the screen reader audio output was understood in terms of its contents, using a \gls{likert} to provide \gls{quan_data} that can be analysed.
 
 Participants were asked if they were likely to accommodate screen reader users in the future, to gain an understanding of whether \lintexspaced had made doing so appear to be an easier process.
 \subsection{GUI design considerations}
-\lintexspaced took strong inspiration from \acrfullpl{ide} with regards to its \acrfull{uiux} design. This is because \latex in structure is similar to a programming language, even being Turing complete \parencite{latexturingcomplete}. Hence, an environment suitable for programming is suitable program \latex in, with some special considerations put aside for its quirks. For example, depending on the user's screen size and preferences, they may wish to have the output of the \latexspaced documents taking up half of the screen, a separate browser window or monitor, or out of the way until compilation.
+\lintexspaced took strong inspiration from \acrfullpl{ide} with regards to its \acrfull{uiux} design. This is because \latexspaced in structure is similar to a programming language, even being Turing complete \parencite{latexturingcomplete}. Hence, an environment suitable for programming is suitable to program \latexspaced in, with some special considerations put aside for its quirks. For example, depending on the user's screen size and preferences, they may wish to have the output of the \latexspaced documents taking up half of the screen, a separate browser window or monitor, or out of the way until compilation.
 
 Additionally, online code editors such as LeetCode \parencite{leetcode}, HackerRank \parencite{hackerrank}, and CodeWars \parencite{codewars} were similar in nature to what \lintexspaced would like to achieve regarding its \acrshort{uiux}, and were consequently used as inspiration.

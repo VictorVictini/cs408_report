@@ -3,7 +3,7 @@
 \contentsline {section}{Acknowledgments}{ii}{section*.1}%
 \contentsline {section}{Glossary}{v}{section*.6}%
 \contentsline {section}{\numberline {1}Introduction }{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Identifying \LaTeX 's key accessibility problems for screen reader users}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.1}Identifying \LaTeX 's key screen reader-focused accessibility problems}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Why accessibility is important}{1}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Why Lua\LaTeX \ provides better accessibility than PDF\LaTeX \ \ }{2}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}Aims and objectives}{2}{subsection.1.4}%
@@ -14,7 +14,7 @@
 \contentsline {subsection}{\numberline {2.3}Choice of frameworks and libraries}{5}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.1}Backend frameworks and libraries}{5}{subsubsection.2.3.1}%
 \contentsline {subsubsection}{\numberline {2.3.2}Frontend frameworks and libraries}{7}{subsubsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.4}Guidelines for accessibility}{7}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.4}Guidelines for accessibility}{8}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Choosing a software development methodology}{8}{subsection.2.5}%
 \contentsline {subsection}{\numberline {2.6}Screen reader choice}{9}{subsection.2.6}%
 \contentsline {subsection}{\numberline {2.7}User study design choices}{10}{subsection.2.7}%

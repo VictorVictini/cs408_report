@@ -1,37 +1,37 @@
 \section{\nmu Introduction \nmu}\label{intro}
-\subsection{Identifying \LaTeX's key accessibility problems for screen reader users}
+\subsection{Identifying \LaTeX's key screen reader-focused accessibility problems}
 Similar to a tool like Microsoft Word, \latexspaced is a tool used to process documents. \latexspaced does this in a programmatic manner, likening it to a programming language, whereas Microsoft Word has a \acrfull{gui} which simplifies the process for an ordinary user. However, \latexspaced prevails in its ability to process scientific documents, which may require graphs, images, tables, or advanced mathematical capabilities.
 
 \latexspaced struggles to implement accessibility for screen readers, largely due to it not originally being built for that purpose, as explained in \cref{intro:lualatex_better_pdflatex}. Additionally, \latexspaced is broken by design, originally created as a set of macros built on the \texspaced typesetting engine that evolved into the \lualatexspaced that we work with in modern times.
 
-Additionally, \acrfull{pdf} files are built not to be changed, which adds difficulties with attempting to add \gls{tagging}.
+Additionally, \acrfull{pdf} files are built not to be changed, which adds difficulties with attempting to add \gls{tagging} or \glspl{image_desc}.
 
 \subsection{Why accessibility is important}
 Accessibility has the potential to assist all users, even if it is aimed at a few focus groups. One such case is where an environment, such as a noisy train, restricts the user from hearing the audio output of a video. In this context, an accessibility feature such as subtitles on a video, ideally without \acrfull{ai} generation, can greatly enhance a user's experience.
 
-For example, in Northern Ireland alone, there are an estimated 8,000 users with sight loss \parencite{accessibility_importance}. These users may require the assistance of screen readers or someone else to read it out to them, which can add to their stress, with the digital context simply not being built with their needs in mind.
+For example, in Northern Ireland alone, there are an estimated 8,000 users with sight loss \parencite{accessibility_importance}. These users may require the assistance of screen readers or someone else to read content out to them, which can add to their stress, with the digital context simply not being built with their needs in mind.
 
 Users with disabilities are over 50\% more likely to face difficulties due to a lack of digital inclusion \parencite{accessibility_importance}, which highlights the severity of its impact on a website's overall traffic. These users should not be an afterthought of the website's design, but rather a key focus.
 
 \subsection{Why \lualatexspaced provides better accessibility than \pdflatexspaced}\label{intro:lualatex_better_pdflatex}
-\pdflatexspaced was created to be a media printer, which produced \acrfull{pdf} documents with the sole purpose of being printed out. Due to its innate design, this means it lacked support for screen reader users. \pdflatexspaced also frequently utilises outdated, or frankly broken, workarounds to implement accessibility, such as the accessibility package \parencite{accessibility_package}, which has been deprecated since February 2021. Additionally, as its focus has shifted to maintenance rather than development, \pdflatexspaced is unsuitable for accessibility where requirements change frequently, making it an outdated \texspaced engine, which unfortunately still sees frequent usage.
+\pdflatexspaced was created to be a media printer, which produced \acrshort{pdf} documents with the sole purpose of being printed out. Due to its innate design, this means it lacked support for screen reader users. \pdflatexspaced also frequently utilises outdated, or frankly broken, workarounds to implement accessibility, such as the accessibility package \parencite{accessibility_package}, which has been deprecated since February 2021. Additionally, as its focus has shifted to maintenance rather than development, \pdflatexspaced is unsuitable for accessibility where requirements change frequently, making it an outdated \texspaced engine, which unfortunately still sees frequent usage.
 
-The introduction of \xetexspaced improved font handling in \latex , yet its lifetime was short-lived, with it almost being considered an evolutionary dead end, with the addition of \lualatex.
+The introduction of \xetexspaced improved font handling in \latex , yet its lifetime was short-lived, with it almost being considered an evolutionary dead end, with the advent of \lualatex.
 
 Unlike \pdflatex, \lualatexspaced was created for the purpose of creating electronic documents, which provides its development a suitable reason to support screen reader users through the use of \gls{image_desc} and \gls{tagging}. Our tool, \lintex, utilises \lualatex's accessibility support, with emphasis placed on screen reader users.
 \subsection{Aims and objectives}
-This project aimed to enhance \latexspaced document accessibility, with a focus placed on screen reader users. This was achieved by creating a prototype, \lintex , which analyses a \latexspaced document to identify where to apply \gls{image_desc} and \gls{tagging}.
+This project aimed to enhance \latexspaced document accessibility, with a focus placed on screen reader users. This was achieved by creating a prototype, \lintex , which analyses a \latexspaced document to identify where to apply \glspl{image_desc} and \gls{tagging}.
 
 The following objectives were created for this context:
 \begin{enumerate}[label=\textbf{OBJ\arabic*}]
     \item The tool, \lintex , should be maintainable, as accessibility often requires changes to its management.\label{intro:objective:lintex_maintainable}
     \item \lintexspaced should improve a document's audio output in terms of its contents, when read by a screen reader.\label{intro:objective:audio_output_improved}
-    \item \lintexspaced should provide useful error messages and descriptive.\label{intro:objective:errors_useful}
+    \item \lintexspaced should provide useful and descriptive error messages.\label{intro:objective:errors_useful}
     \item \lintexspaced should be reasonably accessible, following the accessibility guidelines defined in \cref{backg:accessibility_guidelines}.\label{intro:objective:lintex_accessible}
 \end{enumerate}
 
 \subsection{Research questions}
-The following research questions cover the theoretical aspects of this project:
+The following research questions cover the research-focused aspects of this project:
 \begin{enumerate}[label=\textbf{RQ\arabic*}]
     \item What considerations are necessary to make a \latexspaced document accessible for screen reader users?\label{rq:accessibility_considerations}
     \item Why does \latexspaced suffer a lack of accessibility for screen reader users?\label{rq:why_inaccessible}

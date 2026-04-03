@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.11.19)  3 APR 2026 04:55
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.11.19)  3 APR 2026 06:38
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1689,7 +1689,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                for \mkbibdateshort.
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 99--99
+Underfull \hbox (badness 1490) in paragraph at lines 102--102
 []|\TU/lmss/m/n/10.95 data that can be represented in numerical form
  []
 
@@ -1736,18 +1736,18 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 9.
-
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 10
+.
 
 
 Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 9.
-
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 10
+.
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-9.
+10.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1762,6 +1762,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                If you see this message, the .lbx file could not be
 (biblatex)                loaded, is faulty or does not contain a definition
 (biblatex)                for \mkbibdateshort.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+17.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1777,18 +1782,18 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 ] [2]) [3] (./sections/background.tex
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 4.
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 3.
 
 
 
 Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 4.
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 3.
 
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-4.
+3.
 
 (./tables/languages_peg_frameworks.tex
 
@@ -1813,18 +1818,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 )
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 14
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 13
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 14
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 13
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-14.
+13.
 
 [4
 
@@ -1832,12 +1837,12 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-19.
+18.
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-19.
+18.
 
 (./tables/peg_pigeon_comparison.tex
 
@@ -1951,7 +1956,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-23.
+22.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1984,23 +1989,23 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 29
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 28
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 29
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 28
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-29.
+28.
 
 
 Package glossaries-extra Warning: Base acronym command \acrshortpl should not b
 e used with new abbreviation definitions. Use \glsxtrshortpl instead on input l
-ine 31.
+ine 30.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2019,18 +2024,18 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 [6]
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 33
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 32
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 33
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 32
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-33.
+32.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2042,101 +2047,27 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-33.
+32.
 
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 36
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 35
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 36
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 35
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-36.
+35.
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-36.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdateshort.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdateshort.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdateshort.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdateshort.
-
-
-Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 38
-.
-
-
-Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 38
-.
-
-
-Package glossaries-extra Warning: Base acronym command \acrshort should not be 
-used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-38.
-
-
-Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 38
-.
-
-
-Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 38
-.
-
-
-Package glossaries-extra Warning: Base acronym command \acrshort should not be 
-used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-38.
-
-
-Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 38
-.
-
-
-Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 38
-.
-
-
-Package glossaries-extra Warning: Base acronym command \acrshort should not be 
-used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-38.
-
-
-Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 38
-.
-
-
-Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 38
-.
-
-
-Package glossaries-extra Warning: Base acronym command \acrshort should not be 
-used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-38.
+35.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2153,29 +2084,103 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                for \mkbibdateshort.
 
 
-Package glossaries-extra Warning: Base acronym command \acrshort should not be 
-used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-40.
-
-
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 40
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 37
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 40
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 37
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-40.
+37.
+
+
+Package glossaries-extra Warning: Base acronym command \acrfull should not be u
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 37
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrlong should not be u
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 37
+.
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-40.
+37.
+
+
+Package glossaries-extra Warning: Base acronym command \acrfull should not be u
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 37
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrlong should not be u
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 37
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+37.
+
+
+Package glossaries-extra Warning: Base acronym command \acrfull should not be u
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 37
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrlong should not be u
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 37
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+37.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+39.
+
+
+Package glossaries-extra Warning: Base acronym command \acrfull should not be u
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 39
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrlong should not be u
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 39
+.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+39.
+
+
+Package glossaries-extra Warning: Base acronym command \acrshort should not be 
+used with new abbreviation definitions. Use \glsxtrshort instead on input line 
+39.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2187,54 +2192,54 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 [7]
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 57
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 56
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 57
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 56
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-57.
+56.
 
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 57
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 56
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 57
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 56
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-57.
+56.
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-59.
+58.
 
 
 Package glossaries-extra Warning: Base acronym command \Acrshort should not be 
 used with new abbreviation definitions. Use \Glsxtrshort instead on input line 
-61.
-
-
-Package glossaries-extra Warning: Base acronym command \Acrshort should not be 
-used with new abbreviation definitions. Use \Glsxtrshort instead on input line 
-63.
+60.
 
 [8]
 
+Package glossaries-extra Warning: Base acronym command \Acrshort should not be 
+used with new abbreviation definitions. Use \Glsxtrshort instead on input line 
+62.
+
+
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-63.
+62.
 
 (./tables/screen_reader_choices.tex
 
@@ -2250,54 +2255,54 @@ sed with new abbreviation definitions. Use \glsxtrlong instead on input line 13
 )
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 72
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 71
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 72
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 71
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-72.
+71.
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-72.
+71.
 
 [9] [10]
 
 Package glossaries-extra Warning: Base acronym command \acrfullpl should not be
  used with new abbreviation definitions. Use \glsxtrfullpl instead on input lin
-e 98.
+e 97.
 
 
 Package glossaries-extra Warning: Base acronym command \acrlongpl should not be
  used with new abbreviation definitions. Use \glsxtrlongpl instead on input lin
-e 98.
+e 97.
 
 
 Package glossaries-extra Warning: Base acronym command \acrshortpl should not b
 e used with new abbreviation definitions. Use \glsxtrshortpl instead on input l
-ine 98.
+ine 97.
 
 
 Package glossaries-extra Warning: Base acronym command \acrfull should not be u
-sed with new abbreviation definitions. Use \glsxtrfull instead on input line 98
+sed with new abbreviation definitions. Use \glsxtrfull instead on input line 97
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrlong should not be u
-sed with new abbreviation definitions. Use \glsxtrlong instead on input line 98
+sed with new abbreviation definitions. Use \glsxtrlong instead on input line 97
 .
 
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-98.
+97.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2315,7 +2320,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'hackerrank' on input line 100.
+(biblatex)                at entry 'hackerrank' on input line 99.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2326,7 +2331,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'codewars' on input line 100.
+(biblatex)                at entry 'codewars' on input line 99.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2338,7 +2343,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-100.
+99.
 
 ) [11] (./sections/specification_design.tex
 
@@ -2395,7 +2400,7 @@ Underfull \hbox (badness 1354) in paragraph at lines 30--31
  []
 
 (./figures/build_accessible_document.tex
-<images/build_accessible_document.png, id=765, 2694.065pt x 650.43pt>
+<images/build_accessible_document.png, id=778, 2694.065pt x 650.43pt>
 File: images/build_accessible_document.png Graphic file (type png)
 <use images/build_accessible_document.png>
 Package luatex.def Info: images/build_accessible_document.png  used on input li
@@ -2433,7 +2438,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                for \mkbibdateshort.
 
 (./figures/error_structure.tex
-<images/error_structure.png, id=778, 2453.165pt x 887.315pt>
+<images/error_structure.png, id=791, 2453.165pt x 887.315pt>
 File: images/error_structure.png Graphic file (type png)
 <use images/error_structure.png>
 Package luatex.def Info: images/error_structure.png  used on input line 4.
@@ -2450,7 +2455,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be 
 used with new abbreviation definitions. Use \glsxtrshort instead on input line 
-57.
+58.
 
 ) [15] (./sections/implementation.tex
 
@@ -2611,7 +2616,7 @@ Underfull \hbox (badness 7540) in paragraph at lines 20--21
  []
 
 (./figures/latex_doc_parsing_structure.tex
-<images/latex_doc_parsing_structure.png, id=825, 3015.265pt x 1449.415pt>
+<images/latex_doc_parsing_structure.png, id=838, 3015.265pt x 1449.415pt>
 File: images/latex_doc_parsing_structure.png Graphic file (type png)
 <use images/latex_doc_parsing_structure.png>
 Package luatex.def Info: images/latex_doc_parsing_structure.png  used on input 
@@ -2624,7 +2629,7 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 28.
 
 (./figures/latex_line_parsing_structure.tex
-<images/latex_line_structure.png, id=827, 2653.915pt x 871.255pt>
+<images/latex_line_structure.png, id=840, 2653.915pt x 871.255pt>
 File: images/latex_line_structure.png Graphic file (type png)
 <use images/latex_line_structure.png>
 Package luatex.def Info: images/latex_line_structure.png  used on input line 4.
@@ -2983,12 +2988,12 @@ Package biblatex Warning: Bibliography string 'in' untranslated
 (biblatex)                at entry 't-test' on input line 194.
 
 [33] (./sections/appendix.tex
-<images/ethics_approval.pdf, id=1124, 614.295pt x 794.97pt>
+<images/ethics_approval.pdf, id=1137, 614.295pt x 794.97pt>
 File: images/ethics_approval.pdf Graphic file (type pdf)
 <use images/ethics_approval.pdf>
 Package luatex.def Info: images/ethics_approval.pdf  used on input line 3.
 (luatex.def)             Requested size: 614.29349pt x 794.96806pt.
-<images/ethics_approval.pdf, id=1126, page=1, 614.295pt x 794.97pt>
+<images/ethics_approval.pdf, id=1139, page=1, 614.295pt x 794.97pt>
 File: images/ethics_approval.pdf Graphic file (type pdf)
 <use images/ethics_approval.pdf, page 1>
 Package luatex.def Info: images/ethics_approval.pdf , page1 used on input line 
@@ -3020,7 +3025,7 @@ Package luatex.def Info: images/ethics_approval.pdf , page1 used on input line
  [35
 
 <./images/ethics_approval.pdf>]
-<images/ethics_approval.pdf, id=1179, page=2, 614.295pt x 794.97pt>
+<images/ethics_approval.pdf, id=1193, page=2, 614.295pt x 794.97pt>
 File: images/ethics_approval.pdf Graphic file (type pdf)
 <use images/ethics_approval.pdf, page 2>
 Package luatex.def Info: images/ethics_approval.pdf , page2 used on input line 
@@ -3039,12 +3044,12 @@ Package luatex.def Info: images/ethics_approval.pdf , page2 used on input line
  [36
 
 <./images/ethics_approval.pdf>]
-<images/ethics_application.pdf, id=1197, 614.295pt x 794.97pt>
+<images/ethics_application.pdf, id=1210, 614.295pt x 794.97pt>
 File: images/ethics_application.pdf Graphic file (type pdf)
 <use images/ethics_application.pdf>
 Package luatex.def Info: images/ethics_application.pdf  used on input line 6.
 (luatex.def)             Requested size: 614.29349pt x 794.96806pt.
-<images/ethics_application.pdf, id=1199, page=1, 614.295pt x 794.97pt>
+<images/ethics_application.pdf, id=1212, page=1, 614.295pt x 794.97pt>
 File: images/ethics_application.pdf Graphic file (type pdf)
 <use images/ethics_application.pdf, page 1>
 Package luatex.def Info: images/ethics_application.pdf , page1 used on input li
@@ -3074,7 +3079,7 @@ ne 6.
  [38
 
 <./images/ethics_application.pdf>]
-<images/ethics_application.pdf, id=1252, page=2, 614.295pt x 794.97pt>
+<images/ethics_application.pdf, id=1265, page=2, 614.295pt x 794.97pt>
 File: images/ethics_application.pdf Graphic file (type pdf)
 <use images/ethics_application.pdf, page 2>
 Package luatex.def Info: images/ethics_application.pdf , page2 used on input li
@@ -3093,13 +3098,13 @@ ne 6.
  [39
 
 <./images/ethics_application.pdf>]
-<images/participant_info_sheet.pdf, id=1257, 597.4822pt x 845.1575pt>
+<images/participant_info_sheet.pdf, id=1270, 597.4822pt x 845.1575pt>
 File: images/participant_info_sheet.pdf Graphic file (type pdf)
 <use images/participant_info_sheet.pdf>
 Package luatex.def Info: images/participant_info_sheet.pdf  used on input line 
 9.
 (luatex.def)             Requested size: 597.48073pt x 845.15544pt.
-<images/participant_info_sheet.pdf, id=1259, page=1, 597.4822pt x 845.1575pt>
+<images/participant_info_sheet.pdf, id=1272, page=1, 597.4822pt x 845.1575pt>
 File: images/participant_info_sheet.pdf Graphic file (type pdf)
 <use images/participant_info_sheet.pdf, page 1>
 Package luatex.def Info: images/participant_info_sheet.pdf , page1 used on inpu
@@ -3129,7 +3134,7 @@ t line 9.
  [41
 
 <./images/participant_info_sheet.pdf>]
-<images/participant_info_sheet.pdf, id=1289, page=2, 597.4822pt x 845.1575pt>
+<images/participant_info_sheet.pdf, id=1302, page=2, 597.4822pt x 845.1575pt>
 File: images/participant_info_sheet.pdf Graphic file (type pdf)
 <use images/participant_info_sheet.pdf, page 2>
 Package luatex.def Info: images/participant_info_sheet.pdf , page2 used on inpu
@@ -3149,7 +3154,7 @@ t line 9.
 [42
 
 <./images/participant_info_sheet.pdf>]
-<images/participant_info_sheet.pdf, id=1294, page=3, 597.4822pt x 845.1575pt>
+<images/participant_info_sheet.pdf, id=1307, page=3, 597.4822pt x 845.1575pt>
 File: images/participant_info_sheet.pdf Graphic file (type pdf)
 <use images/participant_info_sheet.pdf, page 3>
 Package luatex.def Info: images/participant_info_sheet.pdf , page3 used on inpu
@@ -3168,12 +3173,12 @@ t line 9.
  [43
 
 <./images/participant_info_sheet.pdf>]
-<images/consent_form.pdf, id=1300, 597.55244pt x 845.0772pt>
+<images/consent_form.pdf, id=1313, 597.55244pt x 845.0772pt>
 File: images/consent_form.pdf Graphic file (type pdf)
 <use images/consent_form.pdf>
 Package luatex.def Info: images/consent_form.pdf  used on input line 12.
 (luatex.def)             Requested size: 597.55098pt x 845.07513pt.
-<images/consent_form.pdf, id=1302, page=1, 597.55244pt x 845.0772pt>
+<images/consent_form.pdf, id=1315, page=1, 597.55244pt x 845.0772pt>
 File: images/consent_form.pdf Graphic file (type pdf)
 <use images/consent_form.pdf, page 1>
 Package luatex.def Info: images/consent_form.pdf , page1 used on input line 12.
@@ -3203,12 +3208,12 @@ Package luatex.def Info: images/consent_form.pdf , page1 used on input line 12.
  [45
 
 <./images/consent_form.pdf>]
-<images/user_study_script.pdf, id=1338, 597.4822pt x 845.1575pt>
+<images/user_study_script.pdf, id=1351, 597.4822pt x 845.1575pt>
 File: images/user_study_script.pdf Graphic file (type pdf)
 <use images/user_study_script.pdf>
 Package luatex.def Info: images/user_study_script.pdf  used on input line 15.
 (luatex.def)             Requested size: 597.48073pt x 845.15544pt.
-<images/user_study_script.pdf, id=1340, page=1, 597.4822pt x 845.1575pt>
+<images/user_study_script.pdf, id=1353, page=1, 597.4822pt x 845.1575pt>
 File: images/user_study_script.pdf Graphic file (type pdf)
 <use images/user_study_script.pdf, page 1>
 Package luatex.def Info: images/user_study_script.pdf , page1 used on input lin
@@ -3238,7 +3243,7 @@ e 15.
  [47
 
 <./images/user_study_script.pdf>]
-<images/user_study_script.pdf, id=1370, page=2, 597.4822pt x 845.1575pt>
+<images/user_study_script.pdf, id=1383, page=2, 597.4822pt x 845.1575pt>
 File: images/user_study_script.pdf Graphic file (type pdf)
 <use images/user_study_script.pdf, page 2>
 Package luatex.def Info: images/user_study_script.pdf , page2 used on input lin
@@ -3257,7 +3262,7 @@ e 15.
  [48
 
 <./images/user_study_script.pdf>]
-<images/user_study_script.pdf, id=1375, page=3, 597.4822pt x 845.1575pt>
+<images/user_study_script.pdf, id=1388, page=3, 597.4822pt x 845.1575pt>
 File: images/user_study_script.pdf Graphic file (type pdf)
 <use images/user_study_script.pdf, page 3>
 Package luatex.def Info: images/user_study_script.pdf , page3 used on input lin
@@ -3276,13 +3281,13 @@ e 15.
  [49
 
 <./images/user_study_script.pdf>]
-<images/inaccessible_document.pdf, id=1380, 597.53633pt x 845.04684pt>
+<images/inaccessible_document.pdf, id=1393, 597.53633pt x 845.04684pt>
 File: images/inaccessible_document.pdf Graphic file (type pdf)
 <use images/inaccessible_document.pdf>
 Package luatex.def Info: images/inaccessible_document.pdf  used on input line 1
 8.
 (luatex.def)             Requested size: 597.53487pt x 845.04478pt.
-<images/inaccessible_document.pdf, id=1382, page=1, 597.53633pt x 845.04684pt>
+<images/inaccessible_document.pdf, id=1395, page=1, 597.53633pt x 845.04684pt>
 File: images/inaccessible_document.pdf Graphic file (type pdf)
 <use images/inaccessible_document.pdf, page 1>
 Package luatex.def Info: images/inaccessible_document.pdf , page1 used on input
@@ -3313,7 +3318,7 @@ Package luatex.def Info: images/inaccessible_document.pdf , page1 used on input
  [51
 
 <./images/inaccessible_document.pdf>]
-<images/inaccessible_document.pdf, id=1397, page=2, 597.53633pt x 845.04684pt>
+<images/inaccessible_document.pdf, id=1410, page=2, 597.53633pt x 845.04684pt>
 File: images/inaccessible_document.pdf Graphic file (type pdf)
 <use images/inaccessible_document.pdf, page 2>
 Package luatex.def Info: images/inaccessible_document.pdf , page2 used on input
@@ -3332,13 +3337,13 @@ Package luatex.def Info: images/inaccessible_document.pdf , page2 used on input
  [52
 
 <./images/inaccessible_document.pdf>]
-<images/accessible_document.pdf, id=1402, 597.53633pt x 845.04684pt>
+<images/accessible_document.pdf, id=1415, 597.53633pt x 845.04684pt>
 File: images/accessible_document.pdf Graphic file (type pdf)
 <use images/accessible_document.pdf>
 Package luatex.def Info: images/accessible_document.pdf  used on input line 21.
 
 (luatex.def)             Requested size: 597.53487pt x 845.04478pt.
-<images/accessible_document.pdf, id=1404, page=1, 597.53633pt x 845.04684pt>
+<images/accessible_document.pdf, id=1417, page=1, 597.53633pt x 845.04684pt>
 File: images/accessible_document.pdf Graphic file (type pdf)
 <use images/accessible_document.pdf, page 1>
 Package luatex.def Info: images/accessible_document.pdf , page1 used on input l
@@ -3368,7 +3373,7 @@ ine 21.
  [54
 
 <./images/accessible_document.pdf>]
-<images/accessible_document.pdf, id=1420, page=2, 597.53633pt x 845.04684pt>
+<images/accessible_document.pdf, id=1433, page=2, 597.53633pt x 845.04684pt>
 File: images/accessible_document.pdf Graphic file (type pdf)
 <use images/accessible_document.pdf, page 2>
 Package luatex.def Info: images/accessible_document.pdf , page2 used on input l
@@ -3387,12 +3392,12 @@ ine 21.
  [55
 
 <./images/accessible_document.pdf>]
-<images/peg_script.pdf, id=1425, 597.53633pt x 845.04684pt>
+<images/peg_script.pdf, id=1438, 597.53633pt x 845.04684pt>
 File: images/peg_script.pdf Graphic file (type pdf)
 <use images/peg_script.pdf>
 Package luatex.def Info: images/peg_script.pdf  used on input line 24.
 (luatex.def)             Requested size: 597.53487pt x 845.04478pt.
-<images/peg_script.pdf, id=1427, page=1, 597.53633pt x 845.04684pt>
+<images/peg_script.pdf, id=1440, page=1, 597.53633pt x 845.04684pt>
 File: images/peg_script.pdf Graphic file (type pdf)
 <use images/peg_script.pdf, page 1>
 Package luatex.def Info: images/peg_script.pdf , page1 used on input line 24.
@@ -3417,7 +3422,7 @@ Package luatex.def Info: images/peg_script.pdf , page1 used on input line 24.
  [57
 
 <./images/peg_script.pdf>]
-<images/peg_script.pdf, id=1442, page=2, 597.53633pt x 845.04684pt>
+<images/peg_script.pdf, id=1455, page=2, 597.53633pt x 845.04684pt>
 File: images/peg_script.pdf Graphic file (type pdf)
 <use images/peg_script.pdf, page 2>
 Package luatex.def Info: images/peg_script.pdf , page2 used on input line 24.
@@ -3433,7 +3438,7 @@ Package luatex.def Info: images/peg_script.pdf , page2 used on input line 24.
  [58
 
 <./images/peg_script.pdf>]
-<images/peg_script.pdf, id=1447, page=3, 597.53633pt x 845.04684pt>
+<images/peg_script.pdf, id=1460, page=3, 597.53633pt x 845.04684pt>
 File: images/peg_script.pdf Graphic file (type pdf)
 <use images/peg_script.pdf, page 3>
 Package luatex.def Info: images/peg_script.pdf , page3 used on input line 24.
@@ -3450,7 +3455,7 @@ Package luatex.def Info: images/peg_script.pdf , page3 used on input line 24.
 [59
 
 <./images/peg_script.pdf>]
-<images/peg_script.pdf, id=1452, page=4, 597.53633pt x 845.04684pt>
+<images/peg_script.pdf, id=1465, page=4, 597.53633pt x 845.04684pt>
 File: images/peg_script.pdf Graphic file (type pdf)
 <use images/peg_script.pdf, page 4>
 Package luatex.def Info: images/peg_script.pdf , page4 used on input line 24.
@@ -3466,7 +3471,7 @@ Package luatex.def Info: images/peg_script.pdf , page4 used on input line 24.
  [60
 
 <./images/peg_script.pdf>]
-<images/peg_script.pdf, id=1457, page=5, 597.53633pt x 845.04684pt>
+<images/peg_script.pdf, id=1470, page=5, 597.53633pt x 845.04684pt>
 File: images/peg_script.pdf Graphic file (type pdf)
 <use images/peg_script.pdf, page 5>
 Package luatex.def Info: images/peg_script.pdf , page5 used on input line 24.
@@ -3482,7 +3487,7 @@ Package luatex.def Info: images/peg_script.pdf , page5 used on input line 24.
  [61
 
 <./images/peg_script.pdf>]
-<images/peg_script.pdf, id=1462, page=6, 597.53633pt x 845.04684pt>
+<images/peg_script.pdf, id=1475, page=6, 597.53633pt x 845.04684pt>
 File: images/peg_script.pdf Graphic file (type pdf)
 <use images/peg_script.pdf, page 6>
 Package luatex.def Info: images/peg_script.pdf , page6 used on input line 24.
@@ -3498,7 +3503,7 @@ Package luatex.def Info: images/peg_script.pdf , page6 used on input line 24.
  [62
 
 <./images/peg_script.pdf>]
-<images/peg_script.pdf, id=1467, page=7, 597.53633pt x 845.04684pt>
+<images/peg_script.pdf, id=1481, page=7, 597.53633pt x 845.04684pt>
 File: images/peg_script.pdf Graphic file (type pdf)
 <use images/peg_script.pdf, page 7>
 Package luatex.def Info: images/peg_script.pdf , page7 used on input line 24.
@@ -3617,12 +3622,12 @@ used with new abbreviation definitions. Use \glsxtrshort instead on input line
 [66
 
 ]
-<images/errors_list.pdf, id=1507, 597.53633pt x 845.04684pt>
+<images/errors_list.pdf, id=1520, 597.53633pt x 845.04684pt>
 File: images/errors_list.pdf Graphic file (type pdf)
 <use images/errors_list.pdf>
 Package luatex.def Info: images/errors_list.pdf  used on input line 81.
 (luatex.def)             Requested size: 597.53487pt x 845.04478pt.
-<images/errors_list.pdf, id=1509, page=1, 597.53633pt x 845.04684pt>
+<images/errors_list.pdf, id=1522, page=1, 597.53633pt x 845.04684pt>
 File: images/errors_list.pdf Graphic file (type pdf)
 <use images/errors_list.pdf, page 1>
 Package luatex.def Info: images/errors_list.pdf , page1 used on input line 81.
@@ -3649,7 +3654,7 @@ Package luatex.def Info: images/errors_list.pdf , page1 used on input line 81.
  [68
 
 <./images/errors_list.pdf>]
-<images/errors_list.pdf, id=1524, page=2, 597.53633pt x 845.04684pt>
+<images/errors_list.pdf, id=1537, page=2, 597.53633pt x 845.04684pt>
 File: images/errors_list.pdf Graphic file (type pdf)
 <use images/errors_list.pdf, page 2>
 Package luatex.def Info: images/errors_list.pdf , page2 used on input line 81.
@@ -3665,7 +3670,7 @@ Package luatex.def Info: images/errors_list.pdf , page2 used on input line 81.
  [69
 
 <./images/errors_list.pdf>]
-<images/errors_list.pdf, id=1529, page=3, 597.53633pt x 845.04684pt>
+<images/errors_list.pdf, id=1542, page=3, 597.53633pt x 845.04684pt>
 File: images/errors_list.pdf Graphic file (type pdf)
 <use images/errors_list.pdf, page 3>
 Package luatex.def Info: images/errors_list.pdf , page3 used on input line 81.
@@ -3682,7 +3687,7 @@ Package luatex.def Info: images/errors_list.pdf , page3 used on input line 81.
 [70
 
 <./images/errors_list.pdf>]
-<images/errors_list.pdf, id=1534, page=4, 597.53633pt x 845.04684pt>
+<images/errors_list.pdf, id=1547, page=4, 597.53633pt x 845.04684pt>
 File: images/errors_list.pdf Graphic file (type pdf)
 <use images/errors_list.pdf, page 4>
 Package luatex.def Info: images/errors_list.pdf , page4 used on input line 81.
@@ -3698,7 +3703,7 @@ Package luatex.def Info: images/errors_list.pdf , page4 used on input line 81.
  [71
 
 <./images/errors_list.pdf>]
-<images/errors_list.pdf, id=1539, page=5, 597.53633pt x 845.04684pt>
+<images/errors_list.pdf, id=1552, page=5, 597.53633pt x 845.04684pt>
 File: images/errors_list.pdf Graphic file (type pdf)
 <use images/errors_list.pdf, page 5>
 Package luatex.def Info: images/errors_list.pdf , page5 used on input line 81.
@@ -3714,7 +3719,7 @@ Package luatex.def Info: images/errors_list.pdf , page5 used on input line 81.
  [72
 
 <./images/errors_list.pdf>]
-<images/errors_list.pdf, id=1544, page=6, 597.53633pt x 845.04684pt>
+<images/errors_list.pdf, id=1557, page=6, 597.53633pt x 845.04684pt>
 File: images/errors_list.pdf Graphic file (type pdf)
 <use images/errors_list.pdf, page 6>
 Package luatex.def Info: images/errors_list.pdf , page6 used on input line 81.
@@ -3730,7 +3735,7 @@ Package luatex.def Info: images/errors_list.pdf , page6 used on input line 81.
  [73
 
 <./images/errors_list.pdf>]
-<images/errors_list.pdf, id=1550, page=7, 597.53633pt x 845.04684pt>
+<images/errors_list.pdf, id=1563, page=7, 597.53633pt x 845.04684pt>
 File: images/errors_list.pdf Graphic file (type pdf)
 <use images/errors_list.pdf, page 7>
 Package luatex.def Info: images/errors_list.pdf , page7 used on input line 81.
@@ -3746,7 +3751,7 @@ Package luatex.def Info: images/errors_list.pdf , page7 used on input line 81.
  [74
 
 <./images/errors_list.pdf>]
-<images/errors_list.pdf, id=1555, page=8, 597.53633pt x 845.04684pt>
+<images/errors_list.pdf, id=1568, page=8, 597.53633pt x 845.04684pt>
 File: images/errors_list.pdf Graphic file (type pdf)
 <use images/errors_list.pdf, page 8>
 Package luatex.def Info: images/errors_list.pdf , page8 used on input line 81.
@@ -3768,21 +3773,21 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-06>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 22FD9F2AAF183D1E0C3EBB3C16F720D8;9574.
+(rerunfilecheck)             Checksum: 818A79A51312A16923DB0B46CBD0DBAA;9558.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 58235 strings out of 476081
+ 58237 strings out of 476081
  125056,2848258 words of node,token memory allocated
- 1129 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 98 attribute, 78 glue_spec
-, 50 attribute_list, 2 write, 40 pdf_action nodes
-   avail lists: 1:1,2:3362,3:1025,4:347,5:688,6:156,7:8316,8:141,9:1568,10:18,11
-:46
- 78731 multiletter control sequences out of 65536+600000
+ 1141 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 100 attribute, 78 glue_spe
+c, 51 attribute_list, 2 write, 41 pdf_action nodes
+   avail lists: 1:1,2:3431,3:1025,4:371,5:688,6:161,7:8316,8:141,9:1580,10:18,11
+:48
+ 78733 multiletter control sequences out of 65536+600000
  59 fonts using 4558607 bytes
  99i,17n,104p,2524b,2106s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf><
@@ -3798,10 +3803,10 @@ i8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/
 texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (83 pages, 2845817 bytes).
+Output written on main.pdf (83 pages, 2846783 bytes).
 
-PDF statistics: 1638 PDF objects out of 1728 (max. 8388607)
- 1392 compressed objects within 14 object streams
+PDF statistics: 1652 PDF objects out of 1728 (max. 8388607)
+ 1405 compressed objects within 15 object streams
  256 named destinations out of 1000 (max. 131072)
  480 words of extra memory for PDF output out of 10000 (max. 100000000)
 
